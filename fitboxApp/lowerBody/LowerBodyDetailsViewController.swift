@@ -11,7 +11,6 @@ import UIKit
 class LowerBodyDetailsViewController: UIViewController {
 
     @IBOutlet weak var detailsImage: UIImageView!
-    @IBOutlet weak var detailsLabel: UILabel!
     @IBOutlet weak var detailsTextView: UITextView!
     
     let dataService = LowerBodyExerciseDesc()
@@ -21,8 +20,8 @@ class LowerBodyDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = titleData
         self.detailsImage.image = UIImage(named: imageData)
-        self.detailsLabel.text = titleData
         self.navigationItem.title = titleData
         self.detailsTextView.text = getDescription()
     }
