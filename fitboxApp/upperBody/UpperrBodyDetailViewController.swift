@@ -29,7 +29,10 @@ class UpperrBodyDetailViewController: UIViewController {
     var imageData: String!
     var titleData: String!
     var detailsIsOpen = false
-    let redColor = #colorLiteral(red: 0.5807225108, green: 0.066734083, blue: 0, alpha: 1)
+    let redColor = #colorLiteral(red: 1, green: 0.3921568627, blue: 0.4509803922, alpha: 1)
+    let grayColor = #colorLiteral(red: 0.4588235294, green: 0.4705882353, blue: 0.5098039216, alpha: 1)
+    let darkGreenColor = #colorLiteral(red: 0.3607843137, green: 0.7568627451, blue: 0.7019607843, alpha: 1)
+    let lightGreenColor = #colorLiteral(red: 0.431372549, green: 0.968627451, blue: 0.7843137255, alpha: 1)
     
     
     override func viewDidLoad() {
@@ -71,9 +74,9 @@ class UpperrBodyDetailViewController: UIViewController {
             self.removingConstraint.constant = self.detailsIsOpen ? 1 : 81
             self.imageConstraint.constant = self.detailsIsOpen ? 160 : 16
             self.menuView.alpha = self.detailsIsOpen ? 0.75 : 1
-            self.menuView.backgroundColor = self.detailsIsOpen ? self.redColor : UIColor.white
-            self.textView.backgroundColor = self.detailsIsOpen ? self.redColor : UIColor.white
-            self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.redColor
+            self.menuView.backgroundColor = self.detailsIsOpen ? self.darkGreenColor : UIColor.white
+            self.textView.backgroundColor = self.detailsIsOpen ? self.darkGreenColor : UIColor.white
+            self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.grayColor
             self.view.layoutIfNeeded()
         }, completion: nil)
 
