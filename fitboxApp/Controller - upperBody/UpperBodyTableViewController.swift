@@ -16,11 +16,9 @@ class UpperBodyTableViewController: UITableViewController {
         super.viewWillAppear(animated)
        tableView.animateTable(tableView: tableView)
     }
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-      
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -40,7 +38,7 @@ class UpperBodyTableViewController: UITableViewController {
  
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetails" {
-            let dvc = segue.destination as! UpperrBodyDetailViewController
+            let dvc = segue.destination as! DetailsViewController
             if let indexPath = tableView.indexPathForSelectedRow {
                 dvc.imageData = dataService.upperBodyimages[indexPath.row] as String
                 dvc.titleData = dataService.upperBodyExercisesList[indexPath.row] as String

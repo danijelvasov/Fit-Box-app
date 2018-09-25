@@ -13,22 +13,20 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
-   
     @IBOutlet weak var lowButtonConstraint: NSLayoutConstraint!
-    
     @IBOutlet weak var betweenButtonsConstraint: NSLayoutConstraint!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-       self.animateButtonsAlpha()
-    }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.animateButtonsAlpha()
+        self.animateButtons()
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.animateButtons()
     }
     
-
-    func animateButtonsAlpha() {
+    func animateButtons() {
         UIView.animate(withDuration: 1.0, delay: 0.3, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIViewAnimationOptions.curveEaseOut, animations: {
             self.lowButtonConstraint.constant = 25
             self.betweenButtonsConstraint.constant = 20
@@ -40,8 +38,7 @@ class ViewController: UIViewController {
         }, completion: nil)
     }
    
-    
-    
+
 
 }
 

@@ -16,23 +16,16 @@ class LowerBodyTableViewController: UITableViewController {
         super.viewWillAppear(animated)
         tableView.animateTable(tableView: tableView)
     }
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
-    // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
         return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return dataService.lowerBodyExercisesList.count
     }
 
@@ -46,7 +39,7 @@ class LowerBodyTableViewController: UITableViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToLowDetails" {
-            let destinationVC = segue.destination as! LowerBodyDetailsViewController
+            let destinationVC = segue.destination as! DetailsViewController
             if let indexPath = tableView.indexPathForSelectedRow {
                 destinationVC.titleData = dataService.lowerBodyExercisesList[indexPath.row] as String
                 destinationVC.imageData = dataService.lowerBodyImages[indexPath.row] as String
