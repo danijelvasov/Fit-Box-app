@@ -45,8 +45,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="81" id="cDg-zx-rEl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="54"/>
-                                <color key="textColor" red="0.45882352941176469" green="0.47058823529411764" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="62"/>
+                                <color key="textColor" red="0.36078431370000003" green="0.75686274509999996" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
