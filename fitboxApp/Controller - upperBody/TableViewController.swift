@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UpperBodyTableViewController: UITableViewController {
+class TableViewController: UITableViewController {
     
    let dataService = ExercisesUpperBody()
    
@@ -30,7 +30,7 @@ class UpperBodyTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! UpperBodyCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ExerciseCell
         cell.cellTittle.text = dataService.upperBodyExercisesList[indexPath.row]
         cell.cellImageView.image = UIImage(named: dataService.upperBodyimages[indexPath.row])
         return cell

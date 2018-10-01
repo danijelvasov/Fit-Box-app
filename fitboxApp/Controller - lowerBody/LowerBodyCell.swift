@@ -13,13 +13,5 @@ class LowerBodyCell: UITableViewCell {
     @IBOutlet weak var lowerBodyImage: UIImageView!
     @IBOutlet weak var lowerBodyTitle: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-    }
 
 }
