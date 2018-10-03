@@ -9,12 +9,9 @@
 import UIKit
 
 class ExerciseCell: UITableViewCell {
-    
-    
-    
+  
     @IBOutlet weak var cellImageView: UIImageView!
     @IBOutlet weak var cellTittle: UILabel!
-    
- 
+
 
 }

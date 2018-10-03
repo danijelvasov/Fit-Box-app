@@ -15,10 +15,9 @@
 		10E0242020D2F63800B1D942 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E0241F20D2F63800B1D942 /* TableViewController.swift */; };
 		10E0242220D2F66400B1D942 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E0242120D2F66400B1D942 /* ExerciseCell.swift */; };
 		10E0242420D2F86600B1D942 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E0242320D2F86600B1D942 /* DetailsViewController.swift */; };
+		3107D707216266F000344660 /* MidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107D706216266F000344660 /* MidViewController.swift */; };
 		311B7108215594B100167989 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B7107215594B100167989 /* Extension.swift */; };
 		31689FDA2153C24A0011F7E2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31689FD92153C24A0011F7E2 /* DataService.swift */; };
-		3191A3DE214AEDC600F0484F /* LowerBodyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3191A3DD214AEDC600F0484F /* LowerBodyTableViewController.swift */; };
-		3191A3E0214AF79500F0484F /* LowerBodyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3191A3DF214AF79500F0484F /* LowerBodyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +31,9 @@
 		10E0241F20D2F63800B1D942 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		10E0242120D2F66400B1D942 /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
 		10E0242320D2F86600B1D942 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		3107D706216266F000344660 /* MidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidViewController.swift; sourceTree = "<group>"; };
 		311B7107215594B100167989 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		31689FD92153C24A0011F7E2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		3191A3DD214AEDC600F0484F /* LowerBodyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerBodyTableViewController.swift; sourceTree = "<group>"; };
-		3191A3DF214AF79500F0484F /* LowerBodyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerBodyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,11 +66,9 @@
 		10E0240B20D2B25300B1D942 /* fitboxApp */ = {
 			isa = PBXGroup;
 			children = (
-				316D3129215AA27E000EDA9D /* Extensions */,
+				311B7107215594B100167989 /* Extension.swift */,
 				316D3127215AA251000EDA9D /* Model */,
 				316D312B215AA2B2000EDA9D /* Controller */,
-				10E0241E20D2F60600B1D942 /* Controller - upperBody */,
-				3191A3DC214AED9700F0484F /* Controller - lowerBody */,
 				10E0240C20D2B25300B1D942 /* AppDelegate.swift */,
 				10E0241020D2B25300B1D942 /* Main.storyboard */,
 				10E0241320D2B25300B1D942 /* Assets.xcassets */,
@@ -80,16 +76,6 @@
 				10E0241820D2B25300B1D942 /* Info.plist */,
 			);
 			path = fitboxApp;
-			sourceTree = "<group>";
-		};
-		10E0241E20D2F60600B1D942 /* Controller - upperBody */ = {
-			isa = PBXGroup;
-			children = (
-				10E0241F20D2F63800B1D942 /* TableViewController.swift */,
-				10E0242120D2F66400B1D942 /* ExerciseCell.swift */,
-				10E0242320D2F86600B1D942 /* DetailsViewController.swift */,
-			);
-			path = "Controller - upperBody";
 			sourceTree = "<group>";
 		};
 		316D3127215AA251000EDA9D /* Model */ = {
@@ -100,29 +86,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		316D3129215AA27E000EDA9D /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				311B7107215594B100167989 /* Extension.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		316D312B215AA2B2000EDA9D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				10E0240E20D2B25300B1D942 /* ViewController.swift */,
+				3107D706216266F000344660 /* MidViewController.swift */,
+				10E0241F20D2F63800B1D942 /* TableViewController.swift */,
+				10E0242120D2F66400B1D942 /* ExerciseCell.swift */,
+				10E0242320D2F86600B1D942 /* DetailsViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		3191A3DC214AED9700F0484F /* Controller - lowerBody */ = {
-			isa = PBXGroup;
-			children = (
-				3191A3DD214AEDC600F0484F /* LowerBodyTableViewController.swift */,
-				3191A3DF214AF79500F0484F /* LowerBodyCell.swift */,
-			);
-			path = "Controller - lowerBody";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,8 +177,7 @@
 				311B7108215594B100167989 /* Extension.swift in Sources */,
 				10E0240D20D2B25300B1D942 /* AppDelegate.swift in Sources */,
 				10E0242420D2F86600B1D942 /* DetailsViewController.swift in Sources */,
-				3191A3DE214AEDC600F0484F /* LowerBodyTableViewController.swift in Sources */,
-				3191A3E0214AF79500F0484F /* LowerBodyCell.swift in Sources */,
+				3107D707216266F000344660 /* MidViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
