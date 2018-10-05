@@ -23,8 +23,7 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var menuView: UIView!
     
-    let dataService = UpperBodyExerciseDesc()
-    let lowerBodyDataService = LowerBodyExerciseDesc()
+    let dataService = ExercisesDescription()
     var imageData: String?
     var titleData: String?
     var detailsIsOpen = false
@@ -37,6 +36,7 @@ class DetailsViewController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.title = titleData ?? ""
         self.detailImageView.image = UIImage(named: imageData ?? "siluette" )
+        
         self.textView.text = getDescription()
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
         buttonConstraint.constant = halfscreen
@@ -60,9 +60,9 @@ class DetailsViewController: UIViewController {
         case "Cable row":
             return dataService.cableRowDescription
         case "Squats":
-            return lowerBodyDataService.squats
+            return dataService.squats
         case "Lunges":
-            return lowerBodyDataService.lunges
+            return dataService.lunges
         default:
             return ""
         }
@@ -84,6 +84,7 @@ class DetailsViewController: UIViewController {
         }, completion: nil)
 
         UIView.animate(withDuration: 1, delay: 0.15, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: UIViewAnimationOptions.curveEaseInOut, animations: {
+            self.detailImageView.alpha = self.detailsIsOpen ? 0.3 : 1
             self.buttonConstraint.constant = self.detailsIsOpen ? 30 : halfscreen
             self.bottomConstraint.constant = self.detailsIsOpen ? -15 : 10
             let angle: CGFloat = self.detailsIsOpen ? .pi : 0.0
@@ -91,8 +92,4 @@ class DetailsViewController: UIViewController {
             self.view.layoutIfNeeded()
         }, completion: nil)
     }
-    
-
-   
-
 }
