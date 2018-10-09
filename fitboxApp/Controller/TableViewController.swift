@@ -12,8 +12,7 @@ class TableViewController: UITableViewController {
    
     var categoryName : String?
     var isUpperSelected : Bool?
-    let dataUpper = ExercisesUpperBody()
-    let dataLower = ExercisesLowerBody()
+    let dataService = Exercises()
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -32,9 +31,9 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch isUpperSelected {
         case true:
-            return dataUpper.upperBodyExercisesList.count
+            return dataService.upperBodyExercisesList.count
         case false:
-            return dataLower.lowerBodyExercisesList.count
+            return dataService.lowerBodyExercisesList.count
         default:
             return 1
         }
@@ -45,14 +44,14 @@ class TableViewController: UITableViewController {
         switch isUpperSelected {
         case true:
             guard let cellUpper = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
-            cellUpper.cellTittle.text = dataUpper.upperBodyExercisesList[indexPath.row]
-            cellUpper.cellImageView.image = UIImage(named: dataUpper.upperBodyimages[indexPath.row])
+            cellUpper.cellTittle.text = dataService.upperBodyExercisesList[indexPath.row]
+            cellUpper.cellImageView.image = UIImage(named: dataService.upperBodyimages[indexPath.row])
             return cellUpper
             
         case false:
             guard let cellLower = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
-            cellLower.cellTittle.text = dataLower.lowerBodyExercisesList[indexPath.row]
-            cellLower.cellImageView.image = UIImage(named: dataLower.lowerBodyImages[indexPath.row])
+            cellLower.cellTittle.text = dataService.lowerBodyExercisesList[indexPath.row]
+            cellLower.cellImageView.image = UIImage(named: dataService.lowerBodyImages[indexPath.row])
             return cellLower
             
         default:
@@ -65,11 +64,11 @@ class TableViewController: UITableViewController {
             let dvc = segue.destination as! DetailsViewController
             if let indexPath = tableView.indexPathForSelectedRow {
                 if isUpperSelected! {
-                dvc.imageData = dataUpper.upperBodyimages[indexPath.row] as String
-                dvc.titleData = dataUpper.upperBodyExercisesList[indexPath.row] as String
+                dvc.imageData = dataService.upperBodyimages[indexPath.row] as String
+                dvc.titleData = dataService.upperBodyExercisesList[indexPath.row] as String
                 } else {
-                    dvc.imageData = dataLower.lowerBodyImages[indexPath.row] as String
-                    dvc.titleData = dataLower.lowerBodyExercisesList[indexPath.row] as String
+                    dvc.imageData = dataService.lowerBodyImages[indexPath.row] as String
+                    dvc.titleData = dataService.lowerBodyExercisesList[indexPath.row] as String
                 }
             }
             }

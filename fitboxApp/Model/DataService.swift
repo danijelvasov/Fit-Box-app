@@ -8,14 +8,12 @@
 
 import UIKit
 
-struct ExercisesUpperBody {
+struct Exercises {
     let upperBodyimages = ["bench","latpulldown", "chestpress", "cablerow"]
     let upperBodyExercisesList = ["Bench press","Lat pulldown", "Chest press", "Cable row"]
-}
-
-struct ExercisesLowerBody {
+    
     let lowerBodyExercisesList = ["Squats", "Lunges"]
-    var lowerBodyImages = ["squats", "lunges"]
+    let lowerBodyImages = ["squats", "lunges"]
 }
 
 struct ExercisesDescription {
