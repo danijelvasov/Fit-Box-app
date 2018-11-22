@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
     
     func animateButtons() {
-        UIView.animate(withDuration: 1.0, delay: 0.3, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIViewAnimationOptions.curveEaseOut, animations: {
+        UIView.animate(withDuration: 1.0, delay: 0.3, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseOut, animations: {
             self.lowButtonConstraint.constant = 25
             self.betweenButtonsConstraint.constant = 20
             self.button1.alpha = 1.0

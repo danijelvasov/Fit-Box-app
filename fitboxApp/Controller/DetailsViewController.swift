@@ -63,6 +63,8 @@ class DetailsViewController: UIViewController {
             return dataService.squats
         case "Lunges":
             return dataService.lunges
+        case "Barbell box squat":
+            return dataService.barbelBoxSquat
         default:
             return ""
         }
@@ -72,7 +74,7 @@ class DetailsViewController: UIViewController {
         detailsIsOpen = !detailsIsOpen
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
         
-        UIView.animate(withDuration: 1, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIViewAnimationOptions.curveEaseInOut, animations: {
+        UIView.animate(withDuration: 1, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
             self.upConstraint.constant = self.detailsIsOpen ? 70 : 303
             self.removingConstraint.constant = self.detailsIsOpen ? 1 : 81
             self.imageConstraint.constant = self.detailsIsOpen ? 160 : 16
@@ -83,7 +85,7 @@ class DetailsViewController: UIViewController {
             self.view.layoutIfNeeded()
         }, completion: nil)
 
-        UIView.animate(withDuration: 1, delay: 0.15, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: UIViewAnimationOptions.curveEaseInOut, animations: {
+        UIView.animate(withDuration: 1, delay: 0.15, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
             self.detailImageView.alpha = self.detailsIsOpen ? 0.3 : 1
             self.buttonConstraint.constant = self.detailsIsOpen ? 30 : halfscreen
             self.bottomConstraint.constant = self.detailsIsOpen ? -15 : 10

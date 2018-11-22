@@ -12,8 +12,8 @@ struct Exercises {
     let upperBodyimages = ["bench","latpulldown", "chestpress", "cablerow"]
     let upperBodyExercisesList = ["Bench press","Lat pulldown", "Chest press", "Cable row"]
     
-    let lowerBodyExercisesList = ["Squats", "Lunges"]
-    let lowerBodyImages = ["squats", "lunges"]
+    let lowerBodyExercisesList = ["Squats", "Lunges", "Barbell box squat"]
+    let lowerBodyImages = ["squats", "lunges", "barbellBoxSquat"]
 }
 
 struct ExercisesDescription {
@@ -23,6 +23,7 @@ struct ExercisesDescription {
     let cableRowDescription = NSLocalizedString("CABLE_ROW", comment: "Cable row desc")
     let squats = NSLocalizedString("SQUATS", comment: "Squats desc")
     let lunges = NSLocalizedString("LUNGES", comment: "Lunges desc")
+    let barbelBoxSquat = NSLocalizedString("BARBELL_BOX_SQUAT", comment: "Barbell box squat desc")
 }
 
 
