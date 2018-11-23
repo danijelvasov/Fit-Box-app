@@ -6,8 +6,6 @@
   Copyright © 2018 OSX. All rights reserved.
 */
 "BENCH_PRESS" = "
-Target muscles: Sternal (lower) Pectoralis Major
-Synergists: Clavicular (upper) Pectoralis Major, Anterior Deltoid, Triceps Brachii
 Mechanics: Compound
 Force: Push
 
@@ -30,9 +28,26 @@ Tips
 - If lifting heavy weights, have a spotter ready.
 - Like the barbell squat and barbell deadlift, the barbell bench press is a major mass&strength-building exercise.
 ";
+"MACHINE_FLY"="
+Mechanics: Isolation
+Force: Push
+
+How to do it?
+
+- Sit on the fly machine with your back pressed firmly against the back support.
+- Grasp the levers at shoulder height.
+- Internally rotate your shoulders so that your wrists, elbows, and shoulders are level.
+- Keeping your elbows slightly bent, exhale as you push the levers together.
+- Inhale as you reverse the motion until you feel a mild stretch in your chest or shoulders.
+
+Tips
+
+- Adjust the fly machine for comfort and proper back support.
+- Keep the movement slow and deliberate.
+- By internally rotating your shoulders (so that your wrists, elbows, and shoulders are level), you better isolate your pectoralis major because the origin and insertion of the muscle are brought more into line.
+- The machine fly is not a major mass-building exercise. As an isolation exercise, it is useful if you want to warm up your chest, pre-exhaust it before the compound chest exercises, or flush it at the end of a chest workout.
+";
 "LAT_PULLDOWN" = "
-Target muscle: Latissimus Dorsi
-Synergists: Brachialis, Brachioradialis, Biceps Brachii, Teres Major, Posterior Deltoid, Infraspinatus, Teres Minor, Rhomboids, Levator Scapulae, Middle and Lower Trapezius, Pectoralis Minor
 Mechanics: Compound
 Force: Pull
 
@@ -55,8 +70,6 @@ Tips
 - Also known as the wide-grip cable pulldown.
 ";
 "CHEST_PRESS" = "
-Target muscle: Sternal (Lower) Pectoralis Major
-Synergists: Clavicular (Upper) Pectoralis Major, Anterior Deltoid, Triceps Brachii
 Mechanics: compound
 Force: Push
 
@@ -77,9 +90,6 @@ Tips
 - The machine chest press is great if you want to push very heavy weights with your chest but don’t have anyone to help you with the barbell bench press. Otherwise, the barbell bench press is favorable to the machine chest press. The reason is that the barbell bench press necessitates the recruitment of more stabilizer muscles. The machine chest press is also great for beginners, the elderly, and people undergoing rehabilitation.
 ";
 "CABLE_ROW" = "
-Target muscles: The back in general
-Synergists: Erector Spinae, Middle and Lower Trapezius, Rhomboids, Latissimus Dorsi, Teres Major, Posterior Deltoid, Infraspinatus, Teres Minor, Brachialis, Brachioradialis, Pectoralis Major
-Dynamic stabilizers (not highlighted): Biceps Brachii, Triceps Brachii (Long Head)
 Mechanics: Compound
 Force: Pull
 
@@ -102,10 +112,6 @@ Tips
 - Most people will tell you to keep your back straight and your chest out throughout the seated cable row exercise. That’s known as the straight-back seated cable row. It’s a different exercise, which doesn’t dynamically work your erector spinae (spinal erectors). The exercise described above does dynamically work your spinal erectors.
 ";
 "SQUATS" = "
-Target muscles: Gluteus Maximus, Quadriceps (Rectus femoris, Vastus lateralis, Vastus medialis, Vastus intermedius)
-Synergists: Adductor Magnus, Soleus
-Dynamic stabilizers (not highlighted): Hamstrings (Biceps Femoris, Semimembranosus, Semitendinosus), Gastrocnemius
-Stabilizers (not highlighted): Erector Spinae, Rectus Abdominis, Obliques
 Mechanics: Compound
 Force: Push
 
@@ -129,9 +135,6 @@ Tips
 - Most barbell squat-related accidents happen while stepping back with the barbell.
 ";
 "LUNGES" = "
-Target muscles: Gluteus Maximus, Quadriceps (Vastus Lateralis, Vastus Medialis, Vastus Intermedius, Rectus Femoris)
-Synergists: Adductor Magnus, Soleus
-Dynamic stabilizers (not highlighted): Hamstrings, Gastrocnemius
 Mechanics: Compound
 Force: Push
 
@@ -152,11 +155,7 @@ Tips
 - The larger your lunge, the more emphasis you will place on your gluteus maximus instead of your quadriceps.
 - The dumbbell lunge is a very beneficial exercise that helps you to develop balance, coordination, and the unilateral (one-sided) functional strength of your lower body.
 ";
-"BARBELL_BOX_SQUAT"="
-Target muscle: Quadriceps (Rectus Femoris, Vastus Lateralis, Vastus Medialis, Vastus Intermedius)
-Synergists: Gluteus Maximus, Adductor Magnus, Soleus
-Dynamic stabilizers: Hamstrings, Gastrocnemius
-Important stabilizers (not highlighted): Erector Spinae, Rectus Abdominis, Obliques, Anterior and Lateral Deltoid, Clavicular (Upper) Pectoralis Major, Levator Scapulae
+"BARBELL_BOX_SQUAT" = "
 Mechanics: Compound
 Force: Push
 
@@ -183,4 +182,49 @@ Tips
 - The barbell front box squat (or any type of box squat for that matter) is not suitable for beginners, who first have to learn how to squat.
 - If you don’t have a box, use a bench.
 - The height of the box or bench should allow you to descend until your thighs are at least parallel with the floor.
+";
+"LEG_EXTENSION" = "
+Mechanics: Isolation
+Force: Push
+
+How to do it?
+
+- Choose your weight and sit on the leg extension machine.
+- Make the necessary adjustments so that the backs of your thighs are fully supported by the seat and your back is fully supported by the back rest.
+- Hook your feet under the foot pads of the lever with the pads resting just above your ankles.
+- Grasp the side handles for support.
+- Exhale as you lift the lever forwards and upwards by straightening your legs until they are fully extended.
+- Hold for a count of two.
+- Inhale as you return the lever to the starting position by bending your knees.
+
+Tips
+
+- Adjust the back support and seat to accommodate full range of motion.
+- Position your knees at the same axis as the lever fulcrum.
+- As you raise the padded lever, do not allow your hips to curl up; keep your thighs in firm contact with the seat.
+- Do not go too heavy because it can be bad for your knees.
+- The leg extension exercise mainly develops your lower quads. To put more emphasis on your upper quads, as you raise your legs, point your toes forward.
+- The exercise can also be performed with one leg at a time.
+- The leg extension should not be your primary quad exercise. There are far better options. The barbell squat, for example, builds your quads equally well, as well as simultaneously builds and strengthens many other muscle groups, strengthens your core, and helps you to develop functional strength. Use the leg extension only to warm up your quads, pre-exhaust them before squats, or flush them at the end of a leg workout.
+";
+"LEG_CURL"="
+Mechanics: Isolation
+Force: Pull
+
+How to do it?
+
+- Lie prone (face down) on the leg curl bench and position your legs under the lever pads. Your knees should be just below the edge of the bench and the lever pads should be resting just above your heels.
+- Hold the handles for stability.
+- Exhale as you flex your knees and curl the lever until it touches the back of your thighs.
+- Hold for a count of two.
+- Inhale as you lower the lever to the starting position.
+
+Tips
+
+- Keep the movement slow and controlled.
+- Try to resist the lowering of the lever; don’t just let it drop.
+- Don’t allow your hips to rise off the bench.
+- Adjust the lever for optimal leverage.
+- Keep your ankles flexed so that your toes point toward your shins. This allows your gastrocnemii to offer better assistance.
+- Adjusting the orientation of your feet during the lying leg curl emphasizes different hamstring muscles. Keep your feet straight to emphasize all hamstrings. Turn your feet inward to emphasize your inner hamstrings (semitendinosus and semimembranosus). Turn your feet outward to emphasize your outer hamstring (biceps femoris).
 ";

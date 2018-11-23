@@ -53,6 +53,8 @@ class DetailsViewController: UIViewController {
         switch titleData {
         case "Bench press":
             return dataService.benchPressDescription
+        case "Machine fly":
+            return dataService.machineFlyDescription
         case "Lat pulldown":
             return dataService.latPulldownDescription
         case "Chest press":
@@ -60,11 +62,15 @@ class DetailsViewController: UIViewController {
         case "Cable row":
             return dataService.cableRowDescription
         case "Squats":
-            return dataService.squats
+            return dataService.squatsDescription
         case "Lunges":
-            return dataService.lunges
+            return dataService.lungesDescription
         case "Barbell box squat":
-            return dataService.barbelBoxSquat
+            return dataService.barbelBoxSquatDescription
+        case "Leg extension":
+            return dataService.legExtensionDescription
+        case "Leg curl":
+            return dataService.legCurlDescription
         default:
             return ""
         }
@@ -81,7 +87,7 @@ class DetailsViewController: UIViewController {
             self.menuView.alpha = self.detailsIsOpen ? 0.75 : 1
             self.menuView.backgroundColor = self.detailsIsOpen ? self.customDarkGreenColor : UIColor.white
             self.textView.backgroundColor = self.detailsIsOpen ? self.customDarkGreenColor : UIColor.white
-            self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.customGrayColor
+            self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.customDarkGreenColor
             self.view.layoutIfNeeded()
         }, completion: nil)
 
