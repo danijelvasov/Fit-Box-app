@@ -27,6 +27,8 @@ struct Description {
     let barbelBoxSquatDescription = NSLocalizedString("BARBELL_BOX_SQUAT", comment: "Barbell box squat desc")
     let legExtensionDescription = NSLocalizedString("LEG_EXTENSION", comment: "Leg extension desc")
     let legCurlDescription = NSLocalizedString("LEG_CURL", comment: "Leg curl desc")
+    let antioxidansDescription = NSLocalizedString("ANTIOXIDANTS", comment: "antioxidants desc")
+    let proteinDescription = NSLocalizedString("PROTEIN", comment: "protein desc")
 }
 
 
@@ -35,6 +37,6 @@ struct Categories {
 }
 
 struct  Food {
-    let foodList = ["Antioxidants"]
-    let foodImages = ["antioxidants"]
+    let foodList = ["Antioxidants", "Protein"]
+    let foodImages = ["antioxidants", "protein"]
 }

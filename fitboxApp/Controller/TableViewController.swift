@@ -11,7 +11,8 @@ import UIKit
 class TableViewController: UITableViewController {
    
     var categoryName : String?
-    let dataService = Exercises()
+    let exercises = Exercises()
+    let food = Food()
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -30,9 +31,11 @@ class TableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch categoryName {
         case "Upper Body Exercises":
-            return dataService.upperBodyExercisesList.count
+            return exercises.upperBodyExercisesList.count
         case "Lower Body Exercises":
-            return dataService.lowerBodyExercisesList.count
+            return exercises.lowerBodyExercisesList.count
+        case "Food":
+            return food.foodList.count
         default:
             return 1
         }
@@ -43,15 +46,21 @@ class TableViewController: UITableViewController {
         switch categoryName {
         case "Upper Body Exercises":
             guard let cellUpper = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
-            cellUpper.cellTittle.text = dataService.upperBodyExercisesList[indexPath.row]
-            cellUpper.cellImageView.image = UIImage(named: dataService.upperBodyimages[indexPath.row])
+            cellUpper.cellTittle.text = exercises.upperBodyExercisesList[indexPath.row]
+            cellUpper.cellImageView.image = UIImage(named: exercises.upperBodyimages[indexPath.row])
             return cellUpper
             
         case "Lower Body Exercises":
             guard let cellLower = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
-            cellLower.cellTittle.text = dataService.lowerBodyExercisesList[indexPath.row]
-            cellLower.cellImageView.image = UIImage(named: dataService.lowerBodyImages[indexPath.row])
+            cellLower.cellTittle.text = exercises.lowerBodyExercisesList[indexPath.row]
+            cellLower.cellImageView.image = UIImage(named: exercises.lowerBodyImages[indexPath.row])
             return cellLower
+            
+        case "Food":
+            guard let cellFood = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
+            cellFood.cellTittle.text = food.foodList[indexPath.row]
+            cellFood.cellImageView.image = UIImage(named: food.foodImages[indexPath.row])
+            return cellFood
             
         default:
              return UITableViewCell()
@@ -64,12 +73,16 @@ class TableViewController: UITableViewController {
             if let indexPath = tableView.indexPathForSelectedRow {
                 switch categoryName  {
                     case "Upper Body Exercises":
-                        dvc.imageData = dataService.upperBodyimages[indexPath.row] as String
-                        dvc.titleData = dataService.upperBodyExercisesList[indexPath.row] as String
+                        dvc.imageData = exercises.upperBodyimages[indexPath.row] as String
+                        dvc.titleData = exercises.upperBodyExercisesList[indexPath.row] as String
                 
                     case "Lower Body Exercises":
-                        dvc.imageData = dataService.lowerBodyImages[indexPath.row] as String
-                        dvc.titleData = dataService.lowerBodyExercisesList[indexPath.row] as String
+                        dvc.imageData = exercises.lowerBodyImages[indexPath.row] as String
+                        dvc.titleData = exercises.lowerBodyExercisesList[indexPath.row] as String
+                    
+                    case "Food":
+                        dvc.imageData = food.foodImages[indexPath.row] as String
+                        dvc.titleData = food.foodList[indexPath.row] as String
                     
                 default:
                     return

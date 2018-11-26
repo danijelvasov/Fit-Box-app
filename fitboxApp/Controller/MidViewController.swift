@@ -23,6 +23,8 @@ class MidViewController: UIViewController {
         performSegue(withIdentifier: "goToTableView", sender: self)
     }
     
+
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToTableView" {
             let dVC = segue.destination as! TableViewController

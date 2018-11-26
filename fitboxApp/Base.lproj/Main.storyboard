@@ -24,8 +24,8 @@
                                     <constraint firstAttribute="height" constant="87" id="ffK-3h-HJd"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" alpha="0.10000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRg-Op-gfl">
-                                <rect key="frame" x="40" y="444" width="240" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRg-Op-gfl">
+                                <rect key="frame" x="40" y="417" width="240" height="40"/>
                                 <color key="backgroundColor" red="0.43137254901960786" green="0.96862745098039216" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="U5g-DN-kvM"/>
@@ -50,12 +50,36 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
-                            <button opaque="NO" alpha="0.10000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fx8-HT-IYc">
-                                <rect key="frame" x="40" y="403" width="240" height="40"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="upperImage" translatesAutoresizingMaskIntoConstraints="NO" id="XS9-qd-HHB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="144"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="144" id="WLi-hs-tG4"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyi-2c-F9D">
+                                <rect key="frame" x="40" y="356" width="240" height="40"/>
+                                <color key="backgroundColor" red="0.43137254899999999" green="0.96862745100000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="aaC-jn-SgR"/>
+                                    <constraint firstAttribute="height" constant="40" id="hz7-z1-KFy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="21"/>
+                                <size key="titleShadowOffset" width="0.0" height="1"/>
+                                <state key="normal" title="Food">
+                                    <color key="titleColor" red="0.45882352939999999" green="0.47058823529999999" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="FoodBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TOg-IG-a9S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fx8-HT-IYc">
+                                <rect key="frame" x="40" y="296" width="240" height="40"/>
                                 <color key="backgroundColor" red="0.43137254901960786" green="0.96862745098039216" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="6PH-NB-pWw"/>
                                     <constraint firstAttribute="height" constant="40" id="P0i-aI-fLv"/>
                                     <constraint firstAttribute="width" constant="240" id="VpZ-DW-6bn"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="hxc-I4-O6J"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="23"/>
                                 <size key="titleShadowOffset" width="0.0" height="1"/>
@@ -66,52 +90,34 @@
                                     <segue destination="ylg-UP-gys" kind="show" id="H3C-qJ-e3s"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="upperImage" translatesAutoresizingMaskIntoConstraints="NO" id="XS9-qd-HHB">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="144"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="144" id="WLi-hs-tG4"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="my awesome exercise guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bje-AM-9uX">
-                                <rect key="frame" x="50.5" y="243" width="219" height="32"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="bbA-fw-UyQ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                <color key="textColor" red="0.45882352941176469" green="0.47058823529411764" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Fx8-HT-IYc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Ib-92-cAc"/>
                             <constraint firstItem="oyD-Gq-w3k" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="2SC-TB-5pq"/>
                             <constraint firstItem="XS9-qd-HHB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5ed-VT-mM5"/>
-                            <constraint firstItem="bje-AM-9uX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Flh-Ka-0t9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HRg-Op-gfl" secondAttribute="bottom" constant="20" id="KoJ-Jj-Bax"/>
                             <constraint firstItem="oyD-Gq-w3k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OTb-TN-AQG"/>
                             <constraint firstItem="asq-If-u6e" firstAttribute="top" secondItem="XS9-qd-HHB" secondAttribute="bottom" constant="10" id="Q9g-il-pG5"/>
-                            <constraint firstItem="HRg-Op-gfl" firstAttribute="top" secondItem="Fx8-HT-IYc" secondAttribute="bottom" constant="1" id="Rff-LF-jKi"/>
                             <constraint firstItem="XS9-qd-HHB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Xkp-ZI-32F"/>
                             <constraint firstItem="XS9-qd-HHB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dXZ-xX-fTx"/>
+                            <constraint firstItem="HRg-Op-gfl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gxm-cM-N30"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="asq-If-u6e" secondAttribute="trailing" constant="14" id="ixL-LW-uOb"/>
-                            <constraint firstItem="bje-AM-9uX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kQg-mg-zjk"/>
-                            <constraint firstItem="HRg-Op-gfl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nI9-bV-EtI"/>
+                            <constraint firstItem="oyD-Gq-w3k" firstAttribute="top" secondItem="tyi-2c-F9D" secondAttribute="bottom" constant="21" id="oem-Uq-lHK"/>
+                            <constraint firstItem="tyi-2c-F9D" firstAttribute="top" secondItem="Fx8-HT-IYc" secondAttribute="bottom" constant="20" id="qae-6e-PWc"/>
                             <constraint firstItem="oyD-Gq-w3k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="u2s-qc-lSm"/>
                             <constraint firstItem="asq-If-u6e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="14" id="ubJ-uy-7Ty"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HRg-Op-gfl" secondAttribute="bottom" constant="47" id="uwy-3R-org"/>
                             <constraint firstItem="asq-If-u6e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xHd-Kb-Ciz"/>
-                            <constraint firstItem="bje-AM-9uX" firstAttribute="top" secondItem="asq-If-u6e" secondAttribute="bottom" constant="8" id="xj8-hS-xfv"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Welcome" id="K7i-TJ-FJE">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="wZm-oY-kcW"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="XWP-vC-CGA"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="betweenButtonsConstraint" destination="Rff-LF-jKi" id="7W4-3T-7Za"/>
-                        <outlet property="button1" destination="HRg-Op-gfl" id="DFB-xe-eOQ"/>
-                        <outlet property="button2" destination="Fx8-HT-IYc" id="Uol-6g-keA"/>
-                        <outlet property="lowButtonConstraint" destination="KoJ-Jj-Bax" id="blB-aW-eZO"/>
+                        <outlet property="aboutBtn" destination="Fx8-HT-IYc" id="Uol-6g-keA"/>
+                        <outlet property="exercisesBtn" destination="HRg-Op-gfl" id="DFB-xe-eOQ"/>
+                        <outlet property="foodBtn" destination="tyi-2c-F9D" id="4cb-JK-AfH"/>
+                        <segue destination="nee-tj-8B4" kind="show" identifier="goToList" id="HUY-vW-LQJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -186,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cQF-yW-rZU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1159" y="-186"/>
+            <point key="canvasLocation" x="1116" y="-447"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="9in-16-Hm0">
@@ -234,7 +240,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cEI-JL-kge" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1933" y="-187"/>
+            <point key="canvasLocation" x="1969" y="104"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="19g-G5-3qm">
@@ -308,7 +314,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l83-r0-iT2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2721" y="-187"/>
+            <point key="canvasLocation" x="2762" y="104"/>
         </scene>
         <!--About-->
         <scene sceneID="Nlp-Jb-o1K">
@@ -397,7 +403,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WXJ-rM-lKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1159" y="510"/>
+            <point key="canvasLocation" x="1116" y="702"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xvv-Be-0cm">
@@ -434,4 +440,7 @@
         <image name="upperBtn" width="273" height="273"/>
         <image name="upperImage" width="640" height="269"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="HUY-vW-LQJ"/>
+    </inferredMetricsTieBreakers>
 </document>

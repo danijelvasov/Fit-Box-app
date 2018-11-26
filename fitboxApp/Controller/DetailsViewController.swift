@@ -71,6 +71,10 @@ class DetailsViewController: UIViewController {
             return dataService.legExtensionDescription
         case "Leg curl":
             return dataService.legCurlDescription
+        case "Antioxidants":
+            return dataService.antioxidansDescription
+        case "Protein":
+            return dataService.proteinDescription
         default:
             return ""
         }
