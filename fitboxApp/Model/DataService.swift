@@ -30,3 +30,6 @@ struct ExercisesDescription {
 }
 
 
+struct Categories {
+    let lowerBody = "Lower Body Exercises" , upperBody = "Upper Body Exercises" , food = "Food"
+}

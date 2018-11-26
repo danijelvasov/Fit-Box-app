@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.animateButtons()
+       // self.animateButtons()
     }
     
     func animateButtons() {
