@@ -23,7 +23,7 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var menuView: UIView!
     
-    let dataService = ExercisesDescription()
+    let dataService = Description()
     var imageData: String?
     var titleData: String?
     var detailsIsOpen = false

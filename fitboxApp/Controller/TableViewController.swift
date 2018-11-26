@@ -70,6 +70,7 @@ class TableViewController: UITableViewController {
                     case "Lower Body Exercises":
                         dvc.imageData = dataService.lowerBodyImages[indexPath.row] as String
                         dvc.titleData = dataService.lowerBodyExercisesList[indexPath.row] as String
+                    
                 default:
                     return
                 }

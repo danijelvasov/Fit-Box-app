@@ -16,7 +16,7 @@ struct Exercises {
     let lowerBodyImages = ["squats", "lunges", "barbellBoxSquat", "legExtension", "legCurl"]
 }
 
-struct ExercisesDescription {
+struct Description {
     let benchPressDescription = NSLocalizedString("BENCH_PRESS", comment: "Bench press desc")
     let machineFlyDescription = NSLocalizedString("MACHINE_FLY", comment: "Machine fly desc")
     let latPulldownDescription = NSLocalizedString("LAT_PULLDOWN", comment: "Lat pulldown desc")
@@ -32,4 +32,9 @@ struct ExercisesDescription {
 
 struct Categories {
     let lowerBody = "Lower Body Exercises" , upperBody = "Upper Body Exercises" , food = "Food"
+}
+
+struct  Food {
+    let foodList = ["Antioxidants"]
+    let foodImages = ["antioxidants"]
 }
