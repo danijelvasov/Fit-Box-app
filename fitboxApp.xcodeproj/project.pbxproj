@@ -16,6 +16,9 @@
 		10E0242220D2F66400B1D942 /* ExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E0242120D2F66400B1D942 /* ExerciseCell.swift */; };
 		10E0242420D2F86600B1D942 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E0242320D2F86600B1D942 /* DetailsViewController.swift */; };
 		3107D707216266F000344660 /* MidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3107D706216266F000344660 /* MidViewController.swift */; };
+		311973C821AF0802002C8E29 /* Oswald-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 311973C521AF0802002C8E29 /* Oswald-SemiBold.ttf */; };
+		311973C921AF0802002C8E29 /* Oswald-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 311973C621AF0802002C8E29 /* Oswald-Light.ttf */; };
+		311973CA21AF0802002C8E29 /* Oswald-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 311973C721AF0802002C8E29 /* Oswald-Regular.ttf */; };
 		311B7108215594B100167989 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B7107215594B100167989 /* Extension.swift */; };
 		31689FDA2153C24A0011F7E2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31689FD92153C24A0011F7E2 /* DataService.swift */; };
 		31EFDA382167D24A00F03245 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31EFDA3A2167D24A00F03245 /* Localizable.strings */; };
@@ -33,6 +36,9 @@
 		10E0242120D2F66400B1D942 /* ExerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseCell.swift; sourceTree = "<group>"; };
 		10E0242320D2F86600B1D942 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		3107D706216266F000344660 /* MidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidViewController.swift; sourceTree = "<group>"; };
+		311973C521AF0802002C8E29 /* Oswald-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-SemiBold.ttf"; sourceTree = "<group>"; };
+		311973C621AF0802002C8E29 /* Oswald-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Light.ttf"; sourceTree = "<group>"; };
+		311973C721AF0802002C8E29 /* Oswald-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oswald-Regular.ttf"; sourceTree = "<group>"; };
 		311B7107215594B100167989 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		31689FD92153C24A0011F7E2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		31EFDA392167D24A00F03245 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -77,8 +83,19 @@
 				10E0241320D2B25300B1D942 /* Assets.xcassets */,
 				10E0241520D2B25300B1D942 /* LaunchScreen.storyboard */,
 				10E0241820D2B25300B1D942 /* Info.plist */,
+				311973C421AF0787002C8E29 /* Font */,
 			);
 			path = fitboxApp;
+			sourceTree = "<group>";
+		};
+		311973C421AF0787002C8E29 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				311973C621AF0802002C8E29 /* Oswald-Light.ttf */,
+				311973C721AF0802002C8E29 /* Oswald-Regular.ttf */,
+				311973C521AF0802002C8E29 /* Oswald-SemiBold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		316D3127215AA251000EDA9D /* Model */ = {
@@ -162,7 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				10E0241720D2B25300B1D942 /* LaunchScreen.storyboard in Resources */,
+				311973C821AF0802002C8E29 /* Oswald-SemiBold.ttf in Resources */,
 				31EFDA382167D24A00F03245 /* Localizable.strings in Resources */,
+				311973CA21AF0802002C8E29 /* Oswald-Regular.ttf in Resources */,
+				311973C921AF0802002C8E29 /* Oswald-Light.ttf in Resources */,
 				10E0241420D2B25300B1D942 /* Assets.xcassets in Resources */,
 				10E0241220D2B25300B1D942 /* Main.storyboard in Resources */,
 			);

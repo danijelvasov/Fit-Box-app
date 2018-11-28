@@ -14,24 +14,25 @@ class ViewController: UIViewController {
     var categories = Categories()
     
     @IBOutlet weak var exercisesBtn: UIButton!
-    @IBOutlet weak var aboutBtn: UIButton!
     @IBOutlet weak var foodBtn: UIButton!
+    @IBOutlet weak var programsBtn: UIButton!
+    @IBOutlet weak var cardioBtn: UIButton!
+    @IBOutlet weak var aboutBtn: UIButton!
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        //self.animateButtons()
-    }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-       // self.animateButtons()
-    }
     
     
     @IBAction func FoodBtnPressed(_ sender: Any) {
         categoryName = categories.food
         performSegue(withIdentifier: "goToList", sender: self)
     }
+    
+    
+    @IBAction func programsBtnPressed(_ sender: Any) {
+    }
+    
+    @IBAction func cardioBtnPressed(_ sender: Any) {
+    }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToList" {
@@ -40,23 +41,7 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    
-    
-    
-    
-//    func animateButtons() {
-//        UIView.animate(withDuration: 1.0, delay: 0.3, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseOut, animations: {
-//            self.lowButtonConstraint.constant = 25
-//            self.betweenButtonsConstraint.constant = 20
-//            self.button1.alpha = 1.0
-//            self.button2.alpha = 1.0
-//            self.button1.layer.cornerRadius = 12
-//            self.button2.layer.cornerRadius = 12
-//            self.view.layoutIfNeeded()
-//        }, completion: nil)
-//    }
-   
+
 
 
 }

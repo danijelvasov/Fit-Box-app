@@ -8,6 +8,12 @@
 
 import UIKit
 
+
+struct Categories {
+    let lowerBody = "Lower Body Exercises" , upperBody = "Upper Body Exercises" , food = "Food" , programs = "Programs"
+}
+
+
 struct Exercises {
     let upperBodyimages = ["bench", "machineFly", "latpulldown", "chestpress", "cablerow"]
     let upperBodyExercisesList = ["Bench press", "Machine fly", "Lat pulldown", "Chest press", "Cable row"]
@@ -15,6 +21,19 @@ struct Exercises {
     let lowerBodyExercisesList = ["Squats", "Lunges", "Barbell box squat", "Leg extension", "Leg curl"]
     let lowerBodyImages = ["squats", "lunges", "barbellBoxSquat", "legExtension", "legCurl"]
 }
+
+
+struct  Food {
+    let foodList = ["Antioxidants", "Protein", "Carbs"]
+    let foodImages = ["antioxidants", "protein", "carbs"]
+}
+
+
+struct Programs {
+    let programList = ["Fat loss", "Muscle gain"]
+    let programImages = [""]
+}
+
 
 struct Description {
     let benchPressDescription = NSLocalizedString("BENCH_PRESS", comment: "Bench press desc")
@@ -29,14 +48,6 @@ struct Description {
     let legCurlDescription = NSLocalizedString("LEG_CURL", comment: "Leg curl desc")
     let antioxidansDescription = NSLocalizedString("ANTIOXIDANTS", comment: "antioxidants desc")
     let proteinDescription = NSLocalizedString("PROTEIN", comment: "protein desc")
-}
-
-
-struct Categories {
-    let lowerBody = "Lower Body Exercises" , upperBody = "Upper Body Exercises" , food = "Food"
-}
-
-struct  Food {
-    let foodList = ["Antioxidants", "Protein"]
-    let foodImages = ["antioxidants", "protein"]
+    let carbsDescription = NSLocalizedString("CARBS", comment: "carbs desc")
+    let fatlossDescription = NSLocalizedString("FATLOSS", comment: "fatloss desc")
 }

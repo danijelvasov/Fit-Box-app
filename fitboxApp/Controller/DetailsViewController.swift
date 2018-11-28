@@ -27,10 +27,8 @@ class DetailsViewController: UIViewController {
     var imageData: String?
     var titleData: String?
     var detailsIsOpen = false
-    let customRedColor = #colorLiteral(red: 1, green: 0.3921568627, blue: 0.4509803922, alpha: 1)
-    let customGrayColor = #colorLiteral(red: 0.4588235294, green: 0.4705882353, blue: 0.5098039216, alpha: 1)
-    let customDarkGreenColor = #colorLiteral(red: 0.3607843137, green: 0.7568627451, blue: 0.7019607843, alpha: 1)
-    let customLightGreenColor = #colorLiteral(red: 0.431372549, green: 0.968627451, blue: 0.7843137255, alpha: 1)
+    let customGreenColor = #colorLiteral(red: 0.1176470588, green: 0.7176470588, blue: 0.2117647059, alpha: 1)
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -75,6 +73,8 @@ class DetailsViewController: UIViewController {
             return dataService.antioxidansDescription
         case "Protein":
             return dataService.proteinDescription
+        case "Carbs":
+            return dataService.carbsDescription
         default:
             return ""
         }
@@ -88,10 +88,11 @@ class DetailsViewController: UIViewController {
             self.upConstraint.constant = self.detailsIsOpen ? 70 : 303
             self.removingConstraint.constant = self.detailsIsOpen ? 1 : 81
             self.imageConstraint.constant = self.detailsIsOpen ? 160 : 16
-            self.menuView.alpha = self.detailsIsOpen ? 0.75 : 1
-            self.menuView.backgroundColor = self.detailsIsOpen ? self.customDarkGreenColor : UIColor.white
-            self.textView.backgroundColor = self.detailsIsOpen ? self.customDarkGreenColor : UIColor.white
-            self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.customDarkGreenColor
+            self.menuView.alpha = self.detailsIsOpen ? 1 : 0.75
+            self.menuView.backgroundColor = self.detailsIsOpen ? self.customGreenColor : UIColor.white
+            self.textView.backgroundColor = self.detailsIsOpen ? self.customGreenColor : UIColor.white
+            self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.customGreenColor
+            self.menuView.layer.cornerRadius = self.detailsIsOpen ? 12 : 12
             self.view.layoutIfNeeded()
         }, completion: nil)
 

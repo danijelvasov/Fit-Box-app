@@ -273,5 +273,52 @@ Dates,   Kiwi,    Watermelon,    Apricots,   Prunes...
 ";
 
 "PROTEIN"="
-Proteins are essential for growth, immune function, and the construction of hormones and enzymes. It is used to repair, maintain, and build the muscle fibers that are damaged during workouts, and can also act as an energy source in the absence of carbohydrate. To build muscle, you have to consume more protein than your body breaks down. An insufficient intake will result in slow strength and muscle gains or even lno gains at all!
+Proteins are organic molecules made up of amino acids – the building blocks of life.
+Proteins are essential for growth, immune function, and the construction of hormones and enzymes. It is used to repair, maintain, and build the muscle fibers that are damaged during workouts, and can also act as an energy source in the absence of carbohydrate. So - without an adequate protein intake, our bodies can’t function well at all.
+During digestion, our body breaks down the protein we eat into individual amino acids, which contribute to the plasma pool of amino acids. This pool is a storage reserve of amino acids that circulate in the blood.
+Protein also helps replace worn out cells, transports various substances throughout the body, and aids in growth and repair.
+
+To build muscle, you have to consume more protein than your body breaks down. An insufficient intake will result in slow strength and muscle gains or even no gains at all!
+Consuming protein can also increase levels of the hormone named glucagon, and can help to control body fat. Glucagon is released when blood sugar levels go down.  This causes the liver to break down stored glycogen into glucose (read: energy) for the body.
+It can also help to liberate free fatty acids from adipose tissue (belly fat, for example) - another way to get fuel for cells and make that bodyfat do something useful with itself.
+
+How much protein does individual need?
+
+Needs are based on activity level, although there are some other factors too.
+The basic recommendation for protein intake is 0.8 grams per kilogram (or around 0.36 g per pound) of body mass in untrained, generally healthy adults. For instance, a 70 kg person would consume around 56 grams a day.
+For people doing resistance training or some form of high intensity exercises, protein needs might go up to  1.4-2.0 g/kg (or around 0.64-0.9 g/lb) of body mass. So, a 70 kg person would then need about 100-140 g of protein per day.
+The body needs its protein stores to be continually replenished, which means that you should consume moderate amounts of protein at regular intervals (more smaller meals a day).
+
+When you exercise, the body synthesizes proteins for up to 48 hours after the exercise.  Interestingly, during and immediately after exercise, protein breakdown is increased as well. In fact, for a short period, the rate of breakdown becomes greater than the rate of building. This is called catabolic state.
+However, taking in enough protein during the pre- and post-exercise period can offset this catabolic state.
+
+Can I overeat protein?
+
+Yes. If you overeat protein, this extra protein can be converted into sugar or fat in the body. However, protein isn’t as easily or quickly converted as carbohydrates or fat.
+
+Sources of protein:     Eggs,   Chicken & turkey breast,     Tuna,      Salmon,    Beef,      Diary products,       Seafood (schrimps, fish),       Broccoli,       Almonds,        Peanuts...
+";
+
+"CARBS"="
+Carbohydrate is your body’s main source of fuel. If you don’t eat enough carbohydrate, when you exercise, you’ll fatigue sooner, and your muscle and strength gains will be reduced. On the other hand, if you are overeating carbohydrate, it will be converted to body fat. Eating a surplus of carbohydrates can also make you feel tired and sluggish, ‘foggy’ and unfocused, and/or even depressed. Repeatedly eating too many carb-dense foods can put your body at risk of hypoglycemia, insulin resistance, and Type 2 Diabetes. In addition, you may experience weight gain, difficulty losing weight, or even obesity.
+
+Dietary fiber is a carbohydrate that is incompletely absorbed by your body. It helps to keep your digestive system healthy.
+Carbohydrate digestion breaks down more complex forms of carbohydrates (oligo- and polysaccharides) into simpler (monosaccharides glucose, fructose, and galactose) for eventual release into the bloodstream in the form of glucose, which is essential to life. The brain and central nervous system prefer glucose for fuel and benefit from a continuously available supply.
+All carbohydrates we consume are digested into simple sugars before they’re absorbed by the body, regardless of whether the food source is a sugar cube or a high-fiber, low glycemic index bowl of oatmeal. It’s just that the “healthier carbs” are digested and absorbed much slower while the “non-healthy” carbs are digested very quickly.
+Although the fundamental process of digestion is the same, if you eat simple sugars and refined carbohydrates (which the body breaks down rapidly), you may notice elevations in blood triglyceride levels, bad cholesterol, and insulin resistance.
+On the other hand, carbohydrates that are digested and absorbed slowly, such as whole grains, fruits, and vegetables, can help to control insulin response, energy levels, and body composition. Such unrefined, unprocessed, complex carbohydrate sources may reduce triglycerides and improve your cholesterol profile. Other benefits of a lower glycemic diet include increased vitamin and mineral intake, increased fiber intake, enhanced satiety,  and blood sugar control.
+
+The average person’s minimum carbohydrate intake should be 130 grams per day, with a majority coming from vegetables and fruits. Higher amounts of carbohydrates are needed with increased physical activity levels.
+
+Sources of carbs:
+Oatmeal,        Yams,       Brown rice,     Potatoes,       100% whole wheat bread,     100% whole wheat pasta, Beans and lentils,        Quinoa,     Couscous,       Pumpkin,      Grapefruit,     Apples,     Blueberries,        Cantaloupe,     Oranges,        Bananas,        Peaches,        Grapes,     Strawberries,       Pineapple,       Plums,      Pears,      Berries,       Mango,      Broccoli,       Kale,       Asparagus,      Spinach,        Salad greens,       Tomatoes,       Peppers (green and red),        Onions,     Mushrooms,      Cucumbers,     Zucchini,        Carrots,        Green beans,        Peas,       Cauliflower...
+";
+
+"FATLOSS" = "
+The best fat-burning workout is a mix of heavy training and cardio. Heavier weights are best for building muscle and improving strength, and also burning a lot of calories. If you can keep building muscle while dieting and doing your cardio, you are in for some serious fat-burning.
+Females should not be afraid of weight training - it wont pack some huge muscles to your body, but will help you burn some serious number of calories.
+If you are starter, and want to lose fat first, then you should start with some light cardio exercises. It can be mixture of threadmill jogging, bike, nordic skiing, rowing, rope jumping etc.
+Incorporate full body workout with your cardio sessions, to increase number of calories burned. 
+
+
 ";
