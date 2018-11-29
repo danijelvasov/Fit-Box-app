@@ -13,6 +13,7 @@ class TableViewController: UITableViewController {
     var categoryName : String?
     let exercises = Exercises()
     let food = Food()
+    let programs = Programs()
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -36,6 +37,8 @@ class TableViewController: UITableViewController {
             return exercises.lowerBodyExercisesList.count
         case "Food":
             return food.foodList.count
+        case "Programs":
+            return programs.programList.count
         default:
             return 1
         }
@@ -62,6 +65,12 @@ class TableViewController: UITableViewController {
             cellFood.cellImageView.image = UIImage(named: food.foodImages[indexPath.row])
             return cellFood
             
+        case "Programs":
+            guard let cellProgram = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
+            cellProgram.cellTittle.text = programs.programList[indexPath.row]
+            cellProgram.cellImageView.image = UIImage(named: programs.programImages[indexPath.row])
+            return cellProgram
+            
         default:
              return UITableViewCell()
         }
@@ -83,6 +92,10 @@ class TableViewController: UITableViewController {
                     case "Food":
                         dvc.imageData = food.foodImages[indexPath.row] as String
                         dvc.titleData = food.foodList[indexPath.row] as String
+                    
+                case "Programs":
+                    dvc.imageData = programs.programImages[indexPath.row] as String
+                    dvc.titleData = programs.programList[indexPath.row] as String
                     
                 default:
                     return

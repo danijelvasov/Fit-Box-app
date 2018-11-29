@@ -28,6 +28,8 @@ class ViewController: UIViewController {
     
     
     @IBAction func programsBtnPressed(_ sender: Any) {
+        categoryName = categories.programs
+        performSegue(withIdentifier: "goToList", sender: self)
     }
     
     @IBAction func cardioBtnPressed(_ sender: Any) {

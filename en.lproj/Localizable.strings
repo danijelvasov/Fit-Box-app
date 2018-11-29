@@ -314,11 +314,64 @@ Sources of carbs:
 Oatmeal,        Yams,       Brown rice,     Potatoes,       100% whole wheat bread,     100% whole wheat pasta, Beans and lentils,        Quinoa,     Couscous,       Pumpkin,      Grapefruit,     Apples,     Blueberries,        Cantaloupe,     Oranges,        Bananas,        Peaches,        Grapes,     Strawberries,       Pineapple,       Plums,      Pears,      Berries,       Mango,      Broccoli,       Kale,       Asparagus,      Spinach,        Salad greens,       Tomatoes,       Peppers (green and red),        Onions,     Mushrooms,      Cucumbers,     Zucchini,        Carrots,        Green beans,        Peas,       Cauliflower...
 ";
 
-"FATLOSS" = "
-The best fat-burning workout is a mix of heavy training and cardio. Heavier weights are best for building muscle and improving strength, and also burning a lot of calories. If you can keep building muscle while dieting and doing your cardio, you are in for some serious fat-burning.
-Females should not be afraid of weight training - it wont pack some huge muscles to your body, but will help you burn some serious number of calories.
-If you are starter, and want to lose fat first, then you should start with some light cardio exercises. It can be mixture of threadmill jogging, bike, nordic skiing, rowing, rope jumping etc.
-Incorporate full body workout with your cardio sessions, to increase number of calories burned. 
+"HOW_TO_PLAN_YOUR_TRAINING_CYCLE" = "
+1 . CYCLE WORKOUT PRINCIPLE
+(or periodization) is breaking your training into cycles for strength, hypertrophy, fat loss, conditioning. This helps you avoid injuries and keeps your body responsive to adaptation. You break your workout types into discreet time periods called macrocycles (longer period, for example 6 -12 weeks) and microcycles (shorter period 2-5 weeks)
+
+2 . SPLIT WORKOUT PRINCIPLE
+is breaking your workout into upper vs. lower body training. This routine allows more intense and greater stimulus per muscle group and also more rest per group between sessions.
+
+3 . MUSCLE CONFUSION PRINCIPLE
+When you do same workouts with same weights, same repetitions, same speed over and over, muscles adapt to it and stop advacing. To aviod this, it is good to constantly change reps, sets, speed, angle of movement to change a stimulus to your muscle fibres, and type of workout in general (think of periodization).
+
+4 . PROGRESSIVE OVERLOAD
+Helps you increase any fitness parameter. It can be done via resistance increase, repetitions, speed of movements, shortening rest intervals, volume increase, exercise frequency. Keep in mind that you also need low intensity periods, to allow your body to recover, so again, think of periodization.
+
+5 . HOLISTIC TRAINING PRINCIPLE
+This refers to usin variety of repetitions and intensity to maximize musle volume and mass. Different types of training produce different hypertrophic responses. Training with submaximum weights will give you myofibrillar hypertrophy ( a more dense look). Higher reps produce sarcoplasmic hypertrophy that will give you a bigger pumped look (although does not directly increase your strength). Next, a 20+ reps will increase capillarization, and results in musce endurance.
+";
+
+"HOW_TO_ARRANGE_YOUR_WORKOUT"="
+1 . ONE-SET WORKOUT
+Good for beginners. You perform one set only per each muscle group (doing a full body training) for a first few weeks.
+
+2 . SUPERSET WORKOUT
+You alternate opposing muscle group exercises with little rest between sets. This results with more work in less time, without affecting intensity.
+
+3 . COMPOUND SETS WORKOUT
+You alternate two exercises for one muscle group with little or no rest between sets. Order of doing exercises should be: compound first, followed by isolation exercise. Example would be - bench press , followed by exercise on fly machine. This type increases intensity and saves time.
+
+4 . TRI SET & GIGA SET WORKOUT
+You alternate 3 - 5 exercises for ONE muscle group, with little to no rest berween sets. These sets are apropriate for advanced practitioners. This type of workout spikes growth hormone and IGF-1 production, but inreases metabolic stress. So, periodization is needed.
 
 
+5 . REST-PAUSE WORKOUT
+This is braking one set into several mini-sets with a brief rest between. You use about 70% of your 1max rep weight, perform few reps, rest 15-30 secs, repeat few reps, rest 15-30 secs and repeat few reps again.
+
+6 . PYRAMID WORKOUT
+Starting with low-weight and high-rep (10+), then gradually adding weight and reducing number of reps.  So, the first two sets are like a warmup. When hit a 3-5 rep set, yo can reverse. Reversed pyramiding will allow you to build strength effectively.
+";
+
+"HOW_TO_PLAN_YOUR_REPS_PERFORMING"="
+1 . ISOLATION
+This means making one muscle a prime mover in any isolation exercise. Because all muscles act like stabilizers, synergists, agonist, antagonists, isolating a muscle will increase stimulus applied to it. Bicep curls, flyees, leg extensions, tricep cable pulldowns are great exercises to help you isolate and concentrate to stimulate muscles even more.
+
+2 . QUALITY
+Gradually reducing rest periods over time. This means performing the same amount of volume in less time.
+
+3 . CHEAT
+This is for advanced practitioners. It means a subtile swing of the weight to increase the speed of repetition and add some stimulus to muscle. Be careful - cheating on lunges, deadlifts, or leg press could cause injury. But moderate swing in exercises like curls and lateral raises could benefit from cheating.
+
+4 . CONTINUOUS TENSION
+Maintain slow, continuous tension by avoiding the top part of certain movements, minimizing the use of momentum and resting at the top of the movement - practically use 80 - 90 % of movement.
+
+5 . BURNS
+At the end of every set, perform a 2-3 inch fast movemets. This will add some tension and stimulus to your muscles.
+
+6 . RETRO-GRAVITY
+This is actually performing a negative repetitions, because you can lower 30-40% more weight than you can lift. This overload will result in higher metabolic stress and more stimulus to your muscles. Note: you will need a gym buddy to help you with this type of reps.
+";
+
+"REPETITION_RANGES"="
+NOTE: To achive benefits written in the table, your final repetition must be at or near maximum effort. For instance, if you want muscle mass, you target 10 reps, with appropriate weight (that will not allow you to do more than 10 or 11 reps.)
 ";

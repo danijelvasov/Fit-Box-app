@@ -47,6 +47,7 @@ class DetailsViewController: UIViewController {
         self.textView.setContentOffset(CGPoint.zero, animated: true)
     }
     
+    
     func getDescription() -> String {
         switch titleData {
         case "Bench press":
@@ -75,6 +76,14 @@ class DetailsViewController: UIViewController {
             return dataService.proteinDescription
         case "Carbs":
             return dataService.carbsDescription
+        case "How to plan your training cycle":
+            return dataService.howToPlanYourTrainingCycleDescription
+        case "How to arrange your workout":
+            return dataService.howToArrangeYourWorkoutDescription
+        case "How to plan your reps performing":
+            return dataService.howToPlanYoyrRepsPerformingDescription
+        case "Repetition ranges":
+            return dataService.repetitionRangesDescription
         default:
             return ""
         }
@@ -83,7 +92,7 @@ class DetailsViewController: UIViewController {
     @IBAction func showMorePressed(_ sender: Any) {
         detailsIsOpen = !detailsIsOpen
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
-        
+       
         UIView.animate(withDuration: 1, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
             self.upConstraint.constant = self.detailsIsOpen ? 70 : 303
             self.removingConstraint.constant = self.detailsIsOpen ? 1 : 81

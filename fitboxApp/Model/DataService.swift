@@ -30,8 +30,8 @@ struct  Food {
 
 
 struct Programs {
-    let programList = ["Fat loss", "Muscle gain"]
-    let programImages = [""]
+    let programList = ["How to plan your training cycle", "How to arrange your workout", "How to plan your reps performing", "Repetition ranges"]
+    let programImages = ["cyclePlan", "arrangeWorkout", "perform", "table"]
 }
 
 
@@ -49,5 +49,8 @@ struct Description {
     let antioxidansDescription = NSLocalizedString("ANTIOXIDANTS", comment: "antioxidants desc")
     let proteinDescription = NSLocalizedString("PROTEIN", comment: "protein desc")
     let carbsDescription = NSLocalizedString("CARBS", comment: "carbs desc")
-    let fatlossDescription = NSLocalizedString("FATLOSS", comment: "fatloss desc")
+    let howToPlanYourTrainingCycleDescription = NSLocalizedString("HOW_TO_PLAN_YOUR_TRAINING_CYCLE", comment: "howToPlanYourTrainingCycle desc")
+    let howToArrangeYourWorkoutDescription = NSLocalizedString("HOW_TO_ARRANGE_YOUR_WORKOUT", comment: "How to arrange your workout desc")
+    let howToPlanYoyrRepsPerformingDescription = NSLocalizedString("HOW_TO_PLAN_YOUR_REPS_PERFORMING", comment: "How to plan your reps performing desc")
+    let repetitionRangesDescription = NSLocalizedString("REPETITION_RANGES", comment: "repetition ranges desc")
 }
