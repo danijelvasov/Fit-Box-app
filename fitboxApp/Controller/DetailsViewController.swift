@@ -26,12 +26,14 @@ class DetailsViewController: UIViewController {
     let dataService = Description()
     var imageData: String?
     var titleData: String?
+    var tintColor : UIColor?
     var detailsIsOpen = false
     let customGreenColor = #colorLiteral(red: 0.1176470588, green: 0.7176470588, blue: 0.2117647059, alpha: 1)
    
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        self.textView.textColor = tintColor
         self.navigationItem.title = titleData ?? ""
         self.detailImageView.image = UIImage(named: imageData ?? "siluette" )
         
@@ -39,7 +41,7 @@ class DetailsViewController: UIViewController {
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
         buttonConstraint.constant = halfscreen
     }
-
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
@@ -98,15 +100,15 @@ class DetailsViewController: UIViewController {
             self.removingConstraint.constant = self.detailsIsOpen ? 1 : 81
             self.imageConstraint.constant = self.detailsIsOpen ? 160 : 16
             self.menuView.alpha = self.detailsIsOpen ? 1 : 0.75
-            self.menuView.backgroundColor = self.detailsIsOpen ? self.customGreenColor : UIColor.white
-            self.textView.backgroundColor = self.detailsIsOpen ? self.customGreenColor : UIColor.white
-            self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.customGreenColor
+            self.menuView.backgroundColor = self.detailsIsOpen ? self.tintColor : UIColor.white
+            self.textView.backgroundColor = self.detailsIsOpen ? self.tintColor : UIColor.white
+            self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.tintColor
             self.menuView.layer.cornerRadius = self.detailsIsOpen ? 12 : 12
             self.view.layoutIfNeeded()
         }, completion: nil)
 
         UIView.animate(withDuration: 1, delay: 0.15, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
-            self.detailImageView.alpha = self.detailsIsOpen ? 0.3 : 1
+            self.detailImageView.alpha = self.detailsIsOpen ? 0 : 1
             self.buttonConstraint.constant = self.detailsIsOpen ? 30 : halfscreen
             self.bottomConstraint.constant = self.detailsIsOpen ? -15 : 10
             let angle: CGFloat = self.detailsIsOpen ? .pi : 0.0

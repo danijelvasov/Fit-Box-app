@@ -11,16 +11,27 @@ import UIKit
 class MidViewController: UIViewController {
     
     var categoryName : String?
+    var tintColor : UIColor?
     var categories = Categories()
+    var color = TintColor()
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+         self.navigationController?.navigationBar.barTintColor = color.customBlue
+    }
+    
 
     @IBAction func upperBodyBtnPressed(_ sender: Any) {
         categoryName = categories.upperBody
+        tintColor = color.customBlue
         performSegue(withIdentifier: "goToTableView", sender: self)
     }
     
     @IBAction func lowerBodyBtnPressed(_ sender: Any) {
         categoryName = categories.lowerBody
+        tintColor = color.customBlue
         performSegue(withIdentifier: "goToTableView", sender: self)
+        
     }
     
 
@@ -29,6 +40,7 @@ class MidViewController: UIViewController {
         if segue.identifier == "goToTableView" {
             let dVC = segue.destination as! TableViewController
             dVC.categoryName = categoryName
+            dVC.tintColor = tintColor
         }
     }
     

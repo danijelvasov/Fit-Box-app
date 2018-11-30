@@ -9,6 +9,14 @@
 import UIKit
 
 
+struct TintColor {
+    let customBlue = #colorLiteral(red: 0.2901960784, green: 0.5647058824, blue: 0.8862745098, alpha: 1)
+    let customGreen = #colorLiteral(red: 0.1176470588, green: 0.7176470588, blue: 0.2117647059, alpha: 1)
+    let customOrange = #colorLiteral(red: 0.9607843137, green: 0.6509803922, blue: 0.137254902, alpha: 1)
+    let customPink = #colorLiteral(red: 0.9764705882, green: 0.3803921569, blue: 0.6196078431, alpha: 1)
+}
+
+
 struct Categories {
     let lowerBody = "Lower Body Exercises" , upperBody = "Upper Body Exercises" , food = "Food" , programs = "Programs"
 }
@@ -54,3 +62,5 @@ struct Description {
     let howToPlanYoyrRepsPerformingDescription = NSLocalizedString("HOW_TO_PLAN_YOUR_REPS_PERFORMING", comment: "How to plan your reps performing desc")
     let repetitionRangesDescription = NSLocalizedString("REPETITION_RANGES", comment: "repetition ranges desc")
 }
+
+

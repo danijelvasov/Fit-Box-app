@@ -12,6 +12,15 @@ class ViewController: UIViewController {
 
     var categoryName : String?
     var categories = Categories()
+    var color = TintColor()
+    var tintColor : UIColor?
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+         self.navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.1176470588, green: 0.7176470588, blue: 0.2117647059, alpha: 1)
+    }
+    
+
     
     @IBOutlet weak var exercisesBtn: UIButton!
     @IBOutlet weak var foodBtn: UIButton!
@@ -23,12 +32,14 @@ class ViewController: UIViewController {
     
     @IBAction func FoodBtnPressed(_ sender: Any) {
         categoryName = categories.food
+        tintColor = color.customGreen
         performSegue(withIdentifier: "goToList", sender: self)
     }
     
     
     @IBAction func programsBtnPressed(_ sender: Any) {
         categoryName = categories.programs
+        tintColor = color.customOrange
         performSegue(withIdentifier: "goToList", sender: self)
     }
     
@@ -40,6 +51,7 @@ class ViewController: UIViewController {
         if segue.identifier == "goToList" {
             let dvc = segue.destination as! TableViewController
             dvc.categoryName = categoryName
+            dvc.tintColor = tintColor
         }
     }
     

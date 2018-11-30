@@ -64,7 +64,7 @@
                                             <constraint firstAttribute="width" constant="110" id="G6t-Cb-NbG"/>
                                             <constraint firstAttribute="height" constant="110" id="OVx-wK-zfC"/>
                                         </constraints>
-                                        <state key="normal" backgroundImage="Exercises btn"/>
+                                        <state key="normal" backgroundImage="Exercisesbtn"/>
                                         <connections>
                                             <segue destination="ylg-UP-gys" kind="show" id="H3C-qJ-e3s"/>
                                         </connections>
@@ -75,7 +75,7 @@
                                             <constraint firstAttribute="width" constant="110" id="EOx-ux-wlE"/>
                                             <constraint firstAttribute="height" constant="110" id="KmF-Sk-quG"/>
                                         </constraints>
-                                        <state key="normal" backgroundImage="Programs btn"/>
+                                        <state key="normal" backgroundImage="Programsbtn"/>
                                         <connections>
                                             <action selector="programsBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rgs-Yc-3yo"/>
                                         </connections>
@@ -87,7 +87,7 @@
                                             <constraint firstAttribute="width" constant="110" id="UH0-ym-q76"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <state key="normal" backgroundImage="Food btn"/>
+                                        <state key="normal" backgroundImage="Foodbtn"/>
                                         <connections>
                                             <action selector="FoodBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TOg-IG-a9S"/>
                                         </connections>
@@ -98,7 +98,7 @@
                                             <constraint firstAttribute="width" constant="110" id="BWZ-kM-dfq"/>
                                             <constraint firstAttribute="height" constant="110" id="n5K-W9-IJC"/>
                                         </constraints>
-                                        <state key="normal" backgroundImage="Cardio btn"/>
+                                        <state key="normal" backgroundImage="Cardiobtn"/>
                                         <connections>
                                             <action selector="cardioBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s22-aQ-YPp"/>
                                         </connections>
@@ -154,55 +154,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="F7g-xK-8qA" userLabel="subview">
-                                <rect key="frame" x="30" y="67" width="260" height="370"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subcategory" translatesAutoresizingMaskIntoConstraints="NO" id="bVl-tf-Icv">
-                                        <rect key="frame" x="0.0" y="0.0" width="260" height="370"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ray-fX-8EA">
-                                        <rect key="frame" x="158" y="33" width="90" height="90"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="90" id="310-6z-Uso"/>
-                                            <constraint firstAttribute="height" constant="90" id="fkn-lk-Aka"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="17"/>
-                                        <state key="normal" title="Upper body">
-                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="upperBodyBtnPressed:" destination="ylg-UP-gys" eventType="touchUpInside" id="Ala-qZ-jK9"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcn-AW-baO">
-                                        <rect key="frame" x="158" y="202" width="90" height="90"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="90" id="1IE-po-OV2"/>
-                                            <constraint firstAttribute="width" constant="90" id="f7V-0p-fP7"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="17"/>
-                                        <state key="normal" title="Lower body">
-                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="lowerBodyBtnPressed:" destination="ylg-UP-gys" eventType="touchUpInside" id="aOA-Ow-iPy"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="370" id="4yV-8y-fdJ"/>
-                                    <constraint firstAttribute="trailing" secondItem="kcn-AW-baO" secondAttribute="trailing" constant="12" id="Eh0-P7-dd4"/>
-                                    <constraint firstAttribute="trailing" secondItem="bVl-tf-Icv" secondAttribute="trailing" id="JDS-pU-bpq"/>
-                                    <constraint firstAttribute="bottom" secondItem="kcn-AW-baO" secondAttribute="bottom" constant="78" id="Q3m-3r-644"/>
-                                    <constraint firstItem="bVl-tf-Icv" firstAttribute="top" secondItem="F7g-xK-8qA" secondAttribute="top" id="TVT-5D-eWQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="ray-fX-8EA" secondAttribute="trailing" constant="12" id="caU-oU-bKE"/>
-                                    <constraint firstItem="bVl-tf-Icv" firstAttribute="leading" secondItem="F7g-xK-8qA" secondAttribute="leading" id="fVj-UA-voi"/>
-                                    <constraint firstAttribute="width" constant="260" id="isi-9v-mE8"/>
-                                    <constraint firstItem="ray-fX-8EA" firstAttribute="top" secondItem="F7g-xK-8qA" secondAttribute="top" constant="33" id="qbU-2i-GsZ"/>
-                                    <constraint firstAttribute="bottom" secondItem="bVl-tf-Icv" secondAttribute="bottom" id="rQl-jY-TU4"/>
-                                </constraints>
-                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select zone:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6n1-3e-Ln8">
                                 <rect key="frame" x="92.5" y="20" width="135" height="26"/>
                                 <constraints>
@@ -213,13 +164,46 @@
                                 <color key="textColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="qrR-wE-qyR">
+                                <rect key="frame" x="105" y="112" width="110" height="280"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ray-fX-8EA">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="62s-ls-ibt"/>
+                                            <constraint firstAttribute="height" constant="110" id="DjP-SU-IvB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="17"/>
+                                        <state key="normal" backgroundImage="upperBtn">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="upperBodyBtnPressed:" destination="ylg-UP-gys" eventType="touchUpInside" id="Ala-qZ-jK9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kcn-AW-baO">
+                                        <rect key="frame" x="0.0" y="170" width="110" height="110"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="110" id="j6L-vf-Kto"/>
+                                            <constraint firstAttribute="width" constant="110" id="o9c-pV-IJ7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="17"/>
+                                        <state key="normal" backgroundImage="lowerBtn">
+                                            <color key="titleColor" red="0.2901960784" green="0.2901960784" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="lowerBodyBtnPressed:" destination="ylg-UP-gys" eventType="touchUpInside" id="aOA-Ow-iPy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6n1-3e-Ln8" firstAttribute="top" secondItem="QnE-wq-KJ8" secondAttribute="top" constant="20" id="FGl-Lc-nbP"/>
-                            <constraint firstItem="F7g-xK-8qA" firstAttribute="centerX" secondItem="1Yl-ax-QTc" secondAttribute="centerX" id="fsc-1z-hEz"/>
+                            <constraint firstItem="qrR-wE-qyR" firstAttribute="centerY" secondItem="1Yl-ax-QTc" secondAttribute="centerY" id="nAt-WN-hxD"/>
                             <constraint firstItem="6n1-3e-Ln8" firstAttribute="centerX" secondItem="1Yl-ax-QTc" secondAttribute="centerX" id="uEw-oM-cd5"/>
-                            <constraint firstItem="F7g-xK-8qA" firstAttribute="centerY" secondItem="1Yl-ax-QTc" secondAttribute="centerY" id="zYy-a7-YYE"/>
+                            <constraint firstItem="qrR-wE-qyR" firstAttribute="centerX" secondItem="1Yl-ax-QTc" secondAttribute="centerX" id="wiv-iq-o4t"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QnE-wq-KJ8"/>
                     </view>
@@ -472,14 +456,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Cardio btn" width="269" height="275"/>
-        <image name="Exercises btn" width="587" height="600"/>
-        <image name="Food btn" width="269" height="275"/>
-        <image name="Programs btn" width="269" height="275"/>
+        <image name="Cardiobtn" width="807" height="825"/>
+        <image name="Exercisesbtn" width="807" height="825"/>
+        <image name="Foodbtn" width="807" height="825"/>
+        <image name="Programsbtn" width="807" height="825"/>
         <image name="bench" width="990" height="515"/>
         <image name="cv_image" width="310" height="310"/>
+        <image name="lowerBtn" width="807" height="825"/>
         <image name="moreBtn" width="38" height="38"/>
-        <image name="subcategory" width="600" height="844"/>
+        <image name="upperBtn" width="807" height="825"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="HUY-vW-LQJ"/>
