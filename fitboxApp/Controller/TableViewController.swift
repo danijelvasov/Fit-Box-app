@@ -16,6 +16,7 @@ class TableViewController: UITableViewController {
     let exercises = Exercises()
     let food = Food()
     let programs = Programs()
+    let cardio = Cardio()
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -39,6 +40,8 @@ class TableViewController: UITableViewController {
             return food.foodList.count
         case "Programs":
             return programs.programList.count
+        case "Cardio":
+            return cardio.cardioList.count
         default:
             return 1
         }
@@ -75,6 +78,13 @@ class TableViewController: UITableViewController {
             cellProgram.cellImageView.image = UIImage(named: programs.programImages[indexPath.row])
             return cellProgram
             
+        case "Cardio":
+            guard let cellCardio = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
+            cellCardio.cellTittle.textColor = tintColor
+            cellCardio.cellTittle.text = cardio.cardioList[indexPath.row]
+            cellCardio.cellImageView.image = UIImage(named: cardio.cardioImages[indexPath.row])
+            return cellCardio
+            
         default:
              return UITableViewCell()
         }
@@ -104,6 +114,11 @@ class TableViewController: UITableViewController {
                     dvc.tintColor = tintColor
                     dvc.imageData = programs.programImages[indexPath.row] as String
                     dvc.titleData = programs.programList[indexPath.row] as String
+                    
+                case "Cardio":
+                    dvc.tintColor = tintColor
+                    dvc.imageData = cardio.cardioImages[indexPath.row] as String
+                    dvc.titleData = cardio.cardioList[indexPath.row] as String
                     
                 default:
                     return

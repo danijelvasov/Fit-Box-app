@@ -14,11 +14,17 @@ class ViewController: UIViewController {
     var categories = Categories()
     var color = TintColor()
     var tintColor : UIColor?
+    var background: UIColor?
+    var darkTheme = false
+    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-         self.navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.1176470588, green: 0.7176470588, blue: 0.2117647059, alpha: 1)
+        self.navigationController?.navigationBar.barTintColor = color.customDark
+      
     }
+    
+
     
 
     
@@ -44,6 +50,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func cardioBtnPressed(_ sender: Any) {
+        categoryName = categories.cardio
+        tintColor = color.customPink
+        performSegue(withIdentifier: "goToList", sender: self)
     }
     
     

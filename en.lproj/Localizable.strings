@@ -6,7 +6,7 @@
   Copyright © 2018 OSX. All rights reserved.
 */
 "BENCH_PRESS" = "
-Mechanics: Compound
+Type: COMPOUND
 Force: Push
 
 How to do it?
@@ -18,7 +18,6 @@ How to do it?
 - While holding the barbell, retract (push together) your shoulder blades and straighten your wrists.
 - Inhale as you lower the barbell to your chest, keeping your elbows tucked in at a 45-degree angle.
 - Exhale as you press the barbell back up to the starting position.
-- Repeat.
 
 Tips
 
@@ -29,7 +28,7 @@ Tips
 - Like the barbell squat and barbell deadlift, the barbell bench press is a major mass&strength-building exercise.
 ";
 "MACHINE_FLY"="
-Mechanics: Isolation
+Type: ISOLATION
 Force: Push
 
 How to do it?
@@ -48,7 +47,7 @@ Tips
 - The machine fly is not a major mass-building exercise. As an isolation exercise, it is useful if you want to warm up your chest, pre-exhaust it before the compound chest exercises, or flush it at the end of a chest workout.
 ";
 "LAT_PULLDOWN" = "
-Mechanics: Compound
+Type: COMPOUND
 Force: Pull
 
 How to do it?
@@ -70,7 +69,7 @@ Tips
 - Also known as the wide-grip cable pulldown.
 ";
 "CHEST_PRESS" = "
-Mechanics: compound
+Type: COMPOUND
 Force: Push
 
 How to do it?
@@ -90,7 +89,7 @@ Tips
 - The machine chest press is great if you want to push very heavy weights with your chest but don’t have anyone to help you with the barbell bench press. Otherwise, the barbell bench press is favorable to the machine chest press. The reason is that the barbell bench press necessitates the recruitment of more stabilizer muscles. The machine chest press is also great for beginners, the elderly, and people undergoing rehabilitation.
 ";
 "CABLE_ROW" = "
-Mechanics: Compound
+Type: COMPOUND
 Force: Pull
 
 How to do it?
@@ -100,7 +99,6 @@ How to do it?
 - Exhale as you slowly lean backward, straighten your back, and pull the v-bar to your abdomen, keeping your elbows close to your body. Pull your shoulders back and stick out your chest at the top of the movement.
 - Hold for a count of two and squeeze your back muscles.
 - Inhale as you slowly lean forward and return the double-row bar to the starting position, with your arms and shoulders stretching forward and your lower back bent forward.
-- Repeat.
 
 Tips
 
@@ -112,7 +110,7 @@ Tips
 - Most people will tell you to keep your back straight and your chest out throughout the seated cable row exercise. That’s known as the straight-back seated cable row. It’s a different exercise, which doesn’t dynamically work your erector spinae (spinal erectors). The exercise described above does dynamically work your spinal erectors.
 ";
 "SQUATS" = "
-Mechanics: Compound
+Type: COMPOUND
 Force: Push
 
 How to do it?
@@ -122,7 +120,6 @@ How to do it?
 - Dismount the barbell and step backward carefully. Your feet should be shoulder-width apart and pointing slightly outwards.
 - Inhale as you squat down by pushing your butt backward and bending your knees forward. Keep your torso upright, and descend at least until your knees are bent at a 90-degree angle.
 - Exhale as you push your body back up to the starting position, driving from your heels and keeping your torso upright.
-- Repeat.
 
 Tips
 
@@ -135,7 +132,7 @@ Tips
 - Most barbell squat-related accidents happen while stepping back with the barbell.
 ";
 "LUNGES" = "
-Mechanics: Compound
+Type: COMPOUND
 Force: Push
 
 How to do it?
@@ -156,7 +153,7 @@ Tips
 - The dumbbell lunge is a very beneficial exercise that helps you to develop balance, coordination, and the unilateral (one-sided) functional strength of your lower body.
 ";
 "BARBELL_BOX_SQUAT" = "
-Mechanics: Compound
+Type: COMPOUND
 Force: Push
 
 How to do it?
@@ -184,7 +181,7 @@ Tips
 - The height of the box or bench should allow you to descend until your thighs are at least parallel with the floor.
 ";
 "LEG_EXTENSION" = "
-Mechanics: Isolation
+Type: ISOLATION
 Force: Push
 
 How to do it?
@@ -208,7 +205,7 @@ Tips
 - The leg extension should not be your primary quad exercise. There are far better options. The barbell squat, for example, builds your quads equally well, as well as simultaneously builds and strengthens many other muscle groups, strengthens your core, and helps you to develop functional strength. Use the leg extension only to warm up your quads, pre-exhaust them before squats, or flush them at the end of a leg workout.
 ";
 "LEG_CURL"="
-Mechanics: Isolation
+Type: ISOLATION
 Force: Pull
 
 How to do it?
@@ -230,6 +227,7 @@ Tips
 ";
 
 
+
 "ANTIOXIDANTS"="
 Free radicals are constantly being formed during metabolism.
 Without antioxidants, they would destroy our bodies very quickly.
@@ -240,22 +238,11 @@ As with so many things in the body, we need a certain balance... we need the rig
 When this balance gets disrupted, things can start to go wrong.
 When the free radicals (pro-oxidants) outnumber the antioxidants, this can lead to a state called oxidative stress.
 During oxidative stress, important molecules in the body can become severely damaged... sometimes even leading to cell death.
+
 Several stress factors and lifestyle habits are known to promote excessive free radical formation and oxidative stress:
 
-Air pollution.
-Cigarette smoke.
-Alcohol intake.
-Toxins.
-High blood sugar levels.
-Consuming large amounts of polyunsaturated fatty acids.
-Radiation, including excessive sunbathing.
-Infections by bacteria, fungi or viruses.
-Excessive intake of iron, magnesium, copper, or zinc.
-Too little oxygen in the body.
-Too much oxygen in the body.
-Intense and prolonged exercise, which causes tissue damage.
-Excessive intake of antioxidants, such as vitamins C and E.
-Antioxidant deficiency.
+Air pollution, cigarette smoke, alcohol intake, toxins, high blood sugar levels, consuming large amounts of polyunsaturated fatty acids, radiation, including excessive sunbathing, infections by bacteria, fungi or viruses, excessive intake of iron, magnesium, copper, or zinc, too little oxygen in the body, too much oxygen in the body, intense and prolonged exercise, which causes tissue damage, excessive intake of antioxidants, such as vitamins C and E, antioxidant deficiency etc.
+
 Prolonged oxidative stress leads to increased risk of negative health outcomes, such as cardiovascular disease and certain types of cancer. It is also thought to contribute to the aging process.
 
 Plants and animals, and all other forms of life, have their own defenses against free radicals and the oxidative damage caused by them.
@@ -265,7 +252,7 @@ The health benefits associated with a diet rich in plants is, at least partially
 Meat products and fish also contain antioxidants, but in smaller amounts compared to fruits and vegetables. Berries are a particularly good source.
 Then there are plenty of other good sources of antioxidants... including green tea, coffee and dark chocolate.
 
-Here is a list:
+Here is a list of antioxidant foods:
 Onions,   Grapes,    Walnuts,    Soybeans,   Ginger ,   Blueberries ,   Sunflower seeds,    Broad beans,    Garlic,    Strawberries,
 Chives,   Cherries,  Tomatoes,    Apples,    Carrots,    Grapefruit,     Kale,    Cranberries,    Spinach,    Blackberries,
 Cauliflower,    Pomegranate,    Cabbage,    Orange,     Cabbage,    Plum,    Brussels sprouts,    Pineapple,    Peas,    Lemon,
@@ -314,6 +301,11 @@ Sources of carbs:
 Oatmeal,        Yams,       Brown rice,     Potatoes,       100% whole wheat bread,     100% whole wheat pasta, Beans and lentils,        Quinoa,     Couscous,       Pumpkin,      Grapefruit,     Apples,     Blueberries,        Cantaloupe,     Oranges,        Bananas,        Peaches,        Grapes,     Strawberries,       Pineapple,       Plums,      Pears,      Berries,       Mango,      Broccoli,       Kale,       Asparagus,      Spinach,        Salad greens,       Tomatoes,       Peppers (green and red),        Onions,     Mushrooms,      Cucumbers,     Zucchini,        Carrots,        Green beans,        Peas,       Cauliflower...
 ";
 
+
+
+
+
+
 "HOW_TO_PLAN_YOUR_TRAINING_CYCLE" = "
 1 . CYCLE WORKOUT PRINCIPLE
 (or periodization) is breaking your training into cycles for strength, hypertrophy, fat loss, conditioning. This helps you avoid injuries and keeps your body responsive to adaptation. You break your workout types into discreet time periods called macrocycles (longer period, for example 6 -12 weeks) and microcycles (shorter period 2-5 weeks)
@@ -349,7 +341,7 @@ You alternate 3 - 5 exercises for ONE muscle group, with little to no rest berwe
 This is braking one set into several mini-sets with a brief rest between. You use about 70% of your 1max rep weight, perform few reps, rest 15-30 secs, repeat few reps, rest 15-30 secs and repeat few reps again.
 
 6 . PYRAMID WORKOUT
-Starting with low-weight and high-rep (10+), then gradually adding weight and reducing number of reps.  So, the first two sets are like a warmup. When hit a 3-5 rep set, yo can reverse. Reversed pyramiding will allow you to build strength effectively.
+Starting with low-weight and high-rep (10+), then gradually adding weight and reducing number of reps.  So, the first two sets are like a warmup. When hit a 3-5 rep set, you can reverse. Reversed pyramiding will allow you to build strength effectively.
 ";
 
 "HOW_TO_PLAN_YOUR_REPS_PERFORMING"="
@@ -374,4 +366,102 @@ This is actually performing a negative repetitions, because you can lower 30-40%
 
 "REPETITION_RANGES"="
 NOTE: To achive benefits written in the table, your final repetition must be at or near maximum effort. For instance, if you want muscle mass, you target 10 reps, with appropriate weight (that will not allow you to do more than 10 or 11 reps.)
+";
+
+
+
+
+
+
+"WHAT_IS_CARDIOVASCULAR_FITNESS"="
+Cardiovascular fitness is the ability of the heart and lungs to supply oxygen-rich blood to the working muscle tissues and the ability of the muscles to use oxygen to produce energy for movement.
+
+Aerobic fitness is one of the most important component of physical fitness. When your muscles need oxygen, your cardiovascular system must be able to efficiently deliver it to them. When your body has metabolic waste products that need to be expelled, your heart-lung system must be up to the task.
+
+Aerobic exercise has another interesting effect - it burns body fat. Engaging in aerobic exercise can burn up to 1,000 calories an hour depending on the specific type and intensity of activity. As a result, people who want to reduce their level of body fat sensibly (instead of primitive way of starving) have a positive, user-friendly option to do the fat loss job.
+At least, engaging in aerobic exercise can also increase your life span. Research indicates that for every 1 hour you invest in aerobic exercise, you get 2 extra hours of life. Great return, right?
+
+Here are some benefits from aerobic exercise:
+
+1) Aerobic exercise increases your level of available energy.
+2) Helps in relieving depression.
+3) Aids in preventing certain types of cancer.
+4) Helps you enhance self-image.
+5) Relives stress and anxiety.
+6) Slows the aging peocess.
+7) Reduces the risk of heart desease.
+8) Increases “good” HDL cholesterol.
+9) Improves quality of sleep.
+10) Improves mental sharpness.
+
+HDL?
+high-density lipoprotein - A type of lipoprotein that seems to provide protection against the buildup of atherosclerotic fat in the arteries. Exercise seems to increase the HDL fraction of total cholesterol. HDL contains high levels of protein and low levels of triglycerides and cholesterol.
+";
+
+"MYTHS_ABOUT_CARDIO"="
+Myth 1: Engaging in sports is a good way to develop aerobic fitness.
+Playing sports (e.g. volleyball, basketball, tennis) does not provide the sustained level of metabolism that you need in order to elicit the physiological responses in your body to develop aerobic fitness. Actually - you should already be aerobically prepared before you participate in sports.
+
+Myth 2: Aerobic fitness is not important for everyone.
+Everyone needs to be able to efficiently take oxygen into their lungs and blood and pump it to their working muscles where it is utilized to oxidize carbohydrates and fats to produce energy. If you are concerned about your health, particularly the risk of heart disease, you need to accept the fact that aerobic training can have a critical effect on the quantity and quality of your life.
+
+Myth 3: All time spent exercising aerobically would be better used with weight training.
+Aerobic fitness is among the most preventative medicines available. While muscular fitness is certainly important, aerobic fitness is also essential. So, you should not compromise your health. Make time for both components of fitness.
+
+Myth 4: Aerobic training improves only the heart-lung complex, not your muscles.
+Your muscles are the primary target of aerobic training. Aerobic training increases the muscles ability to use fat as a source of energy. It increases the size and number of the cellular units (mitochondria) that produce energy aerobically.
+
+Myth 5: More is better.
+Aerobic exercise program that exceeds more than 4x 45-minute sessions per week has a limited effect on improving your aerobic capacity. Although you burn up more calories when you exercise more, but you will not necessarily end up with a heightened level of aerobic fitness. In addition, if your goal is to maximize your level of muscle mass, exercising aerobically more than 1.5 hours per week may be counterproductive.
+
+Myth 6: The best aerobic exercise is running.
+Running is not your only option. The best aerobic exercise for you is the one that is safe for you, and one that you enjoy. Pick an aerobic activity that you personally like, and make it a regular part of your workout regimen.
+
+Myth 7: Exercising is expensive.
+When you train aerobically, your body (with the exception of your feet) has no concern about what you wear. Just get a quality shoes for about 50-100$ and go for it! Many aerobic activities, such as walking, running, and dancing, require little or no equipment. You may, however, want to become a member of a fitness club that has a pool or independent stair climbing machines if this kind of aerobic exercise is your preferred mode of training.
+
+
+
+Myth 8: Aerobic training is extremely time consuming.
+Most exercise scientists recommend exercising aerobically 20 to 30 minutes per workout. Some individuals exercise for longer periods of time, but such a time commitment does not appear to be necessary.
+
+Myth 9: Aerobic fitness is achieved by raising your heart rate.
+Not exactly. Aerobic fitness is attained when you elevate the metabolic rate and oxygen consumption of your muscles and you sustain the elevation sufficiently long enough to overload your aerobic enzyme systems. Heart rate is only an external indication of oxygen consumption. Sustained metabolism is the cause of aerobic fitness - elevated heart rate is only a byproduct of the process.
+
+
+
+Myth 10: The harder you exercise, the faster your level of aerobic fitness will improve.
+Improvement takes time.
+Exercise scientists say that the best way to approach your goal of conditioning yourself aerobically is to make progress slowly. Trying to do too much too soon will usually result in you either being injured or discouraged. Keep in mind that it takes time to elicit the stream of physiological adaptations. Recommended aerobical intensity is from 55-85 % of your max heart rate.
+How to calculate it? Simply. Here is the formula:
+
+220 - yourAge = yourMaxHeartRate
+
+then:
+yourMaxHeartRate * 0.55  =  55% of your maximal hear rate.
+";
+
+"TEST_YOUR_FITNESS"="
+One way to test your fitness level is using Cooper test.
+It was designed by Kenneth H. Cooper in 1968 for US military use.
+
+The point of the test is to run as far as possible within exactly 12 minutes.
+The test is meant to measure the condition of the person taking it and therefore it is supposed to be run at a steady pace instead of changing speed of running too many times during this 12 minutes.
+The outcome is based on the distance the person ran, their age and their sex.
+
+The table above shows different levels of fitness , based on distance ran.
+";
+
+"INTERVAL_TRAINING"="
+High-intensity interval exercising is much different comparing to steady-state cardio exercising (e.g. jogging, riding a bike…)
+Izumi Tabata has conducted research for the National Institute of Fitness and Sports in Tokyo, Japan. In terms of aerobic benefits, Tabata demonstrated that a program of 20 seconds of all-out cycling followed by 10 seconds of rest cycling for 4 minutes was as beneficial as 45 minutes of long, slow cardiovascular training! Today, the Tabata training method is very popular. Some popular methods of Tabata training include jumping jacks, rope, burpees, and kettlebell swings, and many many more.
+
+Numerous studies also confirm the effectiveness of interval training.
+But, before you rush into intervals, you must know some things:
+The central nervous system (CNS) is primarily affected by high-intensity work and takes at least 48 hours to recover. So interval training requires adequate recovery periods. Interval training is, indeed, all-out, that means - performing intervals with 100 percent intensity.
+
+The more your training evolves, the more stress you impose on yourself. An intermediate trainee may be able to do 3 days a week of interval training, whereas a more advanced one may be able to do only 1 or 2 days a week or none at all.
+
+Remember, without proper planning, high-intensity workouts without enough periods to recover your body - will break you down.
+If you have any health problems, you shoult think twice before implementing any intervals, and consult your physician.
 ";

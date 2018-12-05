@@ -28,7 +28,7 @@ class DetailsViewController: UIViewController {
     var titleData: String?
     var tintColor : UIColor?
     var detailsIsOpen = false
-    let customGreenColor = #colorLiteral(red: 0.1176470588, green: 0.7176470588, blue: 0.2117647059, alpha: 1)
+    
    
     
     override func viewWillAppear(_ animated: Bool) {
@@ -52,15 +52,15 @@ class DetailsViewController: UIViewController {
     
     func getDescription() -> String {
         switch titleData {
-        case "Bench press":
+        case "CHEST: Bench press":
             return dataService.benchPressDescription
-        case "Machine fly":
+        case "CHEST: Machine fly":
             return dataService.machineFlyDescription
-        case "Lat pulldown":
+        case "BACK: Lat pulldown":
             return dataService.latPulldownDescription
-        case "Chest press":
+        case "CHEST: Chest press":
             return dataService.chestPressDescription
-        case "Cable row":
+        case "BACK: Cable row":
             return dataService.cableRowDescription
         case "Squats":
             return dataService.squatsDescription
@@ -86,6 +86,14 @@ class DetailsViewController: UIViewController {
             return dataService.howToPlanYoyrRepsPerformingDescription
         case "Repetition ranges":
             return dataService.repetitionRangesDescription
+        case "What is cardiovascular fitness?":
+            return dataService.whatIsCardiovascularFitnessDescription
+        case "MYTHS about cardio":
+            return dataService.mythsAboutCardioDescription
+        case "Test your fitness":
+            return dataService.testYourFitnessDescription
+        case "Interval training":
+            return dataService.intervalTrainingDescription
         default:
             return ""
         }
@@ -103,6 +111,7 @@ class DetailsViewController: UIViewController {
             self.menuView.backgroundColor = self.detailsIsOpen ? self.tintColor : UIColor.white
             self.textView.backgroundColor = self.detailsIsOpen ? self.tintColor : UIColor.white
             self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.tintColor
+            self.textView.font = self.detailsIsOpen ? UIFont(name: "Oswald-Regular", size: 18) : UIFont(name: "Oswald-Light", size: 18)
             self.menuView.layer.cornerRadius = self.detailsIsOpen ? 12 : 12
             self.view.layoutIfNeeded()
         }, completion: nil)
