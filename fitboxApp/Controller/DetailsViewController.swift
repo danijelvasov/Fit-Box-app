@@ -20,32 +20,35 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var leftConstraint: NSLayoutConstraint!
     @IBOutlet weak var rightConstraint: NSLayoutConstraint!
     
+
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var menuView: UIView!
     
     let dataService = Description()
     var imageData: String?
     var titleData: String?
-    var tintColor : UIColor?
     var detailsIsOpen = false
+    var customColor = TintColor()
     
+   
    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        self.textView.textColor = tintColor
         self.navigationItem.title = titleData ?? ""
         self.detailImageView.image = UIImage(named: imageData ?? "siluette" )
-        
         self.textView.text = getDescription()
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
         buttonConstraint.constant = halfscreen
+        self.textView.setContentOffset(CGPoint.zero, animated: true)
+        self.detailImageView.layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        self.detailImageView.layer.shadowOpacity = 0.5
+        self.detailImageView.layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
     }
     
+    
     override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
-        buttonConstraint.constant = halfscreen
+        super.viewDidAppear(true)
         self.textView.setContentOffset(CGPoint.zero, animated: true)
     }
     
@@ -78,22 +81,24 @@ class DetailsViewController: UIViewController {
             return dataService.proteinDescription
         case "Carbs":
             return dataService.carbsDescription
-        case "How to plan your training cycle":
+        case "Plan your training cycle":
             return dataService.howToPlanYourTrainingCycleDescription
-        case "How to arrange your workout":
+        case "Arrange your workout":
             return dataService.howToArrangeYourWorkoutDescription
-        case "How to plan your reps performing":
+        case "Plan your reps performing":
             return dataService.howToPlanYoyrRepsPerformingDescription
         case "Repetition ranges":
             return dataService.repetitionRangesDescription
-        case "What is cardiovascular fitness?":
+        case "Cardiovascular fitness":
             return dataService.whatIsCardiovascularFitnessDescription
-        case "MYTHS about cardio":
+        case "Cardio myths":
             return dataService.mythsAboutCardioDescription
         case "Test your fitness":
             return dataService.testYourFitnessDescription
         case "Interval training":
             return dataService.intervalTrainingDescription
+        case "About physiology":
+            return dataService.anatomyPhysiologyDescription
         default:
             return ""
         }
@@ -103,26 +108,24 @@ class DetailsViewController: UIViewController {
         detailsIsOpen = !detailsIsOpen
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
        
-        UIView.animate(withDuration: 1, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
-            self.upConstraint.constant = self.detailsIsOpen ? 70 : 303
-            self.removingConstraint.constant = self.detailsIsOpen ? 1 : 81
-            self.imageConstraint.constant = self.detailsIsOpen ? 160 : 16
-            self.menuView.alpha = self.detailsIsOpen ? 1 : 0.75
-            self.menuView.backgroundColor = self.detailsIsOpen ? self.tintColor : UIColor.white
-            self.textView.backgroundColor = self.detailsIsOpen ? self.tintColor : UIColor.white
-            self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.tintColor
-            self.textView.font = self.detailsIsOpen ? UIFont(name: "Oswald-Regular", size: 18) : UIFont(name: "Oswald-Light", size: 18)
-            self.menuView.layer.cornerRadius = self.detailsIsOpen ? 12 : 12
-            self.view.layoutIfNeeded()
-        }, completion: nil)
-
-        UIView.animate(withDuration: 1, delay: 0.15, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
-            self.detailImageView.alpha = self.detailsIsOpen ? 0 : 1
-            self.buttonConstraint.constant = self.detailsIsOpen ? 30 : halfscreen
-            self.bottomConstraint.constant = self.detailsIsOpen ? -15 : 10
-            let angle: CGFloat = self.detailsIsOpen ? .pi : 0.0
-            self.button.transform = CGAffineTransform(rotationAngle: angle)
-            self.view.layoutIfNeeded()
+        UIView.animate(withDuration: 1, delay: 0.0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
+                self.detailImageView.alpha = self.detailsIsOpen ? 0 : 1
+                self.upConstraint.constant = self.detailsIsOpen ? 70 : 303
+                self.removingConstraint.constant = self.detailsIsOpen ? 10 : 81
+                self.imageConstraint.constant = self.detailsIsOpen ? 160 : 16
+                self.menuView.alpha = self.detailsIsOpen ? 0.95 : 0.75
+                self.menuView.backgroundColor = self.detailsIsOpen ? self.customColor.customDarkForMenuView : UIColor.clear
+                self.menuView.layer.cornerRadius = self.detailsIsOpen ? 10 : 0
+                self.buttonConstraint.constant = self.detailsIsOpen ? 30 : halfscreen
+                self.bottomConstraint.constant = self.detailsIsOpen ? -15 : 10
+            self.textView.textColor = self.detailsIsOpen ? self.customColor.customGreen : self.customColor.customGrayLight
+                let angle: CGFloat = self.detailsIsOpen ? .pi : 0.0
+                self.button.transform = CGAffineTransform(rotationAngle: angle)
+            
+                self.view.layoutIfNeeded()
+                
         }, completion: nil)
     }
+    
+    
 }

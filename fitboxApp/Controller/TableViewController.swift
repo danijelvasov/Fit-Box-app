@@ -11,18 +11,16 @@ import UIKit
 class TableViewController: UITableViewController {
    
     var categoryName : String?
-    var color = TintColor()
-    var tintColor : UIColor?
     let exercises = Exercises()
-    let food = Food()
+    let nutrition = Nutrition()
     let programs = Programs()
-    let cardio = Cardio()
+    let health = Health()
+    let anatomy = Anatomy()
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
        tableView.animateTable(tableView: tableView)
         navigationItem.title = categoryName ?? ""
-        self.navigationController?.navigationBar.barTintColor = tintColor
     }
 
 
@@ -36,12 +34,14 @@ class TableViewController: UITableViewController {
             return exercises.upperBodyExercisesList.count
         case "Lower Body Exercises":
             return exercises.lowerBodyExercisesList.count
-        case "Food":
-            return food.foodList.count
-        case "Programs":
+        case "Nutrition":
+            return nutrition.nutritionList.count
+        case "Plan your workout":
             return programs.programList.count
-        case "Cardio":
-            return cardio.cardioList.count
+        case "Health":
+            return health.healthList.count
+        case "Anatomy Basics":
+            return anatomy.anatomyList.count
         default:
             return 1
         }
@@ -52,38 +52,45 @@ class TableViewController: UITableViewController {
         switch categoryName {
         case "Upper Body Exercises":
             guard let cellUpper = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
-            cellUpper.cellTittle.textColor = tintColor
+           
             cellUpper.cellTittle.text = exercises.upperBodyExercisesList[indexPath.row]
             cellUpper.cellImageView.image = UIImage(named: exercises.upperBodyimages[indexPath.row])
             return cellUpper
             
         case "Lower Body Exercises":
             guard let cellLower = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
-            cellLower.cellTittle.textColor = tintColor
+            
             cellLower.cellTittle.text = exercises.lowerBodyExercisesList[indexPath.row]
             cellLower.cellImageView.image = UIImage(named: exercises.lowerBodyImages[indexPath.row])
             return cellLower
             
-        case "Food":
+        case "Nutrition":
             guard let cellFood = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
-            cellFood.cellTittle.textColor = tintColor
-            cellFood.cellTittle.text = food.foodList[indexPath.row]
-            cellFood.cellImageView.image = UIImage(named: food.foodImages[indexPath.row])
+           
+            cellFood.cellTittle.text = nutrition.nutritionList[indexPath.row]
+            cellFood.cellImageView.image = UIImage(named: nutrition.nutritionImages[indexPath.row])
             return cellFood
             
-        case "Programs":
+        case "Plan your workout":
             guard let cellProgram = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
-            cellProgram.cellTittle.textColor = tintColor
+            
             cellProgram.cellTittle.text = programs.programList[indexPath.row]
             cellProgram.cellImageView.image = UIImage(named: programs.programImages[indexPath.row])
             return cellProgram
             
-        case "Cardio":
+        case "Health":
             guard let cellCardio = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
-            cellCardio.cellTittle.textColor = tintColor
-            cellCardio.cellTittle.text = cardio.cardioList[indexPath.row]
-            cellCardio.cellImageView.image = UIImage(named: cardio.cardioImages[indexPath.row])
+            
+            cellCardio.cellTittle.text = health.healthList[indexPath.row]
+            cellCardio.cellImageView.image = UIImage(named: health.healthImages[indexPath.row])
             return cellCardio
+            
+        case "Anatomy Basics":
+            guard let cellAnatomy = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? ExerciseCell else {return UITableViewCell()}
+            
+            cellAnatomy.cellTittle.text = anatomy.anatomyList[indexPath.row]
+            cellAnatomy.cellImageView.image = UIImage(named: anatomy.anatomyImages[indexPath.row])
+            return cellAnatomy
             
         default:
              return UITableViewCell()
@@ -96,29 +103,34 @@ class TableViewController: UITableViewController {
             if let indexPath = tableView.indexPathForSelectedRow {
                 switch categoryName  {
                     case "Upper Body Exercises":
-                        dvc.tintColor = tintColor
+                      
                         dvc.imageData = exercises.upperBodyimages[indexPath.row] as String
                         dvc.titleData = exercises.upperBodyExercisesList[indexPath.row] as String
                 
                     case "Lower Body Exercises":
-                        dvc.tintColor = tintColor
+                        
                         dvc.imageData = exercises.lowerBodyImages[indexPath.row] as String
                         dvc.titleData = exercises.lowerBodyExercisesList[indexPath.row] as String
                     
-                    case "Food":
-                        dvc.tintColor = tintColor
-                        dvc.imageData = food.foodImages[indexPath.row] as String
-                        dvc.titleData = food.foodList[indexPath.row] as String
+                    case "Nutrition":
+                        
+                        dvc.imageData = nutrition.nutritionImages[indexPath.row] as String
+                        dvc.titleData = nutrition.nutritionList[indexPath.row] as String
                     
-                case "Programs":
-                    dvc.tintColor = tintColor
+                case "Plan your workout":
+                    
                     dvc.imageData = programs.programImages[indexPath.row] as String
                     dvc.titleData = programs.programList[indexPath.row] as String
                     
-                case "Cardio":
-                    dvc.tintColor = tintColor
-                    dvc.imageData = cardio.cardioImages[indexPath.row] as String
-                    dvc.titleData = cardio.cardioList[indexPath.row] as String
+                case "Health":
+                 
+                    dvc.imageData = health.healthImages[indexPath.row] as String
+                    dvc.titleData = health.healthList[indexPath.row] as String
+                    
+                case "Anatomy Basics":
+                  
+                    dvc.imageData = anatomy.anatomyImages[indexPath.row] as String
+                    dvc.titleData = anatomy.anatomyList[indexPath.row] as String
                     
                 default:
                     return

@@ -13,15 +13,15 @@ struct TintColor {
     let customBlue = #colorLiteral(red: 0.2901960784, green: 0.5647058824, blue: 0.8862745098, alpha: 1)
     let customGreen = #colorLiteral(red: 0.1176470588, green: 0.7176470588, blue: 0.2117647059, alpha: 1)
     let customOrange = #colorLiteral(red: 0.9607843137, green: 0.6509803922, blue: 0.137254902, alpha: 1)
-    let customPink = #colorLiteral(red: 0.9764705882, green: 0.3803921569, blue: 0.6196078431, alpha: 1)
-    let customDark = #colorLiteral(red: 0.2666666667, green: 0.2666666667, blue: 0.2666666667, alpha: 1)
-    let darkBackground = #colorLiteral(red: 0.262745098, green: 0.3137254902, blue: 0.3333333333, alpha: 1)
-    let whiteBackground = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
+    let customRed = #colorLiteral(red: 0.9254901961, green: 0.3843137255, blue: 0.3725490196, alpha: 1)
+    let customDark = #colorLiteral(red: 0.2392156863, green: 0.2156862745, blue: 0.2117647059, alpha: 1)
+    let customDarkForMenuView = #colorLiteral(red: 0.2901960784, green: 0.2901960784, blue: 0.2901960784, alpha: 1)
+    let customGrayLight = #colorLiteral(red: 0.7529411765, green: 0.7529411765, blue: 0.7529411765, alpha: 1)
 }
 
 
 struct Categories {
-    let lowerBody = "Lower Body Exercises" , upperBody = "Upper Body Exercises" , food = "Food" , programs = "Programs", cardio = "Cardio"
+    let lowerBody = "Lower Body Exercises" , upperBody = "Upper Body Exercises" , nutrition = "Nutrition" , programs = "Plan your workout", health = "Health", anatomy = "Anatomy Basics"
 }
 
 
@@ -34,23 +34,27 @@ struct Exercises {
 }
 
 
-struct  Food {
-    let foodList = ["Antioxidants", "Protein", "Carbs"]
-    let foodImages = ["antioxidants", "protein", "carbs"]
+struct  Nutrition {
+    let nutritionList = ["Antioxidants", "Protein", "Carbs"]
+    let nutritionImages = ["antioxidants", "protein", "carbs"]
 }
 
 
 struct Programs {
-    let programList = ["How to plan your training cycle", "How to arrange your workout", "How to plan your reps performing", "Repetition ranges"]
-    let programImages = ["howTo", "howTo", "howTo", "table"]
+    let programList = ["Plan your training cycle", "Arrange your workout", "Plan your reps performing", "Repetition ranges"]
+    let programImages = ["planning", "planning", "planning", "table"]
 }
 
 
-struct Cardio {
-    let cardioList = ["What is cardiovascular fitness?", "MYTHS about cardio", "Test your fitness", "Interval training"]
-    let cardioImages = ["cardioImage", "cardioImage", "cooperTest", "cardioImage"]
+struct Health {
+    let healthList = ["Cardiovascular fitness", "Cardio myths", "Test your fitness", "Interval training"]
+    let healthImages = ["cardioImage", "cardioImage", "cooperTest", "cardioImage"]
 }
 
+struct Anatomy {
+    let anatomyList = ["About physiology"]
+    let anatomyImages = ["anatomy"]
+}
 
 
 struct Description {
@@ -78,6 +82,8 @@ struct Description {
     let mythsAboutCardioDescription = NSLocalizedString("MYTHS_ABOUT_CARDIO", comment: "myths about cardio desc")
     let testYourFitnessDescription = NSLocalizedString("TEST_YOUR_FITNESS", comment: "cooper test desc")
     let intervalTrainingDescription = NSLocalizedString("INTERVAL_TRAINING", comment: "interval training desc")
+    
+    let anatomyPhysiologyDescription = NSLocalizedString("ANATOMY_PHYSIOLOGY", comment: "anatomy physiology desc")
 }
 
 
