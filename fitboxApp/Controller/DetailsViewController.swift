@@ -19,6 +19,7 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var leftConstraint: NSLayoutConstraint!
     @IBOutlet weak var rightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var innerRectangle: UIImageView!
     
 
     @IBOutlet weak var button: UIButton!
@@ -97,8 +98,19 @@ class DetailsViewController: UIViewController {
             return dataService.testYourFitnessDescription
         case "Interval training":
             return dataService.intervalTrainingDescription
+        case "Intro":
+            return dataService.introAnatomyDescription
+        case "Understanding metabolism":
+            return dataService.understandingMetabolismDescription
         case "About physiology":
             return dataService.anatomyPhysiologyDescription
+        case "Exercise and metabolic response":
+            return dataService.exerciseAndMetabolicResponseDescription
+        case "Energy metabolism":
+            return dataService.energyMetabolismDescription
+        case "Definitions":
+            return dataService.definitionsDescription
+            
         default:
             return ""
         }
@@ -109,18 +121,18 @@ class DetailsViewController: UIViewController {
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
        
         UIView.animate(withDuration: 1, delay: 0.0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
-                self.detailImageView.alpha = self.detailsIsOpen ? 0 : 1
+                self.detailImageView.alpha = self.detailsIsOpen ? 0.4 : 1
                 self.upConstraint.constant = self.detailsIsOpen ? 70 : 303
                 self.removingConstraint.constant = self.detailsIsOpen ? 10 : 81
                 self.imageConstraint.constant = self.detailsIsOpen ? 160 : 16
-                self.menuView.alpha = self.detailsIsOpen ? 0.95 : 0.75
-                self.menuView.backgroundColor = self.detailsIsOpen ? self.customColor.customDarkForMenuView : UIColor.clear
+                self.innerRectangle.alpha = self.detailsIsOpen ? 1 : 0.3
                 self.menuView.layer.cornerRadius = self.detailsIsOpen ? 10 : 0
                 self.buttonConstraint.constant = self.detailsIsOpen ? 30 : halfscreen
                 self.bottomConstraint.constant = self.detailsIsOpen ? -15 : 10
-            self.textView.textColor = self.detailsIsOpen ? self.customColor.customGreen : self.customColor.customGrayLight
+                self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.customColor.customGrayLight
                 let angle: CGFloat = self.detailsIsOpen ? .pi : 0.0
                 self.button.transform = CGAffineTransform(rotationAngle: angle)
+                self.button.alpha = self.detailsIsOpen ? 0.8 : 1
             
                 self.view.layoutIfNeeded()
                 

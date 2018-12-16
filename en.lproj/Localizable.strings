@@ -478,6 +478,27 @@ If you have any health problems, you shoult think twice before implementing any 
 
 
 
+
+"INTRO_ANATOMY"="
+If you effectively draw into the fitness lifestyle-including the ability to maintain optimal health-you will experience some muscular, cardiopulmonary, and metabolic adaptations to exercise.
+These adaptations are known as the training effect. The training effect impacts the body in several ways. The body begins to change at the cellular level, allowing more energy to be released with less oxygen.
+Heart function improves and the capillaries proliferate in order to allow a more efficient flow of oxygen and nutrients.
+The muscles, connective tissues, and bones involved with a particular physical activity strengthen to accommodate improved proficiency at performing the activity.
+Over time, the body's composition changes (e.g., fat mass may decrease while muscle mass increases) and movements become more efficient. In addition, resting heart rate and blood pressure drop. This app can give you some usefull tips for learning how to develop appropriate fitness and health plans for yourself.
+
+Our body consists of trillions of cells, which are organized into tissues, organs, and systems. The body's components work together in a highly organized manner to maintain this balance. Metabolic activities are continually occurring in the trillions of cells in your body and must be carefully regulated to maintain a constant internal environment, or steady state.
+";
+
+
+"UNDERSTANDING_METABOLISM"="
+Your body sustains itself and adapts to its environment through metabolism. In order for metabolism to occur, the body needs both energy and building blocks for growth and repair. It gets its energy from the breakdown of nutrients such as glucose, ketone bodies, lactic acid, amino acids, and fatty acids. To construct molecules for growth and repair, a delicate interplay must exist between anabolism and catabolism. The many biochemical processes that make up the body's metabolism are categorized into two general phases: anabolism and catabolism. Anabolism and catabolism occur simultaneously-and constantly. However, they differ in magnitude depending on the level of activity or rest and on when the last meal was eaten. When anabolism exceeds catabolism, net growth occurs. When catabolism exceeds anabolism, the body has a net loss of substances and body tissues and may lose weight. Anabolism includes the chemical reactions that combine different biomolecules to create larger, more complex ones. The net result of anabolism is the creation of new cellular material, such as enzymes, proteins, cell membranes, new cells, and growth/ repair of the many tissues. That energy is stored as glycogen and/or fat and in muscle tissue. Anabolism is necessary for growth, maintenance, and repair of tissues. Catabolism includes the chemical reactions that break down complex biomolecules into simpler ones for energy production, for recycling of molecular components, or for their excretion. Catabolism provides the energy needed for transmitting nerve impulses and muscle contraction.
+
+For optimal function, a healthy metabolism needs many nutrients.
+A slight deficiency in only one vitamin or mineral can slow down metabolism and cause chaos in your body - so your diet should be well optimized.
+
+";
+
+
 "ANATOMY_PHYSIOLOGY"="
 Anatomy is the science of body structure. Physiology is the science behind how our body functions.
 Biological response is the initial reaction to stress on our body.
@@ -511,4 +532,87 @@ Hormones are made up of amino acids and can be divided into several classes base
 Insulin increases cellular uptake of glucose. Glucagon performs the opposite function of insulin. Together, they stimulate blood sugar levels in the body.
 Growth hormone (HGH or hGH) is the most abundant hormone produced by the pituitary gland. HGH is the largest and most complex protein created by the pituitary gland.
 The thyroid gland, located in the neck, releases two hormones: thyroxine (T4) and triodothyronine (T3).
+";
+
+"EXERCISE_METABOLIC_RESPONSE"="
+Exercise stimulates a series of metabolic responses that affect the body's anatomy, physiology, and biochemical makeup. Endurance exercise stimulates the following changes:
+
+-Increased muscle glycogen storage capacity
+-Increased muscle mitochondrial density content in muscles
+-Increased resting creatine phosphate (CP)
+-Increased resting adenosine triphosphate (ATP)a content in muscles
+-Increased resting creatine content in muscles Increased aerobic enzymes
+-Increased percentage of slow-twitch muscle fibers
+-Decreased percentage of fast-twitch muscle fibers
+-Decreased muscle size, when compared to strength training
+-Increased cardiac output
+-Decreased resting heart rate
+-Decreased body fat
+-Increased number of capillaries
+
+
+Aerobic System Changes
+Aerobic training greatly increases the body's functional capacity to transport and use oxygen and to burn fatty acids during exercise. Researches showed that slow, long-distance training is not as efficient as interval training in facilitating this functional capacity. Some of the major changes measured as a result of aerobic exercise (especially interval training) include the following:
+
+-Increased mitochondrial density in slow-twitch muscle fiber, which results in higher energy production from fatty acids
+-Maximum oxidative capacity develops in all fiber types
+-Higher aerobic capacity
+-Increase in trained muscle capacity to utilize and mobilize fat, resulting from higher amounts of fat-metabolizing enzymes, and increased blood flow
+-Greater development of slow-twitch muscle fibers increased myoglobin content (an iron-protein compound in muscle), which acts to store and transport oxygen in the muscles
+
+
+Anaerobic System Changes
+Anaerobic training greatly increases the body's functional capacity for development of explosive strength and maximization of short-term energy systems. Some of the major changes measured as a result of anaerobic exercise include the following:
+
+-Increased size and number of fast-twitch muscle fibers
+-Increased tolerance to higher levels of blood lactate
+-Increases in enzymes involved in the anaerobic phase of glucose breakdown (glycolysis)
+-Increased muscle resting levels of ATP, CP, creatine, and glycogen content
+-Increased levels of growth hormone and testosterone after short bouts (45 to 75 min) of high-intensity weight training
+";
+
+"ENERGY_METABOLISM"="
+Energy metabolism is a series of chemical reactions that result in the breakdown of foodstuffs (carbohydrate, fat, protein) by which energy is produced, used, and given off as heat. Roughly, the body is about 20 percent efficient at trapping energy released About 80 percent is released as heat, which explains why your body heats up quickly when you exercise.
+Physical activities can be classified into these four basic groups, based on the energy systems that are used to support these activities:
+
+Strength/power: Energy coming from immediate ATP stores. Examples include shot put, powerlift, high jump, golf swing, tennis serve, and a throw. Activities last about 0 to 3 seconds of maximal effort
+
+Sustained power: Energy coming from immediate ATP and CP stores. Examples include sprints, fast breaks, football lineman. Activities last about 0 to 10 seconds of near-maximal effort.
+
+Anaerobic power/endurance: Energy coming from ATP, CP, and lactic acid. Examples include 200- to 400-meter dash and 100-yard swim. Activities lasting about 1 to 2 minutes.
+
+Aerobic endurance: Energy coming from the oxidative pathway. Activities last over 2 minutes. . In power events, which last a few seconds or less at maximal effort, the muscles depend on the immediate energy system, namely ATP and CP reserves.
+
+In speed events, the immediate and non-oxidative (glycolytic) energy sources are utilized. In endurance events, the immediate and non-oxidative energy sources are used, and the oxidative energy mechanisms become a more important source of energy. ATP and CP are replenished from energy derived from complete breakdown of glucose, fatty acids, and some proteins
+";
+
+
+"DEFINITIONS"="
+Training effect: An increase in functional capacity of muscles and other bodily tissues as a result of increased stress (overload) placed upon them.
+
+Homeostasis: The automatic tendency to maintain a relatively constant internal environment.
+
+Metabolism: The total of all the chemical and physical processes by which the body builds and maintains itself (anabolism) and by which it breaks down its substances for the production of energy (catabolism).
+
+Glucose: Principal circulating sugar in the blood and the major energy source of the body.
+
+Ketone bodies: Bodies produced as intermediate products of fat metabolism.
+
+Lactic acid: A by-product of glucose and glycogen metabolism in anaerobic muscle energetics.
+
+Amino acid: The building blocks of protein. There are 24 amino acids, which form countless number of different proteins.
+
+Fatty acids: Any of a large group of monobasic acids, especially those found in animal and vegetable fats and oils.
+
+Anabolism: The building up in the body of complex chemical compounds from simpler compounds (e.g., proteins from amino acids).
+
+Catabolism: The breaking down in the body of complex chemical compounds into simpler ones (e.g., proteins to amino acids).
+
+ATP (adenosine triphosphate): An organic compound found in muscle which, upon being broken down enzymatically, yields energy for muscle contraction.
+
+CP (creatine phosphate): A high-energy phosphate molecule that is stored in cells and can be used to immediately resynthesize ATP
+
+Type II muscle fibers (fast twitch): Muscle fiber type that contracts quickly and is used mostly in intensive, short-duration exercises.
+
+Type I muscle fibers (slow twitch): A muscle fiber characterized by its slow speed of contraction and a high capacity for aerobic glycolysis.
 ";
