@@ -271,7 +271,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Dz-C7-ePv">
                                             <rect key="frame" x="101" y="0.0" width="212" height="97"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                            <fontDescription key="fontDescription" name="Oswald-SemiBold" family="Oswald" pointSize="20"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                             <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -527,6 +527,6 @@
         <image name="upperBtn" width="807" height="825"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HUY-vW-LQJ"/>
+        <segue reference="Rvf-Xt-VMO"/>
     </inferredMetricsTieBreakers>
 </document>
