@@ -75,7 +75,7 @@
                                                     <constraint firstAttribute="width" constant="110" id="UH0-ym-q76"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="17"/>
-                                                <state key="normal" backgroundImage="nutritionButton">
+                                                <state key="normal" backgroundImage="Nutrition btn">
                                                     <color key="titleColor" red="0.1176470588" green="0.71764705880000002" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
@@ -88,7 +88,7 @@
                                                     <constraint firstAttribute="width" constant="110" id="BWZ-kM-dfq"/>
                                                     <constraint firstAttribute="height" constant="110" id="n5K-W9-IJC"/>
                                                 </constraints>
-                                                <state key="normal" backgroundImage="healthButton"/>
+                                                <state key="normal" backgroundImage="Health btn"/>
                                                 <connections>
                                                     <action selector="cardioBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s22-aQ-YPp"/>
                                                 </connections>
@@ -99,7 +99,7 @@
                                                     <constraint firstAttribute="width" constant="110" id="Zoe-Ei-Ri0"/>
                                                     <constraint firstAttribute="height" constant="110" id="iHX-xc-nQz"/>
                                                 </constraints>
-                                                <state key="normal" backgroundImage="anatomyButton"/>
+                                                <state key="normal" backgroundImage="Anatomy btn"/>
                                                 <connections>
                                                     <action selector="anatomyBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jDA-rQ-qTW"/>
                                                 </connections>
@@ -116,7 +116,7 @@
                                                     <constraint firstAttribute="height" constant="110" id="OVx-wK-zfC"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="17"/>
-                                                <state key="normal" backgroundImage="exerciseButton">
+                                                <state key="normal" backgroundImage="Exercises btn">
                                                     <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
@@ -130,7 +130,7 @@
                                                     <constraint firstAttribute="height" constant="110" id="KmF-Sk-quG"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="Oswald-Light" family="Oswald" pointSize="17"/>
-                                                <state key="normal" backgroundImage="programsButton">
+                                                <state key="normal" backgroundImage="Programs btn">
                                                     <color key="titleColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
@@ -513,17 +513,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="anatomyButton" width="831" height="849"/>
+        <image name="Anatomy btn" width="831" height="849"/>
+        <image name="Exercises btn" width="831" height="849"/>
+        <image name="Health btn" width="831" height="849"/>
+        <image name="Nutrition btn" width="831" height="849"/>
+        <image name="Programs btn" width="831" height="849"/>
         <image name="backgroundFinal" width="2295" height="4074"/>
         <image name="bench" width="990" height="515"/>
         <image name="cv_image" width="310" height="310"/>
-        <image name="exerciseButton" width="831" height="849"/>
-        <image name="healthButton" width="831" height="849"/>
         <image name="innerRectangle" width="2118" height="2826"/>
         <image name="lowerBtn" width="807" height="825"/>
-        <image name="nutritionButton" width="831" height="849"/>
         <image name="openDetailsButton" width="108" height="108"/>
-        <image name="programsButton" width="831" height="849"/>
         <image name="upperBtn" width="807" height="825"/>
     </resources>
     <inferredMetricsTieBreakers>
