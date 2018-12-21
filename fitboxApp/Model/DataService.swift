@@ -41,14 +41,14 @@ struct  Nutrition {
 
 
 struct Programs {
-    let programList = ["Plan your training cycle", "Arrange your workout", "Plan your reps performing", "Repetition ranges"]
-    let programImages = ["planning", "planning", "planning", "table"]
+    let programList = ["Test your fitness", "Plan your training cycle", "Arrange your workout", "Plan your reps performing", "Repetition ranges", "Interval training"]
+    let programImages = ["cooperTest", "planning", "planning", "planning", "table", "cardioImage"]
 }
 
 
 struct Health {
-    let healthList = ["Cardiovascular fitness", "Cardio myths", "Test your fitness", "Interval training"]
-    let healthImages = ["cardioImage", "cardioImage", "cooperTest", "cardioImage"]
+    let healthList = ["Cardiovascular fitness", "Cardio myths" ]
+    let healthImages = ["cardioImage", "cardioImage"]
 }
 
 struct Anatomy {

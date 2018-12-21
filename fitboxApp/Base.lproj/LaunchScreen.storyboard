@@ -13,9 +13,6 @@
         <array key="Oswald-Regular.ttf">
             <string>Oswald-Regular</string>
         </array>
-        <array key="Oswald-SemiBold.ttf">
-            <string>Oswald-SemiBold</string>
-        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -26,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundFinal" translatesAutoresizingMaskIntoConstraints="NO" id="YtU-Kr-JQP">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backBlueFinal" translatesAutoresizingMaskIntoConstraints="NO" id="YtU-Kr-JQP">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="developed by Danijel Vasov" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADE-ZG-hpj">
@@ -37,20 +34,23 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fit Box" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6V-uJ-ZHL">
-                                <rect key="frame" x="113" y="50" width="191" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Oswald-SemiBold" family="Oswald" pointSize="55"/>
-                                <color key="textColor" white="1" alpha="0.63" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIT Box app" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k32-xd-tLW">
+                                <rect key="frame" x="53.5" y="246.5" width="213" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="213" id="5WP-nu-AXJ"/>
+                                    <constraint firstAttribute="height" constant="75" id="qRU-ky-0s7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="0.4412189640410959" colorSpace="custom" customColorSpace="sRGB"/>
-                                <size key="shadowOffset" width="1" height="1"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="YtU-Kr-JQP" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Z7I-a4-7dB"/>
+                            <constraint firstItem="k32-xd-tLW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="eT4-R9-eIw"/>
                             <constraint firstItem="YtU-Kr-JQP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="juM-ZP-Qvr"/>
+                            <constraint firstItem="k32-xd-tLW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rKl-nF-9d7"/>
                             <constraint firstItem="YtU-Kr-JQP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tLO-5u-rFg"/>
                             <constraint firstItem="YtU-Kr-JQP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wXC-HN-O6l"/>
                         </constraints>
@@ -63,6 +63,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="backgroundFinal" width="2295" height="4074"/>
+        <image name="backBlueFinal" width="2295" height="4071"/>
     </resources>
 </document>

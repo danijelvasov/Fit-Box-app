@@ -19,7 +19,7 @@ class TableViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        tableView.backgroundView = UIImageView(image: UIImage(named: "backgroundApple"))
+        tableView.backgroundView = UIImageView(image: UIImage(named: "backBlueFinal"))
        tableView.animateTable(tableView: tableView)
         navigationItem.title = categoryName ?? ""
     }

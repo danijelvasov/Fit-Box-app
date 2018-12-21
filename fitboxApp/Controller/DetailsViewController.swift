@@ -82,6 +82,8 @@ class DetailsViewController: UIViewController {
             return dataService.proteinDescription
         case "Carbs":
             return dataService.carbsDescription
+        case "Test your fitness":
+            return dataService.testYourFitnessDescription
         case "Plan your training cycle":
             return dataService.howToPlanYourTrainingCycleDescription
         case "Arrange your workout":
@@ -90,14 +92,12 @@ class DetailsViewController: UIViewController {
             return dataService.howToPlanYoyrRepsPerformingDescription
         case "Repetition ranges":
             return dataService.repetitionRangesDescription
+        case "Interval training":
+            return dataService.intervalTrainingDescription
         case "Cardiovascular fitness":
             return dataService.whatIsCardiovascularFitnessDescription
         case "Cardio myths":
             return dataService.mythsAboutCardioDescription
-        case "Test your fitness":
-            return dataService.testYourFitnessDescription
-        case "Interval training":
-            return dataService.intervalTrainingDescription
         case "Intro":
             return dataService.introAnatomyDescription
         case "Understanding metabolism":
@@ -121,7 +121,7 @@ class DetailsViewController: UIViewController {
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
        
         UIView.animate(withDuration: 1, delay: 0.0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
-                self.detailImageView.alpha = self.detailsIsOpen ? 0.4 : 1
+                self.detailImageView.alpha = self.detailsIsOpen ? 0 : 1
                 self.upConstraint.constant = self.detailsIsOpen ? 70 : 303
                 self.removingConstraint.constant = self.detailsIsOpen ? 10 : 81
                 self.imageConstraint.constant = self.detailsIsOpen ? 160 : 16
@@ -132,6 +132,11 @@ class DetailsViewController: UIViewController {
                 self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.customColor.customGrayLight
                 let angle: CGFloat = self.detailsIsOpen ? .pi : 0.0
                 self.button.transform = CGAffineTransform(rotationAngle: angle)
+                    if self.detailsIsOpen {
+                        self.button.setBackgroundImage(UIImage(named: "closeBtn"), for: .normal)
+                    } else {
+                        self.button.setBackgroundImage(UIImage(named: "moreBtn"), for: .normal)
+                    }
                 self.button.alpha = self.detailsIsOpen ? 0.8 : 1
             
                 self.view.layoutIfNeeded()
