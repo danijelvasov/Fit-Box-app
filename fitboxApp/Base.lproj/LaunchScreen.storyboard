@@ -26,31 +26,33 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backBlueFinal" translatesAutoresizingMaskIntoConstraints="NO" id="YtU-Kr-JQP">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="developed by Danijel Vasov" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADE-ZG-hpj">
-                                <rect key="frame" x="61" y="511" width="243" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="developed by Danijel Vasov" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADE-ZG-hpj">
+                                <rect key="frame" x="46" y="516" width="254" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="254" id="T2Y-BB-c3D"/>
+                                    <constraint firstAttribute="height" constant="37" id="s3K-ku-O7N"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="0.63" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="0.93385809075342474" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIT Box app" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k32-xd-tLW">
-                                <rect key="frame" x="53.5" y="246.5" width="213" height="75"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconLaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="TSC-dr-hRD">
+                                <rect key="frame" x="113" y="236" width="94" height="96"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="213" id="5WP-nu-AXJ"/>
-                                    <constraint firstAttribute="height" constant="75" id="qRU-ky-0s7"/>
+                                    <constraint firstAttribute="width" constant="94" id="JJt-5n-kfK"/>
+                                    <constraint firstAttribute="height" constant="96" id="gP3-Re-kWW"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Oswald-Regular" family="Oswald" pointSize="50"/>
-                                <color key="textColor" white="1" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ADE-ZG-hpj" secondAttribute="trailing" constant="20" id="9u6-jx-Rma"/>
+                            <constraint firstItem="TSC-dr-hRD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="DCa-xg-LjT"/>
                             <constraint firstItem="YtU-Kr-JQP" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Z7I-a4-7dB"/>
-                            <constraint firstItem="k32-xd-tLW" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="eT4-R9-eIw"/>
+                            <constraint firstItem="TSC-dr-hRD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="cYJ-ol-ULu"/>
+                            <constraint firstItem="ADE-ZG-hpj" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-15" id="f6o-TO-zp1"/>
                             <constraint firstItem="YtU-Kr-JQP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="juM-ZP-Qvr"/>
-                            <constraint firstItem="k32-xd-tLW" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rKl-nF-9d7"/>
                             <constraint firstItem="YtU-Kr-JQP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tLO-5u-rFg"/>
                             <constraint firstItem="YtU-Kr-JQP" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="wXC-HN-O6l"/>
                         </constraints>
@@ -59,10 +61,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="50.625" y="373.94366197183098"/>
+            <point key="canvasLocation" x="46.875" y="371.83098591549299"/>
         </scene>
     </scenes>
     <resources>
         <image name="backBlueFinal" width="2295" height="4071"/>
+        <image name="iconLaunchScreen" width="147" height="150"/>
     </resources>
 </document>
