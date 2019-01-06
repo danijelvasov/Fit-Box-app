@@ -26,8 +26,8 @@ struct Categories {
 
 
 struct Exercises {
-    let upperBodyimages = ["bench", "chestpress", "machineFly", "latpulldown",  "cablerow"]
-    let upperBodyExercisesList = ["CHEST: Bench press", "CHEST: Chest press", "CHEST: Machine fly", "BACK: Lat pulldown",  "BACK: Cable row"]
+    let upperBodyimages = ["bench", "chestpress", "machineFly", "latpulldown",  "cablerow", "landmineRow"]
+    let upperBodyExercisesList = ["CHEST: Bench press", "CHEST: Chest press", "CHEST: Machine fly", "BACK: Lat pulldown",  "BACK: Cable row", "BACK: Landmine row"]
     
     let lowerBodyExercisesList = ["Squats", "Lunges", "Barbell box squat", "Leg extension", "Leg curl"]
     let lowerBodyImages = ["squats", "lunges", "barbellBoxSquat", "legExtension", "legCurl"]
@@ -35,14 +35,14 @@ struct Exercises {
 
 
 struct  Nutrition {
-    let nutritionList = ["Antioxidants", "Protein", "Carbs"]
-    let nutritionImages = ["antioxidants", "protein", "carbs"]
+    let nutritionList = ["Antioxidants", "Protein", "Carbs", "Fats"]
+    let nutritionImages = ["antioxidants", "protein", "carbs", "fats"]
 }
 
 
 struct Programs {
     let programList = ["Test your fitness", "Plan your training cycle", "Arrange your workout", "Plan your reps performing", "Repetition ranges", "Interval training"]
-    let programImages = ["cooperTest", "planning", "planning", "planning", "table", "cardioImage"]
+    let programImages = ["cooperTest", "planning", "planning", "planning", "table", "intervalTraining"]
 }
 
 
@@ -63,6 +63,7 @@ struct Description {
     let latPulldownDescription = NSLocalizedString("LAT_PULLDOWN", comment: "Lat pulldown desc")
     let chestPressDescription = NSLocalizedString("CHEST_PRESS", comment: "Chest press desc")
     let cableRowDescription = NSLocalizedString("CABLE_ROW", comment: "Cable row desc")
+    let landmineRowDescription = NSLocalizedString("LANDMINE_ROW", comment: "landmine row desc")
     let squatsDescription = NSLocalizedString("SQUATS", comment: "Squats desc")
     let lungesDescription = NSLocalizedString("LUNGES", comment: "Lunges desc")
     let barbelBoxSquatDescription = NSLocalizedString("BARBELL_BOX_SQUAT", comment: "Barbell box squat desc")
@@ -72,6 +73,7 @@ struct Description {
     let antioxidansDescription = NSLocalizedString("ANTIOXIDANTS", comment: "antioxidants desc")
     let proteinDescription = NSLocalizedString("PROTEIN", comment: "protein desc")
     let carbsDescription = NSLocalizedString("CARBS", comment: "carbs desc")
+    let fatsDescription = NSLocalizedString("FATS", comment: "fats desc")
    
     let howToPlanYourTrainingCycleDescription = NSLocalizedString("HOW_TO_PLAN_YOUR_TRAINING_CYCLE", comment: "howToPlanYourTrainingCycle desc")
     let howToArrangeYourWorkoutDescription = NSLocalizedString("HOW_TO_ARRANGE_YOUR_WORKOUT", comment: "How to arrange your workout desc")

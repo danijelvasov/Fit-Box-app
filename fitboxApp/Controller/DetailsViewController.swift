@@ -66,6 +66,8 @@ class DetailsViewController: UIViewController {
             return dataService.chestPressDescription
         case "BACK: Cable row":
             return dataService.cableRowDescription
+        case "BACK: Landmine row":
+            return dataService.landmineRowDescription
         case "Squats":
             return dataService.squatsDescription
         case "Lunges":
@@ -82,6 +84,8 @@ class DetailsViewController: UIViewController {
             return dataService.proteinDescription
         case "Carbs":
             return dataService.carbsDescription
+        case "Fats":
+            return dataService.fatsDescription
         case "Test your fitness":
             return dataService.testYourFitnessDescription
         case "Plan your training cycle":

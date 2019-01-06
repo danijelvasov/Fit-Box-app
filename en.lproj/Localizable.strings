@@ -109,6 +109,36 @@ Tips
 - Many people think that your biceps acts as a synergist in rowing exercises such as the seated cable row. In fact, it only acts as a dynamic stabilizer, along with the long head of your triceps brachii.
 - Most people will tell you to keep your back straight and your chest out throughout the seated cable row exercise. That’s known as the straight-back seated cable row. It’s a different exercise, which doesn’t dynamically work your erector spinae (spinal erectors). The exercise described above does dynamically work your spinal erectors.
 ";
+
+"LANDMINE_ROW"="
+Mechanics: Compound
+Force: Pull
+Starting position
+
+Stand with a loaded barbell between your legs. Start with light weights.
+Bend at the hips and a little at the knees and grasp the bar just under the plates with both hands. You can either interlink your fingers or place one hand over the other. Instead of grasping the bar, you can also hook a double-row bar around it. Your back should be straight and close to horizontal (tip: raise your chin, look towards ceiling).
+
+How to do it?
+
+- Keeping your elbows close to your body, exhale as you pull the landmine to your chest.
+- Hold a little bit, and squeeze your back muscles.
+- Inhale as you lower the bar in a controlled manner until your shoulders stretch downward. Don’t allow the bar to touch the floor.
+Repeat.
+
+Tips
+
+- Keep your back straight and close to horizontal.
+- Pull with your elbows, not with your biceps.
+- Keep your elbows close to your body.
+";
+
+
+
+
+
+
+
+
 "SQUATS" = "
 Type: COMPOUND
 Force: Push
@@ -298,6 +328,47 @@ On the other hand, carbohydrates that are digested and absorbed slowly, such as 
 
 The average person’s minimum carbohydrate intake should be 130 grams per day, with a majority coming from vegetables and fruits. Higher amounts of carbohydrates are needed with increased physical activity levels.
 ";
+
+
+"FATS"="
+Fat is essential for a healthy body and is vital for any diet designed to improve your physique.
+
+Of all the macronutrients, dietary fat has the worst reputation. It’s been linked to the obesity crisis, high cholesterol, and even heart disease, where this myth has likely come from is the fact that fats are calorie dense.
+This doesn't mean eating fat will make you fat, rather, it means it's just easier to over-consume calories from fat. Ultimately, it's eating more calories than your body needs that will cause fat storage.
+
+Why do we need fat?
+
+Fat is an essential nutrient for the body, and it is involved in multiple important processes that help keep your body functioning optimally.
+Here are some:
+1    Fat is important for the absorption of fat-soluble vitamins (A, D, E, and K).
+2    Fat is needed to maintain cell membrane health. Cell membranes surround every cell in your body, and their health is critically important in managing inflammation and metabolism.
+3    Fat is key in regulating hormonal production.
+4    Fat is a great energy source when on low carbohydrate diets.
+
+
+The three main types of fat are saturated fat, monounsaturated fat and polyunsaturated fat.
+
+Saturated fats are primarily found in animal products like meat, egg yolks and dairy fats. However, there are also plant sources such as coconut oil, which contains a specific type of saturated fat called medium chain triglycerides (MCTs).
+Saturated fat has has been linked by some medical professionals to an increased risk of heart disease.
+So, regular exercising, balancing fats in your diet, and controling your overall calorie intake help you minimize that risk.
+
+Monounsaturated fat has a positive overall effect on health and has been linked to helping lower levels of LDL (bad) cholesterol. Good sources include olive oil and the oil in avocados, nuts and seeds.
+
+Polysaturated fat - the two major types of polyunsaturated fat are omega-3 and omega-6.
+Unlike other fats, omega-3 and omega-6 are essential nutrients and you must include them as part of your diet (also known as essential fatty acids, EFAs).
+Research says that there are many health benefits of omega-3 (EPA and DHA which are collectively known as fish oils).
+The list of proven benefits associated with fish oils includes reduced muscle and joint soreness, reduced risk of heart disease and improved cognitive performance.
+
+There is, actually, the fourth type of fats - trans fats. These are only ‘men-made’ fats, created in industrial process by adding hydrogen to liquid vegetable oils to make them solid (example: margarine). Avoiding this type of fats is strongly recommended.
+";
+
+
+
+
+
+
+
+
 
 
 
