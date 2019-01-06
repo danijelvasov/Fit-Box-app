@@ -143,6 +143,11 @@
                                                     <constraint firstAttribute="height" constant="110" id="8e2-v4-nzo"/>
                                                     <constraint firstAttribute="width" constant="110" id="Xlc-V2-4ki"/>
                                                 </constraints>
+                                                <state key="normal" backgroundImage="Recommended btn"/>
+                                                <connections>
+                                                    <action selector="recommendationsBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XKJ-RN-Dad"/>
+                                                    <segue destination="R4c-cv-LUa" kind="show" identifier="goToRecommended" id="xac-cF-3HU"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -324,13 +329,12 @@
                             <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lMQ-fL-QWO">
                                 <rect key="frame" x="0.0" y="303" width="320" height="211"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="innerRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="nsA-Va-yPs">
+                                    <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="innerRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="nsA-Va-yPs">
                                         <rect key="frame" x="3" y="0.0" width="314" height="211"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.84999999999999998" contentMode="scaleToFill" indicatorStyle="white" maximumZoomScale="2" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3M-QB-8V8">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" indicatorStyle="white" maximumZoomScale="2" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3M-QB-8V8">
                                         <rect key="frame" x="10" y="10" width="300" height="191"/>
                                         <color key="backgroundColor" red="0.23921568627450979" green="0.21568627450980393" blue="0.21176470588235294" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                         <color key="textColor" red="0.75294117647058822" green="0.75294117647058822" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -400,6 +404,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l83-r0-iT2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2750.625" y="130.98591549295776"/>
+        </scene>
+        <!--Recommended View Controller-->
+        <scene sceneID="Sob-Uq-3uu">
+            <objects>
+                <viewController id="R4c-cv-LUa" customClass="RecommendedViewController" customModule="fitboxApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gAh-il-NCe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backBlueFinal" translatesAutoresizingMaskIntoConstraints="NO" id="I3K-A1-2U1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hGJ-Fs-q1U">
+                                <rect key="frame" x="0.0" y="288" width="320" height="216"/>
+                                <color key="tintColor" red="0.14117647059999999" green="0.40000000000000002" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pickerView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="white" editable="NO" text="Select one below:" translatesAutoresizingMaskIntoConstraints="NO" id="K7b-Oq-zMA">
+                                <rect key="frame" x="16" y="5" width="288" height="275"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hGJ-Fs-q1U" firstAttribute="bottom" secondItem="T9T-gK-Ime" secondAttribute="bottom" id="3Em-85-5lH"/>
+                            <constraint firstItem="I3K-A1-2U1" firstAttribute="bottom" secondItem="T9T-gK-Ime" secondAttribute="bottom" id="8T2-L1-xbT"/>
+                            <constraint firstItem="hGJ-Fs-q1U" firstAttribute="trailing" secondItem="T9T-gK-Ime" secondAttribute="trailing" id="H56-5K-xxr"/>
+                            <constraint firstItem="K7b-Oq-zMA" firstAttribute="top" secondItem="T9T-gK-Ime" secondAttribute="top" constant="5" id="Q47-cr-4zB"/>
+                            <constraint firstItem="T9T-gK-Ime" firstAttribute="trailing" secondItem="K7b-Oq-zMA" secondAttribute="trailing" constant="16" id="RZU-J3-mhB"/>
+                            <constraint firstItem="hGJ-Fs-q1U" firstAttribute="leading" secondItem="T9T-gK-Ime" secondAttribute="leading" id="b8P-xp-peM"/>
+                            <constraint firstItem="I3K-A1-2U1" firstAttribute="top" secondItem="T9T-gK-Ime" secondAttribute="top" id="bdi-2v-cah"/>
+                            <constraint firstItem="I3K-A1-2U1" firstAttribute="trailing" secondItem="T9T-gK-Ime" secondAttribute="trailing" id="hQK-ME-NmI"/>
+                            <constraint firstItem="K7b-Oq-zMA" firstAttribute="leading" secondItem="T9T-gK-Ime" secondAttribute="leading" constant="16" id="iBI-Np-iRo"/>
+                            <constraint firstItem="I3K-A1-2U1" firstAttribute="leading" secondItem="T9T-gK-Ime" secondAttribute="leading" id="l6v-ng-X3x"/>
+                            <constraint firstItem="hGJ-Fs-q1U" firstAttribute="top" secondItem="K7b-Oq-zMA" secondAttribute="bottom" constant="8" id="pgE-mV-oqT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="T9T-gK-Ime"/>
+                    </view>
+                    <connections>
+                        <outlet property="picker" destination="hGJ-Fs-q1U" id="BM2-xh-Lei"/>
+                        <outlet property="textView" destination="K7b-Oq-zMA" id="nFF-yq-ZXd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l7f-MU-2P4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="555" y="896.83098591549299"/>
         </scene>
         <!--About-->
         <scene sceneID="Nlp-Jb-o1K">
@@ -494,7 +546,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WXJ-rM-lKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1115.625" y="597.88732394366195"/>
+            <point key="canvasLocation" x="1238" y="530"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xvv-Be-0cm">
@@ -530,6 +582,7 @@
         <image name="Health btn" width="831" height="849"/>
         <image name="Nutrition btn" width="831" height="849"/>
         <image name="Programs btn" width="831" height="849"/>
+        <image name="Recommended btn" width="831" height="849"/>
         <image name="backBlueFinal" width="2295" height="4071"/>
         <image name="bench" width="990" height="515"/>
         <image name="cv_image" width="310" height="310"/>
@@ -539,6 +592,6 @@
         <image name="upperBtn" width="831" height="849"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Rvf-Xt-VMO"/>
+        <segue reference="HUY-vW-LQJ"/>
     </inferredMetricsTieBreakers>
 </document>

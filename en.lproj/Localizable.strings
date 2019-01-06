@@ -229,6 +229,9 @@ Tips
 
 
 "ANTIOXIDANTS"="
+Sources:
+Onions, Grapes, Walnuts, Soybeans, Ginger, Blueberries, Sunflower seeds, Broad beans, Garlic, Strawberries, Chives, Cherries, Tomatoes, Apples,  Carrots, Grapefruit, Kale, Cranberries, Spinach, Blackberries, Cauliflower, Pomegranate, Cabbage, Orange, Plum, Brussels sprouts, Pineapple, Peas, Lemon, Dates, Kiwi, Watermelon, Apricots, Prunes...
+
 Free radicals are constantly being formed during metabolism.
 Without antioxidants, they would destroy our bodies very quickly.
 
@@ -251,15 +254,12 @@ Getting antioxidants from foods is important. In fact, our life depends on the i
 The health benefits associated with a diet rich in plants is, at least partially, due to the wide diversity of antioxidants they provide.
 Meat products and fish also contain antioxidants, but in smaller amounts compared to fruits and vegetables. Berries are a particularly good source.
 Then there are plenty of other good sources of antioxidants... including green tea, coffee and dark chocolate.
-
-Here is a list of antioxidant foods:
-Onions,   Grapes,    Walnuts,    Soybeans,   Ginger ,   Blueberries ,   Sunflower seeds,    Broad beans,    Garlic,    Strawberries,
-Chives,   Cherries,  Tomatoes,    Apples,    Carrots,    Grapefruit,     Kale,    Cranberries,    Spinach,    Blackberries,
-Cauliflower,    Pomegranate,    Cabbage,    Orange,     Cabbage,    Plum,    Brussels sprouts,    Pineapple,    Peas,    Lemon,
-Dates,   Kiwi,    Watermelon,    Apricots,   Prunes...
 ";
 
 "PROTEIN"="
+Sources of protein:
+Eggs, Chicken & turkey breast, Tuna, Salmon, Beef, Diary products, Seafood (schrimps, fish), Broccoli, Almonds, Peanuts...
+
 Proteins are organic molecules made up of amino acids – the building blocks of life.
 Proteins are essential for growth, immune function, and the construction of hormones and enzymes. It is used to repair, maintain, and build the muscle fibers that are damaged during workouts, and can also act as an energy source in the absence of carbohydrate. So - without an adequate protein intake, our bodies can’t function well at all.
 During digestion, our body breaks down the protein we eat into individual amino acids, which contribute to the plasma pool of amino acids. This pool is a storage reserve of amino acids that circulate in the blood.
@@ -282,11 +282,12 @@ However, taking in enough protein during the pre- and post-exercise period can o
 Can I overeat protein?
 
 Yes. If you overeat protein, this extra protein can be converted into sugar or fat in the body. However, protein isn’t as easily or quickly converted as carbohydrates or fat.
-
-Sources of protein:     Eggs,   Chicken & turkey breast,     Tuna,      Salmon,    Beef,      Diary products,       Seafood (schrimps, fish),       Broccoli,       Almonds,        Peanuts...
 ";
 
 "CARBS"="
+Sources of 'good' carbs:
+Oatmeal, Yams, Brown rice, Potatoes, 100% whole wheat bread, 100% whole wheat pasta, Beans and lentils, Quinoa, Couscous, Pumpkin, Grapefruit, Apples, Blueberries, Cantaloupe, Oranges, Bananas, Peaches,        Grapes, Strawberries, Pineapple, Plums, Pears, Berries, Mango, Broccoli, Kale, Asparagus,  Spinach,      Salad greens, Tomatoes, Peppers (green and red), Onions, Mushrooms, Cucumbers, Zucchini,  Carrots,      Green beans, Peas, Cauliflower...
+
 Carbohydrate is your body’s main source of fuel. If you don’t eat enough carbohydrate, when you exercise, you’ll fatigue sooner, and your muscle and strength gains will be reduced. On the other hand, if you are overeating carbohydrate, it will be converted to body fat. Eating a surplus of carbohydrates can also make you feel tired and sluggish, ‘foggy’ and unfocused, and/or even depressed. Repeatedly eating too many carb-dense foods can put your body at risk of hypoglycemia, insulin resistance, and Type 2 Diabetes. In addition, you may experience weight gain, difficulty losing weight, or even obesity.
 
 Dietary fiber is a carbohydrate that is incompletely absorbed by your body. It helps to keep your digestive system healthy.
@@ -296,9 +297,6 @@ Although the fundamental process of digestion is the same, if you eat simple sug
 On the other hand, carbohydrates that are digested and absorbed slowly, such as whole grains, fruits, and vegetables, can help to control insulin response, energy levels, and body composition. Such unrefined, unprocessed, complex carbohydrate sources may reduce triglycerides and improve your cholesterol profile. Other benefits of a lower glycemic diet include increased vitamin and mineral intake, increased fiber intake, enhanced satiety,  and blood sugar control.
 
 The average person’s minimum carbohydrate intake should be 130 grams per day, with a majority coming from vegetables and fruits. Higher amounts of carbohydrates are needed with increased physical activity levels.
-
-Sources of carbs:
-Oatmeal,        Yams,       Brown rice,     Potatoes,       100% whole wheat bread,     100% whole wheat pasta, Beans and lentils,        Quinoa,     Couscous,       Pumpkin,      Grapefruit,     Apples,     Blueberries,        Cantaloupe,     Oranges,        Bananas,        Peaches,        Grapes,     Strawberries,       Pineapple,       Plums,      Pears,      Berries,       Mango,      Broccoli,       Kale,       Asparagus,      Spinach,        Salad greens,       Tomatoes,       Peppers (green and red),        Onions,     Mushrooms,      Cucumbers,     Zucchini,        Carrots,        Green beans,        Peas,       Cauliflower...
 ";
 
 
@@ -474,11 +472,6 @@ If you have any health problems, you shoult think twice before implementing any 
 
 
 
-
-
-
-
-
 "INTRO_ANATOMY"="
 If you effectively draw into the fitness lifestyle-including the ability to maintain optimal health-you will experience some muscular, cardiopulmonary, and metabolic adaptations to exercise.
 These adaptations are known as the training effect. The training effect impacts the body in several ways. The body begins to change at the cellular level, allowing more energy to be released with less oxygen.
@@ -615,4 +608,47 @@ CP (creatine phosphate): A high-energy phosphate molecule that is stored in cell
 Type II muscle fibers (fast twitch): Muscle fiber type that contracts quickly and is used mostly in intensive, short-duration exercises.
 
 Type I muscle fibers (slow twitch): A muscle fiber characterized by its slow speed of contraction and a high capacity for aerobic glycolysis.
+";
+
+
+
+
+
+
+"STRENGTH"="
+Recommended principle: SPLIT WORKOUT
+Recommended method: REST-PAUSE & PYRAMID
+
+Recommended exercices: COMPOUND
+Rep types: QUALITY & RETRO-GRAVITY
+Rep range: 2-5 (warm up first!)
+";
+
+
+"HYPERTROPHY"="
+Recommended principle: PROGRESIVE OVERLOAD & HOLISTIC
+Recommended method: SUPERSET, COMPOUND, TRI-SET & GIGA-SET
+
+Recommended exercices: COMPOUND, ISOLATION
+Rep types: QUALITY, BURNS, ISOLATION, CHEAT, CONTINUOUS TENSION
+Rep range: 7-10 (warm up first!)
+";
+
+
+"FATLOSS"="
+Recommended principle: CYCLE (MIX), CARDIO, LOW-CALORIE INTAKE
+Recommended method: CARDIO, LIGHT CONDITIONIG
+
+Recommended exercices: ROPE, CYCLING, TREADMILL, ROWING, SWIMMING
+Rep types: MUSCLE CONFUSION
+";
+
+
+"CONDITIONING"="
+Recommended principle: CYCLE, INTERVAL
+Recommended method: INTERVAL, LIGHT CONDITIONIG
+
+Recommended exercices: CONDITIONING EXERCISES, HIGH-INTENSITY
+Rep types: MUSCLE CONFUSION
+Rep range: 20+
 ";

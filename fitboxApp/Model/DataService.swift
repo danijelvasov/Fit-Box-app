@@ -48,7 +48,7 @@ struct Programs {
 
 struct Health {
     let healthList = ["Cardiovascular fitness", "Cardio myths" ]
-    let healthImages = ["cardioImage", "cardioImage"]
+    let healthImages = ["cardiohealth", "noSign"]
 }
 
 struct Anatomy {
@@ -89,7 +89,18 @@ struct Description {
     let exerciseAndMetabolicResponseDescription = NSLocalizedString("EXERCISE_METABOLIC_RESPONSE", comment: "metabolic response desc")
     let energyMetabolismDescription = NSLocalizedString("ENERGY_METABOLISM", comment: "energy metabolism desc")
     let definitionsDescription = NSLocalizedString("DEFINITIONS", comment: "key terms desc")
+    
+    
+    let strengthDescription = NSLocalizedString("STRENGTH", comment: "strengthDesc")
+    let hypertrophyDescription = NSLocalizedString("HYPERTROPHY", comment: "hypertrophyDesc")
+    let fatlossDescription = NSLocalizedString("FATLOSS", comment: "fatlossDesc")
+    let conditionigDescription = NSLocalizedString("CONDITIONING", comment: "conditioningDesc")
 }
 
+
+struct Recommendations {
+    let cycleType = ["", "Strength", "Hypertrophy", "Fatloss", "Conditioning"]
+
+}
 
 
