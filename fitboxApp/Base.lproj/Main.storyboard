@@ -265,7 +265,7 @@
         <scene sceneID="9in-16-Hm0">
             <objects>
                 <tableViewController id="nee-tj-8B4" customClass="TableViewController" customModule="fitboxApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="iwf-p8-Zax">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="plain" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="iwf-p8-Zax">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -326,16 +326,16 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Jc-bJ-fhJ">
                                 <rect key="frame" x="16" y="15" width="288" height="207"/>
                             </imageView>
-                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lMQ-fL-QWO">
+                            <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lMQ-fL-QWO">
                                 <rect key="frame" x="0.0" y="303" width="320" height="211"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="innerRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="nsA-Va-yPs">
+                                    <imageView userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="innerRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="nsA-Va-yPs">
                                         <rect key="frame" x="3" y="0.0" width="314" height="211"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" indicatorStyle="white" maximumZoomScale="2" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3M-QB-8V8">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.84999999999999998" contentMode="scaleToFill" indicatorStyle="white" maximumZoomScale="2" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3M-QB-8V8">
                                         <rect key="frame" x="10" y="10" width="300" height="191"/>
                                         <color key="backgroundColor" red="0.23921568627450979" green="0.21568627450980393" blue="0.21176470588235294" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="textColor" red="0.75294117647058822" green="0.75294117647058822" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -405,10 +405,10 @@
             </objects>
             <point key="canvasLocation" x="2750.625" y="130.98591549295776"/>
         </scene>
-        <!--Recommended View Controller-->
+        <!--Guide View Controller-->
         <scene sceneID="Sob-Uq-3uu">
             <objects>
-                <viewController id="R4c-cv-LUa" customClass="RecommendedViewController" customModule="fitboxApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="R4c-cv-LUa" customClass="GuideViewController" customModule="fitboxApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gAh-il-NCe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

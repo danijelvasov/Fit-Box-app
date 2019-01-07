@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RecommendedViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class GuideViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
     
     @IBOutlet weak var picker: UIPickerView!

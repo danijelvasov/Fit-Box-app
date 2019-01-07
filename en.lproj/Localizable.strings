@@ -132,7 +132,108 @@ Tips
 - Keep your elbows close to your body.
 ";
 
+"SEATED_OVERHEAD_PRESS"="
+Mechanics: Compound
+Force: Push
 
+How to do it?
+
+- Holding a pair of dumbbells, sit up straight on a bench or chair, preferably one that supports your back.
+- Raise the dumbbells to a starting position (see picture), and hold them at shoulder height, with your palms facing forward.
+- Exhale as you press the dumbbells upward and inward until they almost touch over your head.
+- Inhale as you reverse the motions and lower the dumbbells to the starting position.
+Repeat.
+
+Tips
+
+- Keep your back straight.
+- For optimal back support, make sure your lower back is in constant contact with the back of the chair.
+- To raise heavy dumbbells into position, rest them on your knees and then kick them up into position one at a time.
+- Do not lock your elbows out at the top of the press. This will safeguard your elbows as well as keep the tension on your shoulders.
+- The seated position reduces your ability to cheat.
+- The seated dumbbell overhead press is also known as the seated dumbbell shoulder press.
+Occasionally, perform the seated dumbbell overhead press with one arm at a time, as it will get more core stabilizer muscles involved and help you to develop unilateral strength.
+";
+
+"LATERAL_RAISE"="
+Mechanics: Isolation
+Force: Pull
+
+How to do it?
+
+- Stand holding a dumbbell in each hand, with the dumbbells hanging down by your sides.
+- You are allowed to bend forward a little at the hips.
+- Keeping your elbows slightly bent, exhale as you raise both arms out to the sides until your elbows are level with your shoulders.
+- Inhale as you lower the dumbbells to the starting position.
+Repeat.
+
+Tips
+
+- Keep a natural curvature of the spine.
+- Keep your body still; only your arms should move.
+- Do not swing the dumbbells or let them drop down by your sides (unless you are experienced and  doing 'cheat' type of movement).
+- You can perform the dumbbell lateral raise one arm at a time to get more stabilizer muscles in your core involved and help you to develop unilateral upper-body strength.
+";
+
+"FRONT_RAISE"="
+Mechanics: Isolation
+Force: Push
+
+How to do it?
+
+- Stand holding a dumbbell in each hand, with your elbows slightly bent and the dumbbells resting on the front of your thighs.
+- Exhale as you raise your right arm in front of you until it is at least parallel to the floor.
+- Inhale as you lower your right arm to the starting position.
+- Repeat with your left arm.
+- Keep alternating your arms, raising one after the other one has been fully lowered.
+
+Tips
+
+- Keep your back straight and body still. Do not sway back and forth.
+- You may use either a pronated (overhand) grip, as described, or a neutral (hammer) grip. You may also complete all of the reps for the first arm before moving on to the reps for the opposite arm.
+- Do not swing the dumbbells. Keep the movement under control.
+- Try to resist the lowering of the dumbbells.
+";
+
+"LYING_LATERAL_RAISE"="
+Mechanics: Isolation
+Force: Pull
+
+How to do it?
+
+- Holding a dumbbell in one hand, lie prone (on your front) on a flat bench. Ideally, the bench should be elevated to allow the dumbbell to hang straight down without touching the floor.
+- Spread your legs and plant your feet firmly on the floor.
+- Grasp the bench with your free hand for stability.
+- Keeping your elbow slightly bent, exhale as you raise the dumbbell out to the side.
+- Inhale as you lower the dumbbell to the starting position in a controlled manner.
+- Repeat the exercise with your opposite arm.
+
+Tips
+
+- Keep the bend in your elbow to a minimum.
+- You are free to use either a neutral grip (palm facing inward) or a supinated grip (palm facing upward). For shoulder safety, avoid using a pronated grip (palm facing downward).
+";
+
+"BICEPS_CURL"="
+Mechanics: Isolation
+Force: Pull
+
+How to do it?
+
+- Stand holding a pair of dumbbells by your sides using a neutral grip (palms facing in).
+- Pull your shoulders back.
+- Exhale as you slowly curl one dumbbell up towards your shoulder. As the dumbbell rises, supinate your forearm gradually so that your palm faces your shoulder by the top of the curl.
+- Once your elbow is fully flexed, allow your elbow to move forward a little (shoulder flexion), just until your forearm is vertical.
+- Squeeze your biceps.
+- Inhale as you slowly reverse the movement at half the speed and return the dumbbell to the starting position.
+- Repeat the same action with the opposite arm, and then alternate repetitions.
+
+Tips
+
+- Keep your back straight and your body still. Avoid swinging the dumbbells.
+- Instead of alternating your arms, as described above, you can complete all the reps for one arm before performing the reps with the other arm. In this case, start with the weaker arm, and don’t perform more reps with the stronger arm. This will promote the development of equal strength.
+
+";
 
 
 
@@ -690,7 +791,7 @@ Type I muscle fibers (slow twitch): A muscle fiber characterized by its slow spe
 Recommended principle: SPLIT WORKOUT
 Recommended method: REST-PAUSE & PYRAMID
 
-Recommended exercices: COMPOUND
+Recommended exercices: COMPOUND BARBELL EXERCISES
 Rep types: QUALITY & RETRO-GRAVITY
 Rep range: 2-5 (warm up first!)
 ";
@@ -700,18 +801,17 @@ Rep range: 2-5 (warm up first!)
 Recommended principle: PROGRESIVE OVERLOAD & HOLISTIC
 Recommended method: SUPERSET, COMPOUND, TRI-SET & GIGA-SET
 
-Recommended exercices: COMPOUND, ISOLATION
+Recommended exercices: COMPOUND, ISOLATION (BARBELL, DUMBBELL & MACHINES)
 Rep types: QUALITY, BURNS, ISOLATION, CHEAT, CONTINUOUS TENSION
 Rep range: 7-10 (warm up first!)
 ";
 
 
 "FATLOSS"="
-Recommended principle: CYCLE (MIX), CARDIO, LOW-CALORIE INTAKE
+Recommended principle: LOW INTENSITY CARDIO (WITH LOW-CALORIE INTAKE)
 Recommended method: CARDIO, LIGHT CONDITIONIG
 
-Recommended exercices: ROPE, CYCLING, TREADMILL, ROWING, SWIMMING
-Rep types: MUSCLE CONFUSION
+Recommended exercices: ROPE, CYCLING, TREADMILL, ROWING, SWIMMING, BOXING
 ";
 
 

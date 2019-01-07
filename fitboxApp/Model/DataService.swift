@@ -9,25 +9,14 @@
 import UIKit
 
 
-struct TintColor {
-    let customBlue = #colorLiteral(red: 0.2901960784, green: 0.5647058824, blue: 0.8862745098, alpha: 1)
-    let customGreen = #colorLiteral(red: 0.1176470588, green: 0.7176470588, blue: 0.2117647059, alpha: 1)
-    let customOrange = #colorLiteral(red: 0.9607843137, green: 0.6509803922, blue: 0.137254902, alpha: 1)
-    let customRed = #colorLiteral(red: 0.9254901961, green: 0.3843137255, blue: 0.3725490196, alpha: 1)
-    let customDark = #colorLiteral(red: 0.2392156863, green: 0.2156862745, blue: 0.2117647059, alpha: 1)
-    let customDarkForMenuView = #colorLiteral(red: 0.2901960784, green: 0.2901960784, blue: 0.2901960784, alpha: 1)
-    let customGrayLight = #colorLiteral(red: 0.7529411765, green: 0.7529411765, blue: 0.7529411765, alpha: 1)
-}
-
-
 struct Categories {
     let lowerBody = "Lower Body Exercises" , upperBody = "Upper Body Exercises" , nutrition = "Nutrition" , programs = "Plan your workout", health = "Health", anatomy = "Anatomy Basics"
 }
 
 
 struct Exercises {
-    let upperBodyimages = ["bench", "chestpress", "machineFly", "latpulldown",  "cablerow", "landmineRow"]
-    let upperBodyExercisesList = ["CHEST: Bench press", "CHEST: Chest press", "CHEST: Machine fly", "BACK: Lat pulldown",  "BACK: Cable row", "BACK: Landmine row"]
+    let upperBodyimages = ["bench", "chestpress", "machineFly", "latpulldown",  "cablerow", "landmineRow", "seatedOverheadPress", "lateralRaise", "frontRaise", "lyingLateralRaise", "bicepsCurl"]
+    let upperBodyExercisesList = ["CHEST: Bench press", "CHEST: Chest press", "CHEST: Machine fly", "BACK: Lat pulldown",  "BACK: Cable row", "BACK: Landmine row", "SHOULDERS: Seated overhead press", "SHOULDERS: Lateral raise", "SHOULDERS: Front raise", "SHOULDERS: Lying lateral raise", "BICEPS: Dumbbell curl"]
     
     let lowerBodyExercisesList = ["Squats", "Lunges", "Barbell box squat", "Leg extension", "Leg curl"]
     let lowerBodyImages = ["squats", "lunges", "barbellBoxSquat", "legExtension", "legCurl"]
@@ -64,6 +53,12 @@ struct Description {
     let chestPressDescription = NSLocalizedString("CHEST_PRESS", comment: "Chest press desc")
     let cableRowDescription = NSLocalizedString("CABLE_ROW", comment: "Cable row desc")
     let landmineRowDescription = NSLocalizedString("LANDMINE_ROW", comment: "landmine row desc")
+    let seatedOverheadPressDescription = NSLocalizedString("SEATED_OVERHEAD_PRESS", comment: "seated overhead press desc")
+    let lateralRaiseDescription = NSLocalizedString("LATERAL_RAISE", comment: "lateral raise desc")
+    let frontRaiseDescription = NSLocalizedString("FRONT_RAISE", comment: "front raise desc")
+    let lyingLateralRaiseDescription = NSLocalizedString("LYING_LATERAL_RAISE", comment: "lying lateral raise desc")
+    let bicepsCurlDescription = NSLocalizedString("BICEPS_CURL", comment: "biceps curl desc")
+    
     let squatsDescription = NSLocalizedString("SQUATS", comment: "Squats desc")
     let lungesDescription = NSLocalizedString("LUNGES", comment: "Lunges desc")
     let barbelBoxSquatDescription = NSLocalizedString("BARBELL_BOX_SQUAT", comment: "Barbell box squat desc")

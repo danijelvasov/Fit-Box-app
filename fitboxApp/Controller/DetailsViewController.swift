@@ -29,7 +29,6 @@ class DetailsViewController: UIViewController {
     var imageData: String?
     var titleData: String?
     var detailsIsOpen = false
-    var customColor = TintColor()
     
    
    
@@ -37,7 +36,7 @@ class DetailsViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         self.navigationItem.title = titleData ?? ""
-        self.detailImageView.image = UIImage(named: imageData ?? "siluette" )
+        self.detailImageView.image = UIImage(named: imageData ?? "iconLaunchScreen" )
         self.textView.text = getDescription()
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
         buttonConstraint.constant = halfscreen
@@ -68,6 +67,16 @@ class DetailsViewController: UIViewController {
             return dataService.cableRowDescription
         case "BACK: Landmine row":
             return dataService.landmineRowDescription
+        case "SHOULDERS: Seated overhead press":
+            return dataService.seatedOverheadPressDescription
+        case "SHOULDERS: Lateral raise":
+            return dataService.lateralRaiseDescription
+        case "SHOULDERS: Front raise":
+            return dataService.frontRaiseDescription
+        case "SHOULDERS: Lying lateral raise":
+            return dataService.lyingLateralRaiseDescription
+        case "BICEPS: Dumbbell curl":
+            return dataService.bicepsCurlDescription
         case "Squats":
             return dataService.squatsDescription
         case "Lunges":
@@ -133,7 +142,7 @@ class DetailsViewController: UIViewController {
                 self.menuView.layer.cornerRadius = self.detailsIsOpen ? 10 : 0
                 self.buttonConstraint.constant = self.detailsIsOpen ? 30 : halfscreen
                 self.bottomConstraint.constant = self.detailsIsOpen ? -15 : 10
-                self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.customColor.customGrayLight
+        
                 let angle: CGFloat = self.detailsIsOpen ? .pi : 0.0
                 self.button.transform = CGAffineTransform(rotationAngle: angle)
                     if self.detailsIsOpen {
