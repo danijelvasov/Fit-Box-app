@@ -77,6 +77,14 @@ class DetailsViewController: UIViewController {
             return dataService.lyingLateralRaiseDescription
         case "BICEPS: Dumbbell curl":
             return dataService.bicepsCurlDescription
+        case "BICEPS: Concentration curl":
+            return dataService.concentrationCurlDescription
+        case "BICEPS: Barbell curl":
+            return dataService.barbellCurlDescription
+        case "TRICEPS: Dumbbell kickback":
+            return dataService.tricepsKickbackDescription
+        case "TRICEPS: Close-grip pushup":
+            return dataService.tricepsPushupDescription
         case "Squats":
             return dataService.squatsDescription
         case "Lunges":

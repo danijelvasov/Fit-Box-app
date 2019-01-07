@@ -232,8 +232,94 @@ Tips
 
 - Keep your back straight and your body still. Avoid swinging the dumbbells.
 - Instead of alternating your arms, as described above, you can complete all the reps for one arm before performing the reps with the other arm. In this case, start with the weaker arm, and don’t perform more reps with the stronger arm. This will promote the development of equal strength.
-
 ";
+
+
+"CONCENTRATION_CURL"="
+Mechanics: Isolation
+Force: Pull
+
+How to do it?
+
+- Sit on a bench with your legs apart, with a dumbbell in front of you.
+- Pick up the dumbbell with your right hand and rest your right arm against the inside of your right thigh. Your elbow should be lower than the top of your thigh so that your elbow doesn’t pivot, and your right arm should be almost fully extended, with your palm facing away from your right thigh.
+- Rest your left arm on your left thigh to support your back.
+- Exhale as you curl the dumbbell up towards your shoulder.
+- At the top of the movement, hold the contracted position and squeeze your biceps.
+- Inhale as you lower the dumbbell to the starting position.
+- Repeat with your left arm.
+
+Tips
+- Keep your back straight and upper arm still. Only your forearm should move.
+- Do not swing the dumbbell.
+- Make sure that your elbow doesn’t pivot on your thigh and doesn’t fully lock out when you extend your arm.
+- This exercise targets your brachialis. Your biceps (especially the long head) acts as a synergist, along with your brachioradialis.
+";
+
+
+"BARBELL_CURL"="
+Mechanics: Isolation
+Force: Pull
+
+How to do it?
+
+- Stand up straight holding a barbell using a shoulder-width supinated grip (palms facing upward). Your arms should be almost fully extended, and the barbell should be resting against your thighs.
+- Keeping your body still, exhale as you curl the barbell up towards your shoulders until your elbows are fully flexed.
+- Once your elbows are fully flexed, allow your elbows to move forward a little (shoulder flexion), just until your forearms are vertical.
+- Hold a bit and squeeze your biceps.
+- Inhale as you slowly lower the barbell to the starting position.
+- Repeat.
+
+Tips
+
+- Keep your body still. Only your arms should move.
+- Do not swing the barbell (unless doing a 'cheat' type).
+- Using an EZ bar for the barbell curl can reduce the pressure on your wrists. However, the camber (bend) of the EZ bar must be minimal. The steeper the camber, the more emphasis you will place on your brachioradialis instead of your biceps.
+- Your biceps brachii has two heads: short (inner) and long (outer). The long head makes up the majority of your biceps peak, while the short head sits to the inner side. Using a shoulder-width (regular) grip with the barbell curl, as described above, will place approximately equal emphasis on both heads. Using a narrow grip will emphasize the long head and build the peak of your biceps. And using a wide grip will emphasize the short head and give your biceps more width. Therefore, incorporate all grips to hit the muscle from all angles.
+";
+
+
+"TRICEPS_KICKBACK"="
+Mechanics: Isolation
+Force: Push
+
+How to do it?
+
+- With a dumbbell in your right hand, kneel over a bench with your left knee, and support your body with your left arm.
+- Position your torso and right upper arm parallel to the floor, with your right elbow bent at a 90-degree angle. The dumbbell should be hanging straight down below your elbow.
+- Keeping your right upper arm stationary, exhale as you extend your right arm backward until it is straight.
+- Inhale as you slowly lower the dumbbell back to the starting position.
+- Repeat with your left arm.
+
+Tips
+
+- Keep your back straight and horizontal.
+- Keep your working arm tucked in close to your torso. Only your forearm should move.
+- For a greater range of motion, keep your elbow raised higher than your shoulder.
+- The dumbbell kickback is one of the most effective exercises for your triceps. In one study by the American Council on Exercise (ACE) that compared the effectiveness of triceps exercises, it came second, to be beaten only by the triangle push-up (aka diamond push-up).
+";
+
+
+"TRICEPS_PUSHUP"="
+Mechanics: Compound
+Force: Push
+
+How to do it?
+
+- Get on all fours with your hands positioned either directly under your shoulders or closer together.
+- Extend your feet backward and straighten your body.
+- Keeping your body straight and your elbows tucked in, inhale as you lower your chest onto your hands.
+- Exhale as you push your body back up to the starting position.
+- Repeat.
+
+Tips
+
+- To make the close-grip push-up easier, do it on your knees, or place your hands on the edge of an elevated surface, such as a bench or even a table.
+- To make the exercise more difficult, execute the repetitions slower, or position your hands closer together (diamond push-up).
+- The most difficult unloaded variation of the close-grip push-up is the triangle or diamond push-up, which involves positioning your hands so close together as to form a diamond shape with your fingers and thumbs.
+";
+
+
 
 
 

@@ -15,8 +15,8 @@ struct Categories {
 
 
 struct Exercises {
-    let upperBodyimages = ["bench", "chestpress", "machineFly", "latpulldown",  "cablerow", "landmineRow", "seatedOverheadPress", "lateralRaise", "frontRaise", "lyingLateralRaise", "bicepsCurl"]
-    let upperBodyExercisesList = ["CHEST: Bench press", "CHEST: Chest press", "CHEST: Machine fly", "BACK: Lat pulldown",  "BACK: Cable row", "BACK: Landmine row", "SHOULDERS: Seated overhead press", "SHOULDERS: Lateral raise", "SHOULDERS: Front raise", "SHOULDERS: Lying lateral raise", "BICEPS: Dumbbell curl"]
+    let upperBodyimages = ["bench", "chestpress", "machineFly", "latpulldown",  "cablerow", "landmineRow", "seatedOverheadPress", "lateralRaise", "frontRaise", "lyingLateralRaise", "bicepsCurl", "concentrationCurl", "barbellCurl", "tricepsKickback", "tricepsPushup"]
+    let upperBodyExercisesList = ["CHEST: Bench press", "CHEST: Chest press", "CHEST: Machine fly", "BACK: Lat pulldown",  "BACK: Cable row", "BACK: Landmine row", "SHOULDERS: Seated overhead press", "SHOULDERS: Lateral raise", "SHOULDERS: Front raise", "SHOULDERS: Lying lateral raise", "BICEPS: Dumbbell curl", "BICEPS: Concentration curl", "BICEPS: Barbell curl", "TRICEPS: Dumbbell kickback", "TRICEPS: Close-grip pushup"]
     
     let lowerBodyExercisesList = ["Squats", "Lunges", "Barbell box squat", "Leg extension", "Leg curl"]
     let lowerBodyImages = ["squats", "lunges", "barbellBoxSquat", "legExtension", "legCurl"]
@@ -58,6 +58,11 @@ struct Description {
     let frontRaiseDescription = NSLocalizedString("FRONT_RAISE", comment: "front raise desc")
     let lyingLateralRaiseDescription = NSLocalizedString("LYING_LATERAL_RAISE", comment: "lying lateral raise desc")
     let bicepsCurlDescription = NSLocalizedString("BICEPS_CURL", comment: "biceps curl desc")
+    let concentrationCurlDescription = NSLocalizedString("CONCENTRATION_CURL", comment: "concentration curl desc")
+    let barbellCurlDescription = NSLocalizedString("BARBELL_CURL", comment: "barbell curl desc")
+    let tricepsKickbackDescription = NSLocalizedString("TRICEPS_KICKBACK", comment: "triceps kickback desc")
+    let tricepsPushupDescription = NSLocalizedString("TRICEPS_PUSHUP", comment: "triceps pushup desc")
+    
     
     let squatsDescription = NSLocalizedString("SQUATS", comment: "Squats desc")
     let lungesDescription = NSLocalizedString("LUNGES", comment: "Lunges desc")
@@ -65,20 +70,24 @@ struct Description {
     let legExtensionDescription = NSLocalizedString("LEG_EXTENSION", comment: "Leg extension desc")
     let legCurlDescription = NSLocalizedString("LEG_CURL", comment: "Leg curl desc")
    
+    
     let antioxidansDescription = NSLocalizedString("ANTIOXIDANTS", comment: "antioxidants desc")
     let proteinDescription = NSLocalizedString("PROTEIN", comment: "protein desc")
     let carbsDescription = NSLocalizedString("CARBS", comment: "carbs desc")
     let fatsDescription = NSLocalizedString("FATS", comment: "fats desc")
    
+    
     let howToPlanYourTrainingCycleDescription = NSLocalizedString("HOW_TO_PLAN_YOUR_TRAINING_CYCLE", comment: "howToPlanYourTrainingCycle desc")
     let howToArrangeYourWorkoutDescription = NSLocalizedString("HOW_TO_ARRANGE_YOUR_WORKOUT", comment: "How to arrange your workout desc")
     let howToPlanYoyrRepsPerformingDescription = NSLocalizedString("HOW_TO_PLAN_YOUR_REPS_PERFORMING", comment: "How to plan your reps performing desc")
     let repetitionRangesDescription = NSLocalizedString("REPETITION_RANGES", comment: "repetition ranges desc")
     
+    
     let whatIsCardiovascularFitnessDescription = NSLocalizedString("WHAT_IS_CARDIOVASCULAR_FITNESS", comment: "cardio desc")
     let mythsAboutCardioDescription = NSLocalizedString("MYTHS_ABOUT_CARDIO", comment: "myths about cardio desc")
     let testYourFitnessDescription = NSLocalizedString("TEST_YOUR_FITNESS", comment: "cooper test desc")
     let intervalTrainingDescription = NSLocalizedString("INTERVAL_TRAINING", comment: "interval training desc")
+    
     
     let introAnatomyDescription = NSLocalizedString("INTRO_ANATOMY", comment: "intro anatamy")
     let understandingMetabolismDescription = NSLocalizedString("UNDERSTANDING_METABOLISM", comment: "metabolism desc")
