@@ -85,6 +85,14 @@ class DetailsViewController: UIViewController {
             return dataService.tricepsKickbackDescription
         case "TRICEPS: Close-grip pushup":
             return dataService.tricepsPushupDescription
+        case "TRICEPS: Rope pushdown":
+            return dataService.tricepsRopeDescription
+        case "CORE: Jackknife":
+            return dataService.coreJackknifeDescription
+        case "CORE: Plank":
+            return dataService.corePlankDescription
+        case "CORE: Reversed plank":
+            return dataService.coreReversedPlank
         case "Squats":
             return dataService.squatsDescription
         case "Lunges":

@@ -15,8 +15,8 @@ struct Categories {
 
 
 struct Exercises {
-    let upperBodyimages = ["bench", "chestpress", "machineFly", "latpulldown",  "cablerow", "landmineRow", "seatedOverheadPress", "lateralRaise", "frontRaise", "lyingLateralRaise", "bicepsCurl", "concentrationCurl", "barbellCurl", "tricepsKickback", "tricepsPushup"]
-    let upperBodyExercisesList = ["CHEST: Bench press", "CHEST: Chest press", "CHEST: Machine fly", "BACK: Lat pulldown",  "BACK: Cable row", "BACK: Landmine row", "SHOULDERS: Seated overhead press", "SHOULDERS: Lateral raise", "SHOULDERS: Front raise", "SHOULDERS: Lying lateral raise", "BICEPS: Dumbbell curl", "BICEPS: Concentration curl", "BICEPS: Barbell curl", "TRICEPS: Dumbbell kickback", "TRICEPS: Close-grip pushup"]
+    let upperBodyimages = ["bench", "chestpress", "machineFly", "latpulldown",  "cablerow", "landmineRow", "seatedOverheadPress", "lateralRaise", "frontRaise", "lyingLateralRaise", "bicepsCurl", "concentrationCurl", "barbellCurl", "tricepsKickback", "tricepsPushup", "tricepsRope", "coreJackknife", "corePlank", "reversedPlank"]
+    let upperBodyExercisesList = ["CHEST: Bench press", "CHEST: Chest press", "CHEST: Machine fly", "BACK: Lat pulldown",  "BACK: Cable row", "BACK: Landmine row", "SHOULDERS: Seated overhead press", "SHOULDERS: Lateral raise", "SHOULDERS: Front raise", "SHOULDERS: Lying lateral raise", "BICEPS: Dumbbell curl", "BICEPS: Concentration curl", "BICEPS: Barbell curl", "TRICEPS: Dumbbell kickback", "TRICEPS: Close-grip pushup", "TRICEPS: Rope pushdown", "CORE: Jackknife", "CORE: Plank", "CORE: Reversed plank"]
     
     let lowerBodyExercisesList = ["Squats", "Lunges", "Barbell box squat", "Leg extension", "Leg curl"]
     let lowerBodyImages = ["squats", "lunges", "barbellBoxSquat", "legExtension", "legCurl"]
@@ -62,6 +62,10 @@ struct Description {
     let barbellCurlDescription = NSLocalizedString("BARBELL_CURL", comment: "barbell curl desc")
     let tricepsKickbackDescription = NSLocalizedString("TRICEPS_KICKBACK", comment: "triceps kickback desc")
     let tricepsPushupDescription = NSLocalizedString("TRICEPS_PUSHUP", comment: "triceps pushup desc")
+    let tricepsRopeDescription = NSLocalizedString("TRICEPS_ROPE", comment: "triceps rope pushdown desc")
+    let coreJackknifeDescription = NSLocalizedString("CORE_JACKKNIFE", comment: "core jackknife desc")
+    let corePlankDescription = NSLocalizedString("CORE_PLANK", comment: "core plank desc")
+    let coreReversedPlank = NSLocalizedString("CORE_REVERSED_PLANK", comment: "reversed plank desc")
     
     
     let squatsDescription = NSLocalizedString("SQUATS", comment: "Squats desc")
