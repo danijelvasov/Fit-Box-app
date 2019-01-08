@@ -41,8 +41,8 @@ struct Health {
 }
 
 struct Anatomy {
-    let anatomyList = ["Intro", "Understanding metabolism", "About physiology", "Exercise and metabolic response", "Energy metabolism",  "Definitions"]
-    let anatomyImages = ["anatomy", "anatomy", "anatomy", "anatomy", "anatomy", "anatomy"]
+    let anatomyList = ["Find your body type", "Intro", "Understanding metabolism", "About physiology", "Exercise and metabolic response", "Energy metabolism",  "Definitions"]
+    let anatomyImages = ["bodyTypes","anatomy", "anatomy", "anatomy", "anatomy", "anatomy", "anatomy"]
 }
 
 
@@ -93,6 +93,7 @@ struct Description {
     let intervalTrainingDescription = NSLocalizedString("INTERVAL_TRAINING", comment: "interval training desc")
     
     
+    let findYourBodyTypeDescription = NSLocalizedString("BODY_TYPES", comment: "find your body type desc")
     let introAnatomyDescription = NSLocalizedString("INTRO_ANATOMY", comment: "intro anatamy")
     let understandingMetabolismDescription = NSLocalizedString("UNDERSTANDING_METABOLISM", comment: "metabolism desc")
     let anatomyPhysiologyDescription = NSLocalizedString("ANATOMY_PHYSIOLOGY", comment: "anatomy physiology desc")

@@ -127,6 +127,8 @@ class DetailsViewController: UIViewController {
             return dataService.whatIsCardiovascularFitnessDescription
         case "Cardio myths":
             return dataService.mythsAboutCardioDescription
+        case "Find your body type":
+            return dataService.findYourBodyTypeDescription
         case "Intro":
             return dataService.introAnatomyDescription
         case "Understanding metabolism":
