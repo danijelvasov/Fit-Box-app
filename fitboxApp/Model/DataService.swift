@@ -106,11 +106,15 @@ struct Description {
     let hypertrophyDescription = NSLocalizedString("HYPERTROPHY", comment: "hypertrophyDesc")
     let fatlossDescription = NSLocalizedString("FATLOSS", comment: "fatlossDesc")
     let conditionigDescription = NSLocalizedString("CONDITIONING", comment: "conditioningDesc")
+    let hourglassDescription = NSLocalizedString("HOURGLASS", comment: "hourglass desc")
+    let rulerDescription = NSLocalizedString("RULER", comment: "ruler desc")
+    let coneDesription = NSLocalizedString("CONE", comment: "cone desc")
+    let spoonDescription = NSLocalizedString("SPOON", comment: "spoon desc")
 }
 
 
 struct Recommendations {
-    let cycleType = ["", "Strength", "Hypertrophy", "Fatloss", "Conditioning"]
+    let cycleType = ["", "Strength", "Hypertrophy", "Fatloss", "Conditioning", "By body shape: Hourglass", "By body shape: Ruler", "By body shape: Cone", "By body shape: Spoon"]
 
 }
 

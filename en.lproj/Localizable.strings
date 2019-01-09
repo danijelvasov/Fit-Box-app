@@ -843,6 +843,20 @@ Characteristics:
 - Trouble losing weight
 - Generally gains muscle easily
 
+
+One can be a combination of body types, so, in order to make things easier, we can differ four body shape categories:
+
+HOURGLASS
+A very Indian shape to have, wherein the waist size is a lot lesser than the chest and hips, though the chest is slightly heavier than the hips. These are the people who look proportionate even if slightly overweight as their weight is, in general, equally distributed throughout the body, their upper and lower bodies have more strength than endurance, and though they do gain weight easily they also lose it as easily and proportionately.
+
+RULER
+The waist, chest and hips are in almost equal proportion and rulers gain weight more easily in the midsection, they do not bulk or add muscle mass easily however their weight loss is also almost equal throughout. They usually handle endurance exercises more easily than strength training.
+
+CONE
+As the name states, their upper body is much larger than the lower, the stomach normally protrudes and the arms and chest bulk easily though they are a lot slimmer hip downwards.
+
+SPOON
+The lower body is distinctly larger than the upper body, thick upper thighs, bulky inner thighs, outer thighs stick out (saddle bags) dense calves, thickset ankles, weak lower ab muscles and weak upper body.
 ";
 
 
@@ -990,6 +1004,8 @@ Type I muscle fibers (slow twitch): A muscle fiber characterized by its slow spe
 
 
 "STRENGTH"="
+Goal: STRENGTH
+
 Recommended principle: SPLIT WORKOUT
 Recommended method: REST-PAUSE & PYRAMID
 
@@ -1000,6 +1016,8 @@ Rep range: 2-5 (warm up first!)
 
 
 "HYPERTROPHY"="
+Goal: HYPERTROPHY
+
 Recommended principle: PROGRESIVE OVERLOAD & HOLISTIC
 Recommended method: SUPERSET, COMPOUND, TRI-SET & GIGA-SET
 
@@ -1010,6 +1028,8 @@ Rep range: 7-10 (warm up first!)
 
 
 "FATLOSS"="
+Goal: FATLOSS
+
 Recommended principle: LOW INTENSITY CARDIO (WITH LOW-CALORIE INTAKE)
 Recommended method: CARDIO, LIGHT CONDITIONIG
 
@@ -1018,10 +1038,48 @@ Recommended exercices: ROPE, CYCLING, TREADMILL, ROWING, SWIMMING, BOXING
 
 
 "CONDITIONING"="
+Goal: CONDITIONING
+
 Recommended principle: CYCLE, INTERVAL
 Recommended method: INTERVAL, LIGHT CONDITIONIG
 
 Recommended exercices: CONDITIONING EXERCISES, HIGH-INTENSITY
 Rep types: MUSCLE CONFUSION
 Rep range: 20+
+";
+
+"HOURGLASS"="
+Body shape: HOURGLASS
+
+Cardiovascular exercises recommendation:
+Low impact aerobics, cycling at low to moderate tension and higher speed, brisk walking or the treadmill at 3-4 incline but higher speed is recommended depending on your fitness level.
+
+Strength training recommendation:
+Stick to moderate to high repetitions (12-15 reps) with using rep combinations as high as 25 reps and low to moderate weights (concept will vary with time as you get fitter). A combination of both compound movements and isolations will prove effective. How much weight you lift is also dependant on how you want to look ultimately. This kind of a workout will help you get fitter, stronger and leaner.
+";
+
+"RULER"="
+Body shape: RULER
+
+Cardiovascular exercises recommendation: Biking with high tension, walking on an incline treadmill or uphill, running, jogging, steppers or stair climbers with moderate resistance will all help in burning fat effectively.
+
+Strength training recommendation: Higher repetitions (20+ reps), with moderate to heavy weights. Choose more basic and compound movements over isolations (chose isolations only as finishing exercise).
+";
+
+"CONE"="
+Body shape: CONE
+
+Cardiovascular exercise recommendation: Cycling at moderate to high tension and brisk walking or treadmill at moderate incline (3-5) and high speed, avoid jogging at high tension.
+
+Strength training recommendation: Concentrate on lightweights and higher repetitions on the upper body and moderate to heavy weight and moderate repetitions (12-15) on the lower body. Choose compound movements for both upper and lower body as well as isolations.
+";
+
+"SPOON"="
+Body shape: SPOON
+
+Cardiovascular exercise recommendation: Cycle at higher speed and lesser tension, brisk walking or walking at high speed on treadmill without incline. Avoid steppers/stair climbers, high impact aerobics as they will further add bulk to lower body.
+
+Strength training recommendation: Doing compound movements with moderate to heavy weights for the upper body, and both compound movements and isolations with high repetitions for the lower body is recommended.
+
+
 ";

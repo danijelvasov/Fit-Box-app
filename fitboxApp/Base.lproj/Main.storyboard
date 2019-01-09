@@ -420,8 +420,9 @@
                                 <rect key="frame" x="0.0" y="288" width="320" height="216"/>
                                 <color key="tintColor" red="0.14117647059999999" green="0.40000000000000002" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </pickerView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="white" editable="NO" text="Select one below:" translatesAutoresizingMaskIntoConstraints="NO" id="K7b-Oq-zMA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" editable="NO" text="Please choose a type below:" translatesAutoresizingMaskIntoConstraints="NO" id="K7b-Oq-zMA">
                                 <rect key="frame" x="16" y="5" width="288" height="275"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
@@ -430,17 +431,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="hGJ-Fs-q1U" firstAttribute="bottom" secondItem="T9T-gK-Ime" secondAttribute="bottom" id="3Em-85-5lH"/>
                             <constraint firstItem="I3K-A1-2U1" firstAttribute="bottom" secondItem="T9T-gK-Ime" secondAttribute="bottom" id="8T2-L1-xbT"/>
-                            <constraint firstItem="hGJ-Fs-q1U" firstAttribute="trailing" secondItem="T9T-gK-Ime" secondAttribute="trailing" id="H56-5K-xxr"/>
-                            <constraint firstItem="K7b-Oq-zMA" firstAttribute="top" secondItem="T9T-gK-Ime" secondAttribute="top" constant="5" id="Q47-cr-4zB"/>
-                            <constraint firstItem="T9T-gK-Ime" firstAttribute="trailing" secondItem="K7b-Oq-zMA" secondAttribute="trailing" constant="16" id="RZU-J3-mhB"/>
-                            <constraint firstItem="hGJ-Fs-q1U" firstAttribute="leading" secondItem="T9T-gK-Ime" secondAttribute="leading" id="b8P-xp-peM"/>
+                            <constraint firstItem="hGJ-Fs-q1U" firstAttribute="leading" secondItem="T9T-gK-Ime" secondAttribute="leading" id="GDi-LA-2Qu"/>
+                            <constraint firstItem="hGJ-Fs-q1U" firstAttribute="bottom" secondItem="T9T-gK-Ime" secondAttribute="bottom" id="aAn-3r-49j"/>
                             <constraint firstItem="I3K-A1-2U1" firstAttribute="top" secondItem="T9T-gK-Ime" secondAttribute="top" id="bdi-2v-cah"/>
                             <constraint firstItem="I3K-A1-2U1" firstAttribute="trailing" secondItem="T9T-gK-Ime" secondAttribute="trailing" id="hQK-ME-NmI"/>
-                            <constraint firstItem="K7b-Oq-zMA" firstAttribute="leading" secondItem="T9T-gK-Ime" secondAttribute="leading" constant="16" id="iBI-Np-iRo"/>
                             <constraint firstItem="I3K-A1-2U1" firstAttribute="leading" secondItem="T9T-gK-Ime" secondAttribute="leading" id="l6v-ng-X3x"/>
-                            <constraint firstItem="hGJ-Fs-q1U" firstAttribute="top" secondItem="K7b-Oq-zMA" secondAttribute="bottom" constant="8" id="pgE-mV-oqT"/>
+                            <constraint firstItem="hGJ-Fs-q1U" firstAttribute="trailing" secondItem="T9T-gK-Ime" secondAttribute="trailing" id="o2s-en-OwA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="T9T-gK-Ime"/>
                     </view>

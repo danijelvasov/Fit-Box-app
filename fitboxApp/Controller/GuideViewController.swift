@@ -16,7 +16,7 @@ class GuideViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     let dataService = Description()
     let recommendations = Recommendations()
-    var details = ""
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,31 +34,41 @@ class GuideViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        details = recommendations.cycleType[row]
         return recommendations.cycleType[row]
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
+        let typeSelected = recommendations.cycleType[row]
+
         func getDesc()->String{
-        switch details {
-        case "Strength":
-            return dataService.strengthDescription
-        case "Hypertrophy":
-            return dataService.hypertrophyDescription
-        case "Fatloss":
-            return dataService.fatlossDescription
-        case "Conditioning":
-            return dataService.conditionigDescription
-        case "":
-            return "Select one below:"
-        default:
-            return ""
+            
+            switch typeSelected {
+            case "Strength":
+                return dataService.strengthDescription
+            case "Hypertrophy":
+                return dataService.hypertrophyDescription
+            case "Fatloss":
+                return dataService.fatlossDescription
+            case "Conditioning":
+                return dataService.conditionigDescription
+            case "By body shape: Hourglass":
+                return dataService.hourglassDescription
+            case "By body shape: Ruler":
+                return dataService.rulerDescription
+            case "By body shape: Cone":
+                return dataService.coneDesription
+            case "By body shape: Spoon":
+                return dataService.spoonDescription
+            default:
+                return "Please choose a type below:"
+            }
         }
-        }
+        
         
         UIView.animate(withDuration: 0.3) {
             self.textView.alpha = 0
+            self.textView.setContentOffset(CGPoint.zero, animated: false)
         }
         
         textView.text = getDesc()
@@ -69,5 +79,9 @@ class GuideViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     }
     
     
-
+    
+    
+    
+    
+    
 }
