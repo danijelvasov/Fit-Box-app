@@ -43,14 +43,37 @@ class DetailsViewController: UIViewController {
         self.detailImageView.layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         self.detailImageView.layer.shadowOpacity = 0.5
         self.detailImageView.layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
+        
+        animateImageAndTextView(imageView: self.detailImageView, textView: self.textView, button: button)
+
     }
     
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
         self.textView.setContentOffset(CGPoint.zero, animated: true)
+      
     }
     
+    
+    func animateImageAndTextView(imageView: UIImageView, textView: UITextView, button: UIButton) {
+        var delay = 0.0
+        var duration = 0.9
+        
+        let collection = [imageView,textView,button]
+        for element in collection {
+            UIView.animate(withDuration: duration, delay: delay, options: UIView.AnimationOptions.curveEaseInOut, animations: {
+                element.alpha = 1
+            }, completion: nil)
+            
+            delay += 0.3
+            duration += 0.2
+        }
+        
+        
+        
+        
+    }
     
     func getDescription() -> String {
         switch titleData {
