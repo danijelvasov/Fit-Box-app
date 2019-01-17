@@ -36,10 +36,10 @@ class DetailsViewController: UIViewController {
         super.viewWillAppear(true)
         self.navigationItem.title = titleData ?? ""
         self.detailImageView.image = UIImage(named: imageData ?? "iconLaunchScreen" )
+        self.textView.setContentOffset(CGPoint.zero, animated: true)
         self.textView.text = getDescription()
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
         buttonConstraint.constant = halfscreen
-        self.textView.setContentOffset(CGPoint.zero, animated: true)
         self.detailImageView.layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         self.detailImageView.layer.shadowOpacity = 0.5
         self.detailImageView.layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
@@ -57,17 +57,17 @@ class DetailsViewController: UIViewController {
     
     
     func animateImageAndTextView(imageView: UIImageView, textView: UITextView, button: UIButton) {
-        var delay = 0.0
-        var duration = 0.9
+        var delay = 0.1
+        var duration = 1.0
         
-        let collection = [imageView,textView,button]
+        let collection = [imageView,button,textView]
         for element in collection {
             UIView.animate(withDuration: duration, delay: delay, options: UIView.AnimationOptions.curveEaseInOut, animations: {
                 element.alpha = 1
             }, completion: nil)
             
             delay += 0.3
-            duration += 0.2
+            duration += 0.3
         }
         
         
@@ -151,6 +151,8 @@ class DetailsViewController: UIViewController {
             return dataService.mythsAboutCardioDescription
         case "Psychology & fitness":
             return dataService.psychologyDescription
+        case "Exercise and hypertension":
+            return dataService.hypertensionDescription
         case "Find your body type":
             return dataService.findYourBodyTypeDescription
         case "Intro":
@@ -175,7 +177,7 @@ class DetailsViewController: UIViewController {
         detailsIsOpen = !detailsIsOpen
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
        
-        UIView.animate(withDuration: 0.8, delay: 0.0, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
+        UIView.animate(withDuration: 1.3, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.8, options: UIView.AnimationOptions.curveEaseInOut, animations: {
                 self.detailImageView.alpha = self.detailsIsOpen ? 0 : 1
                 self.upConstraint.constant = self.detailsIsOpen ? 70 : 303
                 self.removingConstraint.constant = self.detailsIsOpen ? 10 : 81

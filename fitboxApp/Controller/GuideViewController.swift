@@ -60,6 +60,8 @@ class GuideViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
                 return dataService.coneDesription
             case "By body shape: Spoon":
                 return dataService.spoonDescription
+            case "By condition: Hypertension":
+                return dataService.byHypertensionDescription
             default:
                 return "Please choose a type below:"
             }

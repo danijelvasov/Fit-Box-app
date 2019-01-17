@@ -819,6 +819,26 @@ If you are limited with time sometimes, HIIT it! HIIT stands for High Intensity 
 Yep. Visualize the best version of yourself. Work for it. Your brain will to.
 ";
 
+"HYPER" = "
+Hypertension is persistent high blood pressure. Readings as low as 140/90 are considered a threshold hor high blood pressure. Often, no outward symptoms or signs exist. That is why is important to track your blood pressure.
+Blood pressure is variable force of blood against the walls of arteries and veins, created by the heart. Since high blood pressure adds to the workload of the heart and arteries, hypertension is a primary risk factor for coronary heart desease. Artery walls can be damaged, hardened and narrowed (by deposits of cholesterol), which leads to a condition known as Arterosclerosis. In turn, this condition results in a reduction of blood flow to several organs. Collectively, untreated hypertension can lead to stroke or heart desease.
+In general, in almost 90% of cases, specific cause of hypertension is unknown. There are some steps to help you prevent hypertension:
+
+- Maintain an appropriate bodyweight. Obese individuals have twice more risk to have hypertension.
+- Limit alcohol intake to no more than one glass a day. Alcohol rises blood pressure.
+- Quit smoking. Nicotine constricts small blood vessels and also rises blood pressure.
+- Moderate salt intake. Salt could increase blood pressuure in sodium-sensitive individuals. Research show that about 50% of hypertension sufferers are sodium-sensitive.
+- Minerals that have positive impact in lowering hypertension are calcium, magnesium and potassium. Consume those.
+- Exercise on regular basis. It is found to be a valuable and safe adjunct therapy for most hypertension patients.
+
+";
+
+
+
+
+
+
+
 
 
 
@@ -1203,4 +1223,19 @@ Nutrition recommendation (per meal):
 - CARB dense foods = male 0.5 / female 0.5 cupped handfuls
 
 - FAT dense foods = male 0.5 / female 0.5 thums
+";
+
+"BY_HYPER"="
+Exercise recommendation for hypertension sufferers:
+
+Non-weight-bearing exercises or low-impact aerobic activities - walking, cycling, swimming, etc. should be priority, since a significant potrion of hypertensives are obese or elderly - both groups often suffer from a variety of lower-extremity orthopedic problems.
+
+Exercise intensity should be kept lower, between 50 - 75% of max heart rate. Keep in mind that high intensity (80% or more) does not produce beneficial effects on blood pressure.
+
+Exercise duration should begin at 20-30mins per session and progress to 45-60mins as adaptation occurs.
+
+Exercise at least 4 times a week. Every day exercising is preferable for this condition.
+
+Warm up at least 10 minutes. This helps your cardiovascular system gets prepared for exercise.
+Also prolong cooldown to 10 minutes.
 ";
