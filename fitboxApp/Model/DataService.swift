@@ -36,8 +36,8 @@ struct Programs {
 
 
 struct Health {
-    let healthList = ["Cardiovascular fitness", "Cardio myths" ]
-    let healthImages = ["cardiohealth", "noSign"]
+    let healthList = ["Cardiovascular health & fitness", "Cardio myths", "Psychology & fitness" ]
+    let healthImages = ["cardiohealth", "noSign", "motivation"]
 }
 
 struct Anatomy {
@@ -91,6 +91,7 @@ struct Description {
     let mythsAboutCardioDescription = NSLocalizedString("MYTHS_ABOUT_CARDIO", comment: "myths about cardio desc")
     let testYourFitnessDescription = NSLocalizedString("TEST_YOUR_FITNESS", comment: "cooper test desc")
     let intervalTrainingDescription = NSLocalizedString("INTERVAL_TRAINING", comment: "interval training desc")
+    let psychologyDescription = NSLocalizedString("PSYCHOLOGY", comment: "psychology & motivation desc")
     
     
     let findYourBodyTypeDescription = NSLocalizedString("BODY_TYPES", comment: "find your body type desc")

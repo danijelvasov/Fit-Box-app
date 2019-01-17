@@ -19,7 +19,6 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var leftConstraint: NSLayoutConstraint!
     @IBOutlet weak var rightConstraint: NSLayoutConstraint!
-    @IBOutlet weak var innerRectangle: UIImageView!
     
 
     @IBOutlet weak var button: UIButton!
@@ -123,10 +122,12 @@ class DetailsViewController: UIViewController {
             return dataService.repetitionRangesDescription
         case "Interval training":
             return dataService.intervalTrainingDescription
-        case "Cardiovascular fitness":
+        case "Cardiovascular health & fitness":
             return dataService.whatIsCardiovascularFitnessDescription
         case "Cardio myths":
             return dataService.mythsAboutCardioDescription
+        case "Psychology & fitness":
+            return dataService.psychologyDescription
         case "Find your body type":
             return dataService.findYourBodyTypeDescription
         case "Intro":
@@ -156,10 +157,9 @@ class DetailsViewController: UIViewController {
                 self.upConstraint.constant = self.detailsIsOpen ? 70 : 303
                 self.removingConstraint.constant = self.detailsIsOpen ? 10 : 81
                 self.imageConstraint.constant = self.detailsIsOpen ? 160 : 16
-                self.innerRectangle.alpha = self.detailsIsOpen ? 1 : 0.75
-                self.menuView.layer.cornerRadius = self.detailsIsOpen ? 10 : 0
                 self.buttonConstraint.constant = self.detailsIsOpen ? 30 : halfscreen
                 self.bottomConstraint.constant = self.detailsIsOpen ? -15 : 10
+                self.textView.alpha = self.detailsIsOpen ? 1 : 0.85
         
                 let angle: CGFloat = self.detailsIsOpen ? .pi : 0.0
                 self.button.transform = CGAffineTransform(rotationAngle: angle)

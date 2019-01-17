@@ -774,6 +774,57 @@ then:
 yourMaxHeartRate * 0.55  =  55% of your maximal hear rate.
 ";
 
+"PSYCHOLOGY"="
+Here are some tips to help you stay motivated:
+
+1. SET FITNESS GOALS.
+
+Start with simple goals and then progress to longer range goals. Put it on paper. Also, write your plan how to achive that goal.
+(example:
+GOAL ONE - to lose 5 pounds in 3 weeks.
+HOW - Will lower calorie intake by 400kcal/day. Will not eat bread, pizza, burgers, chips and sweets more than once a week. Will not drink industrial juices, only fresh juices.  )
+
+2. TRACK YOUR PROGRESS.
+
+Get some fitness tracking app or write your progress on paper, and do your mothly checks. Also, you can do some fitness tests to find your current fitness level.
+
+3. MAKE IT FUN.
+
+Mix your physical activities, enjoy the exercises, make new friends at gym, try othes sports…
+
+4. JOIN FORCES WITH YOUR FRIENDS.
+
+It’s great to exercise with your friends, track and compare your results and achived goals. Keep in mind that, this should be a healthy level competition, you do not want yourself and your friend injured.
+
+5. REWARD YOURSELF.
+
+Eat that pizza. Eat that burger. Eat that ice cream. Do what you find good for your motivation, as a reward for good results. You should have a good & healty lifestyle, full of healthy habits, not only short-term diets. Remember, primary goal is your health.
+
+6. GO EXERCISE, EVEN WHEN YOU DON’T FEEL LIKE IT
+
+Give it a try once. You’ll see how will you feel later. Do the light exercise when you feel ‘down’.
+
+7. BUY SOME NEW TRAINING KIT
+Get some shiny colorfull T-shirt, leggings, trainers… Old gray T-shirts are not really motivating, right?
+
+8. SCHEDULE YOUR EXERCISE LIKE A MEETING IN YOUR CALENDAR
+
+One of the biggest excuses I hear from some people about exercising is that they don’t have time - work, kids, kitchen… Get organized. Get oganized. and… Get organized! Write todos, fill in calendar, schedule important things. Health is important to you, or not?
+If you are healty, you’ll be able to work. If you are healthy, you’ll be able to help your children have a great childhood. If you are healthy, your mind will be fresh. Think about it.
+Good organization will also make more space for your family and friends.
+If you are limited with time sometimes, HIIT it! HIIT stands for High Intensity Interval Training (read more in this app: Programs > Interval training).
+
+9. VISUALIZE
+
+Yep. Visualize the best version of yourself. Work for it. Your brain will to.
+";
+
+
+
+
+
+
+
 "TEST_YOUR_FITNESS"="
 One way to test your fitness level is using Cooper test.
 It was designed by Kenneth H. Cooper in 1968 for US military use.
@@ -1012,6 +1063,15 @@ Recommended method: REST-PAUSE & PYRAMID
 Recommended exercices: COMPOUND BARBELL EXERCISES
 Rep types: QUALITY & RETRO-GRAVITY
 Rep range: 2-5 (warm up first!)
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 2 / female 1 palms
+
+- VEGETABLES = male 2 / female 1 fists
+
+- CARB dense foods = male 3 / female 2 cupped handfuls
+
+- FAT dense foods = male 2 / female 1 thums
 ";
 
 
@@ -1024,6 +1084,15 @@ Recommended method: SUPERSET, COMPOUND, TRI-SET & GIGA-SET
 Recommended exercices: COMPOUND, ISOLATION (BARBELL, DUMBBELL & MACHINES)
 Rep types: QUALITY, BURNS, ISOLATION, CHEAT, CONTINUOUS TENSION
 Rep range: 7-10 (warm up first!)
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 2 / female 1.5 palms
+
+- VEGETABLES = male 2 / female 1 fists
+
+- CARB dense foods = male 2 / female 1 cupped handfuls
+
+- FAT dense foods = male 2 / female 1.5 thums
 ";
 
 
@@ -1034,6 +1103,15 @@ Recommended principle: LOW INTENSITY CARDIO (WITH LOW-CALORIE INTAKE)
 Recommended method: CARDIO, LIGHT CONDITIONIG
 
 Recommended exercices: ROPE, CYCLING, TREADMILL, ROWING, SWIMMING, BOXING
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 2 / female 1 palms
+
+- VEGETABLES = male 2 / female 1 fists
+
+- CARB dense foods = male 0.5 / female 0.5 cupped handfuls
+
+- FAT dense foods = male 1 / female 0.5 thums
 ";
 
 
@@ -1046,6 +1124,15 @@ Recommended method: INTERVAL, LIGHT CONDITIONIG
 Recommended exercices: CONDITIONING EXERCISES, HIGH-INTENSITY
 Rep types: MUSCLE CONFUSION
 Rep range: 20+
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 1 / female 1 palms
+
+- VEGETABLES = male 2 / female 1.5 fists
+
+- CARB dense foods = male 2 / female 1 cupped handfuls
+
+- FAT dense foods = male 1 / female 1 thums
 ";
 
 "HOURGLASS"="
@@ -1056,6 +1143,15 @@ Low impact aerobics, cycling at low to moderate tension and higher speed, brisk 
 
 Strength training recommendation:
 Stick to moderate to high repetitions (12-15 reps) with using rep combinations as high as 25 reps and low to moderate weights (concept will vary with time as you get fitter). A combination of both compound movements and isolations will prove effective. How much weight you lift is also dependant on how you want to look ultimately. This kind of a workout will help you get fitter, stronger and leaner.
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 1 / female 0.5 palms
+
+- VEGETABLES = male 2 / female 1.5 fists
+
+- CARB dense foods = male 0.5 / female 0.5 cupped handfuls
+
+- FAT dense foods = male 0.5 / female 0.5 thums
 ";
 
 "RULER"="
@@ -1064,6 +1160,15 @@ Body shape: RULER
 Cardiovascular exercises recommendation: Biking with high tension, walking on an incline treadmill or uphill, running, jogging, steppers or stair climbers with moderate resistance will all help in burning fat effectively.
 
 Strength training recommendation: Higher repetitions (20+ reps), with moderate to heavy weights. Choose more basic and compound movements over isolations (chose isolations only as finishing exercise).
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 2 / female 1 palms
+
+- VEGETABLES = male 2 / female 1 fists
+
+- CARB dense foods = male 3 / female 2 cupped handfuls
+
+- FAT dense foods = male 1 / female 0.5 thums
 ";
 
 "CONE"="
@@ -1072,6 +1177,15 @@ Body shape: CONE
 Cardiovascular exercise recommendation: Cycling at moderate to high tension and brisk walking or treadmill at moderate incline (3-5) and high speed, avoid jogging at high tension.
 
 Strength training recommendation: Concentrate on lightweights and higher repetitions on the upper body and moderate to heavy weight and moderate repetitions (12-15) on the lower body. Choose compound movements for both upper and lower body as well as isolations.
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 1 / female 1 palms
+
+- VEGETABLES = male 1.5 / female 1 fists
+
+- CARB dense foods = male 0.5 / female 0.5 cupped handfuls
+
+- FAT dense foods = male 0.5 / female 0.5 thums
 ";
 
 "SPOON"="
@@ -1081,5 +1195,12 @@ Cardiovascular exercise recommendation: Cycle at higher speed and lesser tension
 
 Strength training recommendation: Doing compound movements with moderate to heavy weights for the upper body, and both compound movements and isolations with high repetitions for the lower body is recommended.
 
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 1.5 / female 1 palms
 
+- VEGETABLES = male 1 / female 1 fists
+
+- CARB dense foods = male 0.5 / female 0.5 cupped handfuls
+
+- FAT dense foods = male 0.5 / female 0.5 thums
 ";
