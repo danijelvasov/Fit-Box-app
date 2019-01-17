@@ -62,6 +62,8 @@ class GuideViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
                 return dataService.spoonDescription
             case "By condition: Hypertension":
                 return dataService.byHypertensionDescription
+            case "By condition: Diabetes":
+                return dataService.byDiabetesDescription
             default:
                 return "Please choose a type below:"
             }

@@ -36,8 +36,8 @@ struct Programs {
 
 
 struct Health {
-    let healthList = ["Cardiovascular health & fitness", "Cardio myths", "Psychology & fitness", "Exercise and hypertension" ]
-    let healthImages = ["cardiohealth", "noSign", "motivation", "hyper"]
+    let healthList = ["Cardiovascular health & fitness", "Cardio myths", "Psychology & fitness", "Exercise and hypertension", "Exercise and diabetes" ]
+    let healthImages = ["cardiohealth", "noSign", "motivation", "hyper", "diabetes"]
 }
 
 struct Anatomy {
@@ -93,6 +93,7 @@ struct Description {
     let intervalTrainingDescription = NSLocalizedString("INTERVAL_TRAINING", comment: "interval training desc")
     let psychologyDescription = NSLocalizedString("PSYCHOLOGY", comment: "psychology & motivation desc")
     let hypertensionDescription = NSLocalizedString("HYPER", comment: "hypertension desc")
+    let diabetesDescription = NSLocalizedString("DIABETES", comment: "diabetes desc")
     
     
     let findYourBodyTypeDescription = NSLocalizedString("BODY_TYPES", comment: "find your body type desc")
@@ -113,11 +114,12 @@ struct Description {
     let coneDesription = NSLocalizedString("CONE", comment: "cone desc")
     let spoonDescription = NSLocalizedString("SPOON", comment: "spoon desc")
     let byHypertensionDescription = NSLocalizedString("BY_HYPER", comment: "by condition hypertension desc")
+    let byDiabetesDescription = NSLocalizedString("BY_DIABETES", comment: "by condition diabetes desc")
 }
 
 
 struct Recommendations {
-    let cycleType = ["", "Strength", "Hypertrophy", "Fatloss", "Conditioning", "By body shape: Hourglass", "By body shape: Ruler", "By body shape: Cone", "By body shape: Spoon", "By condition: Hypertension"]
+    let cycleType = ["", "Strength", "Hypertrophy", "Fatloss", "Conditioning", "By body shape: Hourglass", "By body shape: Ruler", "By body shape: Cone", "By body shape: Spoon", "By condition: Hypertension", "By condition: Diabetes"]
 
 }
 

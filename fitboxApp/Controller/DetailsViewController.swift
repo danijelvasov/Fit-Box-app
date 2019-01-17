@@ -153,6 +153,8 @@ class DetailsViewController: UIViewController {
             return dataService.psychologyDescription
         case "Exercise and hypertension":
             return dataService.hypertensionDescription
+        case "Exercise and diabetes":
+            return dataService.diabetesDescription
         case "Find your body type":
             return dataService.findYourBodyTypeDescription
         case "Intro":
