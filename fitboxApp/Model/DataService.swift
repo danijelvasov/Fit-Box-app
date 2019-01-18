@@ -24,8 +24,8 @@ struct Exercises {
 
 
 struct  Nutrition {
-    let nutritionList = ["Antioxidants", "Protein", "Carbs", "Fats"]
-    let nutritionImages = ["antioxidants", "protein", "carbs", "fats"]
+    let nutritionList = ["Antioxidants", "Protein", "Carbs", "Fats", "Hand-size portion guidlines"]
+    let nutritionImages = ["antioxidants", "protein", "carbs", "fats", "portions"]
 }
 
 
@@ -79,6 +79,7 @@ struct Description {
     let proteinDescription = NSLocalizedString("PROTEIN", comment: "protein desc")
     let carbsDescription = NSLocalizedString("CARBS", comment: "carbs desc")
     let fatsDescription = NSLocalizedString("FATS", comment: "fats desc")
+    let portionGuidlinesDescription = NSLocalizedString("PORTIONS", comment: "hand sized portions guidlines desc")
    
     
     let howToPlanYourTrainingCycleDescription = NSLocalizedString("HOW_TO_PLAN_YOUR_TRAINING_CYCLE", comment: "howToPlanYourTrainingCycle desc")

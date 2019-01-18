@@ -133,6 +133,8 @@ class DetailsViewController: UIViewController {
             return dataService.carbsDescription
         case "Fats":
             return dataService.fatsDescription
+        case "Hand-size portion guidlines":
+            return dataService.portionGuidlinesDescription
         case "Test your fitness":
             return dataService.testYourFitnessDescription
         case "Plan your training cycle":
