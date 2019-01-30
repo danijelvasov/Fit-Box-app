@@ -471,7 +471,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KAQ-W0-Obh">
-                                <rect key="frame" x="94" y="279" width="196" height="35"/>
+                                <rect key="frame" x="94" y="267" width="196" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="RrO-LM-3q4"/>
                                     <constraint firstAttribute="width" constant="196" id="Y1O-c3-6JN"/>
@@ -494,7 +494,7 @@
                             <constraint firstItem="aJa-7z-gdC" firstAttribute="centerY" secondItem="lrz-B4-s9W" secondAttribute="centerY" id="Bcs-kx-DM8"/>
                             <constraint firstItem="Aeo-bm-ZMH" firstAttribute="trailing" secondItem="KAQ-W0-Obh" secondAttribute="trailing" constant="30" id="DwM-Im-Na4"/>
                             <constraint firstItem="SNv-0p-Udi" firstAttribute="top" secondItem="Aeo-bm-ZMH" secondAttribute="top" constant="50" id="EdT-v5-EnS"/>
-                            <constraint firstItem="KAQ-W0-Obh" firstAttribute="top" secondItem="aJa-7z-gdC" secondAttribute="bottom" constant="27" id="MQz-Sg-HCl"/>
+                            <constraint firstItem="KAQ-W0-Obh" firstAttribute="top" secondItem="aJa-7z-gdC" secondAttribute="bottom" constant="15" id="MQz-Sg-HCl"/>
                             <constraint firstItem="Uej-Eu-kci" firstAttribute="leading" secondItem="Aeo-bm-ZMH" secondAttribute="leading" constant="20" id="ZJb-cE-fjL"/>
                             <constraint firstItem="SNv-0p-Udi" firstAttribute="leading" secondItem="Aeo-bm-ZMH" secondAttribute="leading" constant="20" id="buZ-si-pS8"/>
                             <constraint firstItem="HOl-kb-Grz" firstAttribute="bottom" secondItem="Aeo-bm-ZMH" secondAttribute="bottom" id="cJr-id-jV5"/>
