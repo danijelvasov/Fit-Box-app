@@ -233,7 +233,7 @@
                             </stackView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="6uG-k1-HRb" firstAttribute="bottom" secondItem="QnE-wq-KJ8" secondAttribute="bottom" id="E4p-mc-EZn"/>
+                            <constraint firstItem="6uG-k1-HRb" firstAttribute="bottom" secondItem="1Yl-ax-QTc" secondAttribute="bottom" id="E4p-mc-EZn"/>
                             <constraint firstItem="6n1-3e-Ln8" firstAttribute="top" secondItem="QnE-wq-KJ8" secondAttribute="top" constant="20" id="FGl-Lc-nbP"/>
                             <constraint firstItem="6uG-k1-HRb" firstAttribute="top" secondItem="QnE-wq-KJ8" secondAttribute="top" id="Ge7-Hk-3yZ"/>
                             <constraint firstItem="6uG-k1-HRb" firstAttribute="leading" secondItem="QnE-wq-KJ8" secondAttribute="leading" id="UaT-H8-q98"/>
@@ -497,7 +497,7 @@
                             <constraint firstItem="KAQ-W0-Obh" firstAttribute="top" secondItem="aJa-7z-gdC" secondAttribute="bottom" constant="15" id="MQz-Sg-HCl"/>
                             <constraint firstItem="Uej-Eu-kci" firstAttribute="leading" secondItem="Aeo-bm-ZMH" secondAttribute="leading" constant="20" id="ZJb-cE-fjL"/>
                             <constraint firstItem="SNv-0p-Udi" firstAttribute="leading" secondItem="Aeo-bm-ZMH" secondAttribute="leading" constant="20" id="buZ-si-pS8"/>
-                            <constraint firstItem="HOl-kb-Grz" firstAttribute="bottom" secondItem="Aeo-bm-ZMH" secondAttribute="bottom" id="cJr-id-jV5"/>
+                            <constraint firstItem="HOl-kb-Grz" firstAttribute="bottom" secondItem="lrz-B4-s9W" secondAttribute="bottom" id="cJr-id-jV5"/>
                             <constraint firstItem="68C-kw-DRF" firstAttribute="leading" secondItem="Aeo-bm-ZMH" secondAttribute="leading" constant="20" id="cnm-uX-ob8"/>
                             <constraint firstAttribute="trailing" secondItem="aJa-7z-gdC" secondAttribute="trailing" constant="30" id="ecK-sX-D3h"/>
                             <constraint firstItem="HOl-kb-Grz" firstAttribute="top" secondItem="Aeo-bm-ZMH" secondAttribute="top" id="gl0-3y-BAg"/>
@@ -562,6 +562,6 @@
         <image name="upperBtn" width="807" height="825"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HUY-vW-LQJ"/>
+        <segue reference="Rvf-Xt-VMO"/>
     </inferredMetricsTieBreakers>
 </document>
