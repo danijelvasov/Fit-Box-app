@@ -15,7 +15,7 @@
         </array>
     </customFonts>
     <scenes>
-        <!--FIT - exercise & health guide-->
+        <!--FIT by Danijel-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="fitboxApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -27,11 +27,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                 <color key="backgroundColor" red="0.22352941176470587" green="0.24313725490196078" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a category:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asq-If-u6e">
-                                <rect key="frame" x="94.5" y="20" width="131" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="health &amp; exercise guide" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asq-If-u6e">
+                                <rect key="frame" x="70" y="20" width="180" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="J2V-Vq-fXE"/>
-                                    <constraint firstAttribute="width" constant="131" id="p36-ll-Ev7"/>
+                                    <constraint firstAttribute="width" constant="180" id="p36-ll-Ev7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -160,7 +160,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="FIT - exercise &amp; health guide" largeTitleDisplayMode="never" id="K7i-TJ-FJE">
+                    <navigationItem key="navigationItem" title="FIT by Danijel" largeTitleDisplayMode="never" id="K7i-TJ-FJE">
                         <barButtonItem key="backBarButtonItem" title=" " id="XWP-vC-CGA"/>
                     </navigationItem>
                     <connections>
