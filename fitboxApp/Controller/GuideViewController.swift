@@ -23,6 +23,7 @@ class GuideViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
 
         picker.delegate = self
         picker.dataSource = self
+        textView.text = "Please choose a type below:"
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {

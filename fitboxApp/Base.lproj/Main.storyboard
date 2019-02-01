@@ -279,7 +279,7 @@
                                             <size key="shadowOffset" width="0.5" height="0.5"/>
                                         </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.94999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L8C-WL-sBW">
-                                            <rect key="frame" x="16" y="17" width="75" height="59"/>
+                                            <rect key="frame" x="16" y="16" width="75" height="60"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
@@ -402,7 +402,7 @@
                                 <rect key="frame" x="0.0" y="288" width="320" height="216"/>
                                 <color key="tintColor" red="0.14117647059999999" green="0.40000000000000002" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </pickerView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" editable="NO" text="Please choose a type below:" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7b-Oq-zMA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7b-Oq-zMA">
                                 <rect key="frame" x="16" y="5" width="288" height="274"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -562,6 +562,6 @@
         <image name="upperBtn" width="807" height="825"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Rvf-Xt-VMO"/>
+        <segue reference="HUY-vW-LQJ"/>
     </inferredMetricsTieBreakers>
 </document>
