@@ -10,34 +10,51 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
-    @IBOutlet weak var button1: UIButton!
-    @IBOutlet weak var button2: UIButton!
-    @IBOutlet weak var lowButtonConstraint: NSLayoutConstraint!
-    @IBOutlet weak var betweenButtonsConstraint: NSLayoutConstraint!
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.animateButtons()
-    }
+    var categoryName : String?
+    var categories = Categories()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.animateButtons()
+    
+    @IBOutlet weak var exercisesBtn: UIButton!
+    @IBOutlet weak var foodBtn: UIButton!
+    @IBOutlet weak var programsBtn: UIButton!
+    @IBOutlet weak var cardioBtn: UIButton!
+    @IBOutlet weak var aboutBtn: UIButton!
+    
+    
+    
+    @IBAction func anatomyBtnPressed(_ sender: Any) {
+        categoryName = categories.anatomy
+        performSegue(withIdentifier: "goToList", sender: self)
     }
     
-    func animateButtons() {
-        UIView.animate(withDuration: 1.0, delay: 0.3, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseOut, animations: {
-            self.lowButtonConstraint.constant = 25
-            self.betweenButtonsConstraint.constant = 20
-            self.button1.alpha = 1.0
-            self.button2.alpha = 1.0
-            self.button1.layer.cornerRadius = 12
-            self.button2.layer.cornerRadius = 12
-            self.view.layoutIfNeeded()
-        }, completion: nil)
+    
+    @IBAction func FoodBtnPressed(_ sender: Any) {
+        categoryName = categories.nutrition
+        performSegue(withIdentifier: "goToList", sender: self)
     }
-   
+    
+    
+    @IBAction func programsBtnPressed(_ sender: Any) {
+        categoryName = categories.programs
+        performSegue(withIdentifier: "goToList", sender: self)
+    }
+    
+    @IBAction func cardioBtnPressed(_ sender: Any) {
+        categoryName = categories.health
+        performSegue(withIdentifier: "goToList", sender: self)
+    }
+    
+    @IBAction func recommendationsBtnPressed(_ sender: Any) {
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToList" {
+            let dvc = segue.destination as! TableViewController
+            dvc.categoryName = categoryName
+        }
+    }
+    
+
 
 
 }

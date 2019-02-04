@@ -20,47 +20,101 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var leftConstraint: NSLayoutConstraint!
     @IBOutlet weak var rightConstraint: NSLayoutConstraint!
     
+
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var menuView: UIView!
     
-    let dataService = ExercisesDescription()
+    let dataService = Description()
     var imageData: String?
     var titleData: String?
     var detailsIsOpen = false
-    let customRedColor = #colorLiteral(red: 1, green: 0.3921568627, blue: 0.4509803922, alpha: 1)
-    let customGrayColor = #colorLiteral(red: 0.4588235294, green: 0.4705882353, blue: 0.5098039216, alpha: 1)
-    let customDarkGreenColor = #colorLiteral(red: 0.3607843137, green: 0.7568627451, blue: 0.7019607843, alpha: 1)
-    let customLightGreenColor = #colorLiteral(red: 0.431372549, green: 0.968627451, blue: 0.7843137255, alpha: 1)
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+   
+   
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
         self.navigationItem.title = titleData ?? ""
-        self.detailImageView.image = UIImage(named: imageData ?? "siluette" )
-        
+        self.detailImageView.image = UIImage(named: imageData ?? "iconLaunchScreen" )
+        self.textView.setContentOffset(CGPoint.zero, animated: true)
         self.textView.text = getDescription()
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
         buttonConstraint.constant = halfscreen
-    }
+        self.detailImageView.layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        self.detailImageView.layer.shadowOpacity = 0.5
+        self.detailImageView.layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
+        
+        animateImageAndTextView(imageView: self.detailImageView, textView: self.textView, button: button)
 
+    }
+    
+    
     override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
-        buttonConstraint.constant = halfscreen
+        super.viewDidAppear(true)
         self.textView.setContentOffset(CGPoint.zero, animated: true)
+      
+    }
+    
+    
+    func animateImageAndTextView(imageView: UIImageView, textView: UITextView, button: UIButton) {
+        var delay = 0.1
+        var duration = 1.0
+        
+        let collection = [imageView,button,textView]
+        for element in collection {
+            UIView.animate(withDuration: duration, delay: delay, options: UIView.AnimationOptions.curveEaseInOut, animations: {
+                element.alpha = 1
+            }, completion: nil)
+            
+            delay += 0.3
+            duration += 0.3
+        }
+        
+        
+        
+        
     }
     
     func getDescription() -> String {
         switch titleData {
-        case "Bench press":
+        case "CHEST: Bench press":
             return dataService.benchPressDescription
-        case "Machine fly":
+        case "CHEST: Machine fly":
             return dataService.machineFlyDescription
-        case "Lat pulldown":
+        case "BACK: Lat pulldown":
             return dataService.latPulldownDescription
-        case "Chest press":
+        case "CHEST: Chest press":
             return dataService.chestPressDescription
-        case "Cable row":
+        case "BACK: Cable row":
             return dataService.cableRowDescription
+        case "BACK: Landmine row":
+            return dataService.landmineRowDescription
+        case "SHOULDERS: Seated overhead press":
+            return dataService.seatedOverheadPressDescription
+        case "SHOULDERS: Lateral raise":
+            return dataService.lateralRaiseDescription
+        case "SHOULDERS: Front raise":
+            return dataService.frontRaiseDescription
+        case "SHOULDERS: Lying lateral raise":
+            return dataService.lyingLateralRaiseDescription
+        case "BICEPS: Dumbbell curl":
+            return dataService.bicepsCurlDescription
+        case "BICEPS: Concentration curl":
+            return dataService.concentrationCurlDescription
+        case "BICEPS: Barbell curl":
+            return dataService.barbellCurlDescription
+        case "TRICEPS: Dumbbell kickback":
+            return dataService.tricepsKickbackDescription
+        case "TRICEPS: Close-grip pushup":
+            return dataService.tricepsPushupDescription
+        case "TRICEPS: Rope pushdown":
+            return dataService.tricepsRopeDescription
+        case "CORE: Jackknife":
+            return dataService.coreJackknifeDescription
+        case "CORE: Plank":
+            return dataService.corePlankDescription
+        case "CORE: Reversed plank":
+            return dataService.coreReversedPlank
         case "Squats":
             return dataService.squatsDescription
         case "Lunges":
@@ -71,6 +125,53 @@ class DetailsViewController: UIViewController {
             return dataService.legExtensionDescription
         case "Leg curl":
             return dataService.legCurlDescription
+        case "Antioxidants":
+            return dataService.antioxidansDescription
+        case "Protein":
+            return dataService.proteinDescription
+        case "Carbs":
+            return dataService.carbsDescription
+        case "Fats":
+            return dataService.fatsDescription
+        case "Hand-size portion guidlines":
+            return dataService.portionGuidlinesDescription
+        case "Test your fitness":
+            return dataService.testYourFitnessDescription
+        case "Plan your training cycle":
+            return dataService.howToPlanYourTrainingCycleDescription
+        case "Arrange your workout":
+            return dataService.howToArrangeYourWorkoutDescription
+        case "Plan your reps performing":
+            return dataService.howToPlanYoyrRepsPerformingDescription
+        case "Repetition ranges":
+            return dataService.repetitionRangesDescription
+        case "Interval training":
+            return dataService.intervalTrainingDescription
+        case "Cardiovascular health & fitness":
+            return dataService.whatIsCardiovascularFitnessDescription
+        case "Cardio myths":
+            return dataService.mythsAboutCardioDescription
+        case "Psychology & fitness":
+            return dataService.psychologyDescription
+        case "Exercise and hypertension":
+            return dataService.hypertensionDescription
+        case "Exercise and diabetes":
+            return dataService.diabetesDescription
+        case "Find your body type":
+            return dataService.findYourBodyTypeDescription
+        case "Intro":
+            return dataService.introAnatomyDescription
+        case "Understanding metabolism":
+            return dataService.understandingMetabolismDescription
+        case "About physiology":
+            return dataService.anatomyPhysiologyDescription
+        case "Exercise and metabolic response":
+            return dataService.exerciseAndMetabolicResponseDescription
+        case "Energy metabolism":
+            return dataService.energyMetabolismDescription
+        case "Definitions":
+            return dataService.definitionsDescription
+            
         default:
             return ""
         }
@@ -79,25 +180,29 @@ class DetailsViewController: UIViewController {
     @IBAction func showMorePressed(_ sender: Any) {
         detailsIsOpen = !detailsIsOpen
         let halfscreen = CGFloat(self.view.bounds.size.width / 2 - button.bounds.size.width / 2)
+       
+        UIView.animate(withDuration: 1.3, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.8, options: UIView.AnimationOptions.curveEaseInOut, animations: {
+                self.detailImageView.alpha = self.detailsIsOpen ? 0 : 1
+                self.upConstraint.constant = self.detailsIsOpen ? 70 : 303
+                self.removingConstraint.constant = self.detailsIsOpen ? 10 : 81
+                self.imageConstraint.constant = self.detailsIsOpen ? 160 : 16
+                self.buttonConstraint.constant = self.detailsIsOpen ? 30 : halfscreen
+                self.bottomConstraint.constant = self.detailsIsOpen ? -15 : 10
+                self.textView.alpha = self.detailsIsOpen ? 1 : 0.85
         
-        UIView.animate(withDuration: 1, delay: 0.0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
-            self.upConstraint.constant = self.detailsIsOpen ? 70 : 303
-            self.removingConstraint.constant = self.detailsIsOpen ? 1 : 81
-            self.imageConstraint.constant = self.detailsIsOpen ? 160 : 16
-            self.menuView.alpha = self.detailsIsOpen ? 0.75 : 1
-            self.menuView.backgroundColor = self.detailsIsOpen ? self.customDarkGreenColor : UIColor.white
-            self.textView.backgroundColor = self.detailsIsOpen ? self.customDarkGreenColor : UIColor.white
-            self.textView.textColor = self.detailsIsOpen ? UIColor.white : self.customDarkGreenColor
-            self.view.layoutIfNeeded()
-        }, completion: nil)
-
-        UIView.animate(withDuration: 1, delay: 0.15, usingSpringWithDamping: 1, initialSpringVelocity: 0, options: UIView.AnimationOptions.curveEaseInOut, animations: {
-            self.detailImageView.alpha = self.detailsIsOpen ? 0.3 : 1
-            self.buttonConstraint.constant = self.detailsIsOpen ? 30 : halfscreen
-            self.bottomConstraint.constant = self.detailsIsOpen ? -15 : 10
-            let angle: CGFloat = self.detailsIsOpen ? .pi : 0.0
-            self.button.transform = CGAffineTransform(rotationAngle: angle)
-            self.view.layoutIfNeeded()
+                let angle: CGFloat = self.detailsIsOpen ? .pi : 0.0
+                self.button.transform = CGAffineTransform(rotationAngle: angle)
+                    if self.detailsIsOpen {
+                        self.button.setBackgroundImage(UIImage(named: "closeBtn"), for: .normal)
+                    } else {
+                        self.button.setBackgroundImage(UIImage(named: "moreBtn"), for: .normal)
+                    }
+                self.button.alpha = self.detailsIsOpen ? 0.8 : 1
+            
+                self.view.layoutIfNeeded()
+                
         }, completion: nil)
     }
+    
+    
 }

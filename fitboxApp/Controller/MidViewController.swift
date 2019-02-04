@@ -10,26 +10,30 @@ import UIKit
 
 class MidViewController: UIViewController {
     
-    var isUpperSelected : Bool?
     var categoryName : String?
-
+    var categories = Categories()
+   
+    
     @IBAction func upperBodyBtnPressed(_ sender: Any) {
-        isUpperSelected = true
-        categoryName = "Upper Body"
+        categoryName = categories.upperBody
         performSegue(withIdentifier: "goToTableView", sender: self)
     }
     
+    
     @IBAction func lowerBodyBtnPressed(_ sender: Any) {
-        isUpperSelected = false
-        categoryName = "Lower Body"
+        categoryName = categories.lowerBody
         performSegue(withIdentifier: "goToTableView", sender: self)
+        
     }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToTableView" {
             let dVC = segue.destination as! TableViewController
-            dVC.isUpperSelected = isUpperSelected
             dVC.categoryName = categoryName
+            
         }
     }
+    
+    
 }

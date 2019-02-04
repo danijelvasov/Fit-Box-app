@@ -6,7 +6,7 @@
   Copyright © 2018 OSX. All rights reserved.
 */
 "BENCH_PRESS" = "
-Mechanics: Compound
+Type: COMPOUND
 Force: Push
 
 How to do it?
@@ -18,7 +18,6 @@ How to do it?
 - While holding the barbell, retract (push together) your shoulder blades and straighten your wrists.
 - Inhale as you lower the barbell to your chest, keeping your elbows tucked in at a 45-degree angle.
 - Exhale as you press the barbell back up to the starting position.
-- Repeat.
 
 Tips
 
@@ -29,7 +28,7 @@ Tips
 - Like the barbell squat and barbell deadlift, the barbell bench press is a major mass&strength-building exercise.
 ";
 "MACHINE_FLY"="
-Mechanics: Isolation
+Type: ISOLATION
 Force: Push
 
 How to do it?
@@ -48,7 +47,7 @@ Tips
 - The machine fly is not a major mass-building exercise. As an isolation exercise, it is useful if you want to warm up your chest, pre-exhaust it before the compound chest exercises, or flush it at the end of a chest workout.
 ";
 "LAT_PULLDOWN" = "
-Mechanics: Compound
+Type: COMPOUND
 Force: Pull
 
 How to do it?
@@ -70,7 +69,7 @@ Tips
 - Also known as the wide-grip cable pulldown.
 ";
 "CHEST_PRESS" = "
-Mechanics: compound
+Type: COMPOUND
 Force: Push
 
 How to do it?
@@ -90,7 +89,7 @@ Tips
 - The machine chest press is great if you want to push very heavy weights with your chest but don’t have anyone to help you with the barbell bench press. Otherwise, the barbell bench press is favorable to the machine chest press. The reason is that the barbell bench press necessitates the recruitment of more stabilizer muscles. The machine chest press is also great for beginners, the elderly, and people undergoing rehabilitation.
 ";
 "CABLE_ROW" = "
-Mechanics: Compound
+Type: COMPOUND
 Force: Pull
 
 How to do it?
@@ -100,7 +99,6 @@ How to do it?
 - Exhale as you slowly lean backward, straighten your back, and pull the v-bar to your abdomen, keeping your elbows close to your body. Pull your shoulders back and stick out your chest at the top of the movement.
 - Hold for a count of two and squeeze your back muscles.
 - Inhale as you slowly lean forward and return the double-row bar to the starting position, with your arms and shoulders stretching forward and your lower back bent forward.
-- Repeat.
 
 Tips
 
@@ -111,8 +109,302 @@ Tips
 - Many people think that your biceps acts as a synergist in rowing exercises such as the seated cable row. In fact, it only acts as a dynamic stabilizer, along with the long head of your triceps brachii.
 - Most people will tell you to keep your back straight and your chest out throughout the seated cable row exercise. That’s known as the straight-back seated cable row. It’s a different exercise, which doesn’t dynamically work your erector spinae (spinal erectors). The exercise described above does dynamically work your spinal erectors.
 ";
-"SQUATS" = "
+
+"LANDMINE_ROW"="
 Mechanics: Compound
+Force: Pull
+Starting position
+
+Stand with a loaded barbell between your legs. Start with light weights.
+Bend at the hips and a little at the knees and grasp the bar just under the plates with both hands. You can either interlink your fingers or place one hand over the other. Instead of grasping the bar, you can also hook a double-row bar around it. Your back should be straight and close to horizontal (tip: raise your chin, look towards ceiling).
+
+How to do it?
+
+- Keeping your elbows close to your body, exhale as you pull the landmine to your chest.
+- Hold a little bit, and squeeze your back muscles.
+- Inhale as you lower the bar in a controlled manner until your shoulders stretch downward. Don’t allow the bar to touch the floor.
+Repeat.
+
+Tips
+
+- Keep your back straight and close to horizontal.
+- Pull with your elbows, not with your biceps.
+- Keep your elbows close to your body.
+";
+
+"SEATED_OVERHEAD_PRESS"="
+Mechanics: Compound
+Force: Push
+
+How to do it?
+
+- Holding a pair of dumbbells, sit up straight on a bench or chair, preferably one that supports your back.
+- Raise the dumbbells to a starting position (see picture), and hold them at shoulder height, with your palms facing forward.
+- Exhale as you press the dumbbells upward and inward until they almost touch over your head.
+- Inhale as you reverse the motions and lower the dumbbells to the starting position.
+Repeat.
+
+Tips
+
+- Keep your back straight.
+- For optimal back support, make sure your lower back is in constant contact with the back of the chair.
+- To raise heavy dumbbells into position, rest them on your knees and then kick them up into position one at a time.
+- Do not lock your elbows out at the top of the press. This will safeguard your elbows as well as keep the tension on your shoulders.
+- The seated position reduces your ability to cheat.
+- The seated dumbbell overhead press is also known as the seated dumbbell shoulder press.
+Occasionally, perform the seated dumbbell overhead press with one arm at a time, as it will get more core stabilizer muscles involved and help you to develop unilateral strength.
+";
+
+"LATERAL_RAISE"="
+Mechanics: Isolation
+Force: Pull
+
+How to do it?
+
+- Stand holding a dumbbell in each hand, with the dumbbells hanging down by your sides.
+- You are allowed to bend forward a little at the hips.
+- Keeping your elbows slightly bent, exhale as you raise both arms out to the sides until your elbows are level with your shoulders.
+- Inhale as you lower the dumbbells to the starting position.
+Repeat.
+
+Tips
+
+- Keep a natural curvature of the spine.
+- Keep your body still; only your arms should move.
+- Do not swing the dumbbells or let them drop down by your sides (unless you are experienced and  doing 'cheat' type of movement).
+- You can perform the dumbbell lateral raise one arm at a time to get more stabilizer muscles in your core involved and help you to develop unilateral upper-body strength.
+";
+
+"FRONT_RAISE"="
+Mechanics: Isolation
+Force: Push
+
+How to do it?
+
+- Stand holding a dumbbell in each hand, with your elbows slightly bent and the dumbbells resting on the front of your thighs.
+- Exhale as you raise your right arm in front of you until it is at least parallel to the floor.
+- Inhale as you lower your right arm to the starting position.
+- Repeat with your left arm.
+- Keep alternating your arms, raising one after the other one has been fully lowered.
+
+Tips
+
+- Keep your back straight and body still. Do not sway back and forth.
+- You may use either a pronated (overhand) grip, as described, or a neutral (hammer) grip. You may also complete all of the reps for the first arm before moving on to the reps for the opposite arm.
+- Do not swing the dumbbells. Keep the movement under control.
+- Try to resist the lowering of the dumbbells.
+";
+
+"LYING_LATERAL_RAISE"="
+Mechanics: Isolation
+Force: Pull
+
+How to do it?
+
+- Holding a dumbbell in one hand, lie prone (on your front) on a flat bench. Ideally, the bench should be elevated to allow the dumbbell to hang straight down without touching the floor.
+- Spread your legs and plant your feet firmly on the floor.
+- Grasp the bench with your free hand for stability.
+- Keeping your elbow slightly bent, exhale as you raise the dumbbell out to the side.
+- Inhale as you lower the dumbbell to the starting position in a controlled manner.
+- Repeat the exercise with your opposite arm.
+
+Tips
+
+- Keep the bend in your elbow to a minimum.
+- You are free to use either a neutral grip (palm facing inward) or a supinated grip (palm facing upward). For shoulder safety, avoid using a pronated grip (palm facing downward).
+";
+
+"BICEPS_CURL"="
+Mechanics: Isolation
+Force: Pull
+
+How to do it?
+
+- Stand holding a pair of dumbbells by your sides using a neutral grip (palms facing in).
+- Pull your shoulders back.
+- Exhale as you slowly curl one dumbbell up towards your shoulder. As the dumbbell rises, supinate your forearm gradually so that your palm faces your shoulder by the top of the curl.
+- Once your elbow is fully flexed, allow your elbow to move forward a little (shoulder flexion), just until your forearm is vertical.
+- Squeeze your biceps.
+- Inhale as you slowly reverse the movement at half the speed and return the dumbbell to the starting position.
+- Repeat the same action with the opposite arm, and then alternate repetitions.
+
+Tips
+
+- Keep your back straight and your body still. Avoid swinging the dumbbells.
+- Instead of alternating your arms, as described above, you can complete all the reps for one arm before performing the reps with the other arm. In this case, start with the weaker arm, and don’t perform more reps with the stronger arm. This will promote the development of equal strength.
+";
+
+
+"CONCENTRATION_CURL"="
+Mechanics: Isolation
+Force: Pull
+
+How to do it?
+
+- Sit on a bench with your legs apart, with a dumbbell in front of you.
+- Pick up the dumbbell with your right hand and rest your right arm against the inside of your right thigh. Your elbow should be lower than the top of your thigh so that your elbow doesn’t pivot, and your right arm should be almost fully extended, with your palm facing away from your right thigh.
+- Rest your left arm on your left thigh to support your back.
+- Exhale as you curl the dumbbell up towards your shoulder.
+- At the top of the movement, hold the contracted position and squeeze your biceps.
+- Inhale as you lower the dumbbell to the starting position.
+- Repeat with your left arm.
+
+Tips
+- Keep your back straight and upper arm still. Only your forearm should move.
+- Do not swing the dumbbell.
+- Make sure that your elbow doesn’t pivot on your thigh and doesn’t fully lock out when you extend your arm.
+- This exercise targets your brachialis. Your biceps (especially the long head) acts as a synergist, along with your brachioradialis.
+";
+
+
+"BARBELL_CURL"="
+Mechanics: Isolation
+Force: Pull
+
+How to do it?
+
+- Stand up straight holding a barbell using a shoulder-width supinated grip (palms facing upward). Your arms should be almost fully extended, and the barbell should be resting against your thighs.
+- Keeping your body still, exhale as you curl the barbell up towards your shoulders until your elbows are fully flexed.
+- Once your elbows are fully flexed, allow your elbows to move forward a little (shoulder flexion), just until your forearms are vertical.
+- Hold a bit and squeeze your biceps.
+- Inhale as you slowly lower the barbell to the starting position.
+- Repeat.
+
+Tips
+
+- Keep your body still. Only your arms should move.
+- Do not swing the barbell (unless doing a 'cheat' type).
+- Using an EZ bar for the barbell curl can reduce the pressure on your wrists. However, the camber (bend) of the EZ bar must be minimal. The steeper the camber, the more emphasis you will place on your brachioradialis instead of your biceps.
+- Your biceps brachii has two heads: short (inner) and long (outer). The long head makes up the majority of your biceps peak, while the short head sits to the inner side. Using a shoulder-width (regular) grip with the barbell curl, as described above, will place approximately equal emphasis on both heads. Using a narrow grip will emphasize the long head and build the peak of your biceps. And using a wide grip will emphasize the short head and give your biceps more width. Therefore, incorporate all grips to hit the muscle from all angles.
+";
+
+
+"TRICEPS_KICKBACK"="
+Mechanics: Isolation
+Force: Push
+
+How to do it?
+
+- With a dumbbell in your right hand, kneel over a bench with your left knee, and support your body with your left arm.
+- Position your torso and right upper arm parallel to the floor, with your right elbow bent at a 90-degree angle. The dumbbell should be hanging straight down below your elbow.
+- Keeping your right upper arm stationary, exhale as you extend your right arm backward until it is straight.
+- Inhale as you slowly lower the dumbbell back to the starting position.
+- Repeat with your left arm.
+
+Tips
+
+- Keep your back straight and horizontal.
+- Keep your working arm tucked in close to your torso. Only your forearm should move.
+- For a greater range of motion, keep your elbow raised higher than your shoulder.
+- The dumbbell kickback is one of the most effective exercises for your triceps. In one study by the American Council on Exercise (ACE) that compared the effectiveness of triceps exercises, it came second, to be beaten only by the triangle push-up (aka diamond push-up).
+";
+
+
+"TRICEPS_PUSHUP"="
+Mechanics: Compound
+Force: Push
+
+How to do it?
+
+- Get on all fours with your hands positioned either directly under your shoulders or closer together.
+- Extend your feet backward and straighten your body.
+- Keeping your body straight and your elbows tucked in, inhale as you lower your chest onto your hands.
+- Exhale as you push your body back up to the starting position.
+- Repeat.
+
+Tips
+
+- To make the close-grip push-up easier, do it on your knees, or place your hands on the edge of an elevated surface, such as a bench or even a table.
+- To make the exercise more difficult, execute the repetitions slower, or position your hands closer together (diamond push-up).
+- The most difficult unloaded variation of the close-grip push-up is the triangle or diamond push-up, which involves positioning your hands so close together as to form a diamond shape with your fingers and thumbs.
+";
+
+"TRICEPS_ROPE"="
+Mechanics: Isolation
+Force: Push
+
+How to do it?
+
+- Stand under the cable pulley and grasp each end of the rope attachment with a neutral grip (palms facing each other).
+- Pull your elbows down to your sides and lean forward a little at the hips, keeping your back straight.
+- Exhale as you extend your elbows and push the rope all the way down. As your arms extend, twist your wrists so that your palms face down at the end of the movement.
+- Inhale as you reverse the motion and return the rope to the starting position.
+- Repeat.
+
+Tips
+
+- Keep your elbows tucked in to your sides.
+- Stay close to the cable to provide resistance throughout the exercise.
+";
+
+
+"CORE_JACKKNIFE"="
+Mechanics: Compound
+Force: Pull
+
+How to do it?
+
+- Get into a push-up position with your shins resting on top of a stability ball. You can do this by kneeling in front of a stability ball, lying with your waist on top of the ball, and then crawling forward on your hands over the ball until your shins are in position.
+- Exhale as you flex your knees, hips, and waist and pull your knees all the way up toward your chest. Allow your shins to roll over the ball.
+- Inhale as you extend your knees, hips, and waist and return your legs and the ball to the starting position.
+- Repeat.
+
+Tips
+
+- Keep your neck neutral.
+- The lower the ball is on your shins, the smaller the range of motion will be. Therefore, in order to be able to get a full range of motion and pull your knees all the way up to your chest, start with the ball close to your knees.
+- The stability ball jackknife is also known as the Swiss ball and exercise ball jackknife.
+";
+
+
+"CORE_PLANK"="
+Mechanics: Isolation
+Force: Push
+
+How to do it?
+
+- Get down on all fours on a mat.
+- Gently lower your upper body onto your elbows, extend your feet backward, and straighten your body. Your feet should be close together, your elbows should be directly under your shoulders, and your rigid body should be being supported by your forearms and toes.
+- Hold this position as much as you can, breathing normally.
+- Slowly return to the starting position.
+
+Tips
+
+- The front plank is a brilliant bodyweight exercise that helps you to develop the strength and stability of your core. Your muscles are exercised isometrically.
+- Do not let your lower back sag or your butt rise. Ensure your body is straight and rigid.
+- Keep your glutes and core muscles contracted.
+- Keep your shoulders down, maximizing the distance between your shoulders and ears.
+- To make the exercise more difficult, raise one leg off the ground and hold this position before repeating with the other leg. This is called one-leg front plank.
+";
+
+"CORE_REVERSED_PLANK"="
+Mechanics: Isolation
+Force: Push
+
+How to do it?
+
+- Sit on the floor with your legs together and extended in front of you.
+- Place your hands on the floor behind you.
+- Raise your hips off the floor until your body is straight.
+- Hold this position for the desired amount of time.
+- Breathe naturally.
+- When finished, lower your hips back to the ground.
+
+Tips
+
+- Your arms should be vertical and your body should be perfectly straight.
+- Don’t allow your hips to sag or your shoulders to hunch.
+- The direction in which your fingers point while performing the high reverse plank doesn’t matter. You can point them forward, sideways, backward—whichever is most comfortable for you.
+- The high reverse plank is a great bodyweight exercise for strengthening your core and the key muscles of your posterior chain, namely, your erector spinae (spinal erectors), gluteus maximus, and hamstrings. Since there is no movement, the muscles are exercised isometrically.
+
+";
+
+
+
+
+
+"SQUATS" = "
+Type: COMPOUND
 Force: Push
 
 How to do it?
@@ -122,7 +414,6 @@ How to do it?
 - Dismount the barbell and step backward carefully. Your feet should be shoulder-width apart and pointing slightly outwards.
 - Inhale as you squat down by pushing your butt backward and bending your knees forward. Keep your torso upright, and descend at least until your knees are bent at a 90-degree angle.
 - Exhale as you push your body back up to the starting position, driving from your heels and keeping your torso upright.
-- Repeat.
 
 Tips
 
@@ -135,7 +426,7 @@ Tips
 - Most barbell squat-related accidents happen while stepping back with the barbell.
 ";
 "LUNGES" = "
-Mechanics: Compound
+Type: COMPOUND
 Force: Push
 
 How to do it?
@@ -156,7 +447,7 @@ Tips
 - The dumbbell lunge is a very beneficial exercise that helps you to develop balance, coordination, and the unilateral (one-sided) functional strength of your lower body.
 ";
 "BARBELL_BOX_SQUAT" = "
-Mechanics: Compound
+Type: COMPOUND
 Force: Push
 
 How to do it?
@@ -184,7 +475,7 @@ Tips
 - The height of the box or bench should allow you to descend until your thighs are at least parallel with the floor.
 ";
 "LEG_EXTENSION" = "
-Mechanics: Isolation
+Type: ISOLATION
 Force: Push
 
 How to do it?
@@ -208,7 +499,7 @@ Tips
 - The leg extension should not be your primary quad exercise. There are far better options. The barbell squat, for example, builds your quads equally well, as well as simultaneously builds and strengthens many other muscle groups, strengthens your core, and helps you to develop functional strength. Use the leg extension only to warm up your quads, pre-exhaust them before squats, or flush them at the end of a leg workout.
 ";
 "LEG_CURL"="
-Mechanics: Isolation
+Type: ISOLATION
 Force: Pull
 
 How to do it?
@@ -227,4 +518,795 @@ Tips
 - Adjust the lever for optimal leverage.
 - Keep your ankles flexed so that your toes point toward your shins. This allows your gastrocnemii to offer better assistance.
 - Adjusting the orientation of your feet during the lying leg curl emphasizes different hamstring muscles. Keep your feet straight to emphasize all hamstrings. Turn your feet inward to emphasize your inner hamstrings (semitendinosus and semimembranosus). Turn your feet outward to emphasize your outer hamstring (biceps femoris).
+";
+
+
+
+"ANTIOXIDANTS"="
+Sources:
+Onions, Grapes, Walnuts, Soybeans, Ginger, Blueberries, Sunflower seeds, Broad beans, Garlic, Strawberries, Chives, Cherries, Tomatoes, Apples,  Carrots, Grapefruit, Kale, Cranberries, Spinach, Blackberries, Cauliflower, Pomegranate, Cabbage, Orange, Plum, Brussels sprouts, Pineapple, Peas, Lemon, Dates, Kiwi, Watermelon, Apricots, Prunes...
+
+Free radicals are constantly being formed during metabolism.
+Without antioxidants, they would destroy our bodies very quickly.
+
+However, it's important to keep in mind that free radicals also serve important functions that are essential for our survival.
+For example, the body's immune cells use free radicals to kill bacteria that try to infect us.
+As with so many things in the body, we need a certain balance... we need the right amount of free radicals, and the right amount of antioxidants to keep them in check.
+When this balance gets disrupted, things can start to go wrong.
+When the free radicals (pro-oxidants) outnumber the antioxidants, this can lead to a state called oxidative stress.
+During oxidative stress, important molecules in the body can become severely damaged... sometimes even leading to cell death.
+
+Several stress factors and lifestyle habits are known to promote excessive free radical formation and oxidative stress:
+
+Air pollution, cigarette smoke, alcohol intake, toxins, high blood sugar levels, consuming large amounts of polyunsaturated fatty acids, radiation, including excessive sunbathing, infections by bacteria, fungi or viruses, excessive intake of iron, magnesium, copper, or zinc, too little oxygen in the body, too much oxygen in the body, intense and prolonged exercise, which causes tissue damage, excessive intake of antioxidants, such as vitamins C and E, antioxidant deficiency etc.
+
+Prolonged oxidative stress leads to increased risk of negative health outcomes, such as cardiovascular disease and certain types of cancer. It is also thought to contribute to the aging process.
+
+Plants and animals, and all other forms of life, have their own defenses against free radicals and the oxidative damage caused by them.
+Therefore, antioxidants are found in pretty much all foods of plant and animal origin.
+Getting antioxidants from foods is important. In fact, our life depends on the intake of certain antioxidants – namely, vitamin C and vitamin E.
+The health benefits associated with a diet rich in plants is, at least partially, due to the wide diversity of antioxidants they provide.
+Meat products and fish also contain antioxidants, but in smaller amounts compared to fruits and vegetables. Berries are a particularly good source.
+Then there are plenty of other good sources of antioxidants... including green tea, coffee and dark chocolate.
+";
+
+"PROTEIN"="
+Sources of protein:
+Eggs, Chicken & turkey breast, Tuna, Salmon, Beef, Diary products, Seafood (schrimps, fish), Broccoli, Almonds, Peanuts...
+
+Proteins are organic molecules made up of amino acids – the building blocks of life.
+Proteins are essential for growth, immune function, and the construction of hormones and enzymes. It is used to repair, maintain, and build the muscle fibers that are damaged during workouts, and can also act as an energy source in the absence of carbohydrate. So - without an adequate protein intake, our bodies can’t function well at all.
+During digestion, our body breaks down the protein we eat into individual amino acids, which contribute to the plasma pool of amino acids. This pool is a storage reserve of amino acids that circulate in the blood.
+Protein also helps replace worn out cells, transports various substances throughout the body, and aids in growth and repair.
+
+To build muscle, you have to consume more protein than your body breaks down. An insufficient intake will result in slow strength and muscle gains or even no gains at all!
+Consuming protein can also increase levels of the hormone named glucagon, and can help to control body fat. Glucagon is released when blood sugar levels go down.  This causes the liver to break down stored glycogen into glucose (read: energy) for the body.
+It can also help to liberate free fatty acids from adipose tissue (belly fat, for example) - another way to get fuel for cells and make that bodyfat do something useful with itself.
+
+How much protein does individual need?
+
+Needs are based on activity level, although there are some other factors too.
+The basic recommendation for protein intake is 0.8 grams per kilogram (or around 0.36 g per pound) of body mass in untrained, generally healthy adults. For instance, a 70 kg person would consume around 56 grams a day.
+For people doing resistance training or some form of high intensity exercises, protein needs might go up to  1.4-2.0 g/kg (or around 0.64-0.9 g/lb) of body mass. So, a 70 kg person would then need about 100-140 g of protein per day.
+The body needs its protein stores to be continually replenished, which means that you should consume moderate amounts of protein at regular intervals (more smaller meals a day).
+
+When you exercise, the body synthesizes proteins for up to 48 hours after the exercise.  Interestingly, during and immediately after exercise, protein breakdown is increased as well. In fact, for a short period, the rate of breakdown becomes greater than the rate of building. This is called catabolic state.
+However, taking in enough protein during the pre- and post-exercise period can offset this catabolic state.
+
+Can I overeat protein?
+
+Yes. If you overeat protein, this extra protein can be converted into sugar or fat in the body. However, protein isn’t as easily or quickly converted as carbohydrates or fat.
+";
+
+"CARBS"="
+Sources of 'good' carbs:
+Oatmeal, Yams, Brown rice, Potatoes, 100% whole wheat bread, 100% whole wheat pasta, Beans and lentils, Quinoa, Couscous, Pumpkin, Grapefruit, Apples, Blueberries, Cantaloupe, Oranges, Bananas, Peaches,        Grapes, Strawberries, Pineapple, Plums, Pears, Berries, Mango, Broccoli, Kale, Asparagus,  Spinach,      Salad greens, Tomatoes, Peppers (green and red), Onions, Mushrooms, Cucumbers, Zucchini,  Carrots,      Green beans, Peas, Cauliflower...
+
+Carbohydrate is your body’s main source of fuel. If you don’t eat enough carbohydrate, when you exercise, you’ll fatigue sooner, and your muscle and strength gains will be reduced. On the other hand, if you are overeating carbohydrate, it will be converted to body fat. Eating a surplus of carbohydrates can also make you feel tired and sluggish, ‘foggy’ and unfocused, and/or even depressed. Repeatedly eating too many carb-dense foods can put your body at risk of hypoglycemia, insulin resistance, and Type 2 Diabetes. In addition, you may experience weight gain, difficulty losing weight, or even obesity.
+
+Dietary fiber is a carbohydrate that is incompletely absorbed by your body. It helps to keep your digestive system healthy.
+Carbohydrate digestion breaks down more complex forms of carbohydrates (oligo- and polysaccharides) into simpler (monosaccharides glucose, fructose, and galactose) for eventual release into the bloodstream in the form of glucose, which is essential to life. The brain and central nervous system prefer glucose for fuel and benefit from a continuously available supply.
+All carbohydrates we consume are digested into simple sugars before they’re absorbed by the body, regardless of whether the food source is a sugar cube or a high-fiber, low glycemic index bowl of oatmeal. It’s just that the “healthier carbs” are digested and absorbed much slower while the “non-healthy” carbs are digested very quickly.
+Although the fundamental process of digestion is the same, if you eat simple sugars and refined carbohydrates (which the body breaks down rapidly), you may notice elevations in blood triglyceride levels, bad cholesterol, and insulin resistance.
+On the other hand, carbohydrates that are digested and absorbed slowly, such as whole grains, fruits, and vegetables, can help to control insulin response, energy levels, and body composition. Such unrefined, unprocessed, complex carbohydrate sources may reduce triglycerides and improve your cholesterol profile. Other benefits of a lower glycemic diet include increased vitamin and mineral intake, increased fiber intake, enhanced satiety,  and blood sugar control.
+
+The average person’s minimum carbohydrate intake should be 130 grams per day, with a majority coming from vegetables and fruits. Higher amounts of carbohydrates are needed with increased physical activity levels.
+";
+
+
+"FATS"="
+Fat is essential for a healthy body and is vital for any diet designed to improve your physique.
+
+Of all the macronutrients, dietary fat has the worst reputation. It’s been linked to the obesity crisis, high cholesterol, and even heart disease, where this myth has likely come from is the fact that fats are calorie dense.
+This doesn't mean eating fat will make you fat, rather, it means it's just easier to over-consume calories from fat. Ultimately, it's eating more calories than your body needs that will cause fat storage.
+
+Why do we need fat?
+
+Fat is an essential nutrient for the body, and it is involved in multiple important processes that help keep your body functioning optimally.
+Here are some:
+1    Fat is important for the absorption of fat-soluble vitamins (A, D, E, and K).
+2    Fat is needed to maintain cell membrane health. Cell membranes surround every cell in your body, and their health is critically important in managing inflammation and metabolism.
+3    Fat is key in regulating hormonal production.
+4    Fat is a great energy source when on low carbohydrate diets.
+
+
+The three main types of fat are saturated fat, monounsaturated fat and polyunsaturated fat.
+
+Saturated fats are primarily found in animal products like meat, egg yolks and dairy fats. However, there are also plant sources such as coconut oil, which contains a specific type of saturated fat called medium chain triglycerides (MCTs).
+Saturated fat has has been linked by some medical professionals to an increased risk of heart disease.
+So, regular exercising, balancing fats in your diet, and controling your overall calorie intake help you minimize that risk.
+
+Monounsaturated fat has a positive overall effect on health and has been linked to helping lower levels of LDL (bad) cholesterol. Good sources include olive oil and the oil in avocados, nuts and seeds.
+
+Polysaturated fat - the two major types of polyunsaturated fat are omega-3 and omega-6.
+Unlike other fats, omega-3 and omega-6 are essential nutrients and you must include them as part of your diet (also known as essential fatty acids, EFAs).
+Research says that there are many health benefits of omega-3 (EPA and DHA which are collectively known as fish oils).
+The list of proven benefits associated with fish oils includes reduced muscle and joint soreness, reduced risk of heart disease and improved cognitive performance.
+
+There is, actually, the fourth type of fats - trans fats. These are only ‘men-made’ fats, created in industrial process by adding hydrogen to liquid vegetable oils to make them solid (example: margarine). Avoiding this type of fats is strongly recommended.
+";
+
+"PORTIONS"="
+Calorie counting is not much fun. Here is a little trick that can help you make your meal portions correctly:
+
+Your palm determines protein portion.
+Your fist determines vegetables portion.
+Your cupped hand determines carbs portion.
+Your thumb determines fat portion.
+
+This is good because hands are scaled to the individuals, so the portions will be too, providing a reasonable amount of macronutrients. It will help you control your calorie intake, without having to count and calculate them.
+
+For example, for each meal your portion should look like this:
+
+1 palm of protein dense foods (meat, for example)
+1-2 fists of vegetables
+1 cupped handfull of carb dense foods (rice, potato…)
+1 thumb of fat dense foods (7-8 almonds, peanuts…)
+
+Adjust these portions to your lifestyle and fitness goals (see Guide section in app). For example, if your goal is to add muscles, you can add 1 palm of protein dense foods, followed by 1 more thumb of fat dense foods. Or, if you want to lose some body fat, half the carb and fat dense foods.
+
+Note: if you have any allergies to food, consult your doctor before starting any diet.
+";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"HOW_TO_PLAN_YOUR_TRAINING_CYCLE" = "
+1 . CYCLE WORKOUT PRINCIPLE
+(or periodization) is breaking your training into cycles for strength, hypertrophy, fat loss, conditioning. This helps you avoid injuries and keeps your body responsive to adaptation. You break your workout types into discreet time periods called macrocycles (longer period, for example 6 -12 weeks) and microcycles (shorter period 2-5 weeks)
+
+2 . SPLIT WORKOUT PRINCIPLE
+is breaking your workout into upper vs. lower body training. This routine allows more intense and greater stimulus per muscle group and also more rest per group between sessions.
+
+3 . MUSCLE CONFUSION PRINCIPLE
+When you do same workouts with same weights, same repetitions, same speed over and over, muscles adapt to it and stop advacing. To aviod this, it is good to constantly change reps, sets, speed, angle of movement to change a stimulus to your muscle fibres, and type of workout in general (think of periodization).
+
+4 . PROGRESSIVE OVERLOAD
+Helps you increase any fitness parameter. It can be done via resistance increase, repetitions, speed of movements, shortening rest intervals, volume increase, exercise frequency. Keep in mind that you also need low intensity periods, to allow your body to recover, so again, think of periodization.
+
+5 . HOLISTIC TRAINING PRINCIPLE
+This refers to usin variety of repetitions and intensity to maximize musle volume and mass. Different types of training produce different hypertrophic responses. Training with submaximum weights will give you myofibrillar hypertrophy ( a more dense look). Higher reps produce sarcoplasmic hypertrophy that will give you a bigger pumped look (although does not directly increase your strength). Next, a 20+ reps will increase capillarization, and results in musce endurance.
+";
+
+"HOW_TO_ARRANGE_YOUR_WORKOUT"="
+1 . ONE-SET WORKOUT
+Good for beginners. You perform one set only per each muscle group (doing a full body training) for a first few weeks.
+
+2 . SUPERSET WORKOUT
+You alternate opposing muscle group exercises with little rest between sets. This results with more work in less time, without affecting intensity.
+
+3 . COMPOUND SETS WORKOUT
+You alternate two exercises for one muscle group with little or no rest between sets. Order of doing exercises should be: compound first, followed by isolation exercise. Example would be - bench press , followed by exercise on fly machine. This type increases intensity and saves time.
+
+4 . TRI SET & GIGA SET WORKOUT
+You alternate 3 - 5 exercises for ONE muscle group, with little to no rest berween sets. These sets are apropriate for advanced practitioners. This type of workout spikes growth hormone and IGF-1 production, but inreases metabolic stress. So, periodization is needed.
+
+
+5 . REST-PAUSE WORKOUT
+This is braking one set into several mini-sets with a brief rest between. You use about 70% of your 1max rep weight, perform few reps, rest 15-30 secs, repeat few reps, rest 15-30 secs and repeat few reps again.
+
+6 . PYRAMID WORKOUT
+Starting with low-weight and high-rep (10+), then gradually adding weight and reducing number of reps.  So, the first two sets are like a warmup. When hit a 3-5 rep set, you can reverse. Reversed pyramiding will allow you to build strength effectively.
+";
+
+"HOW_TO_PLAN_YOUR_REPS_PERFORMING"="
+1 . ISOLATION
+This means making one muscle a prime mover in any isolation exercise. Because all muscles act like stabilizers, synergists, agonist, antagonists, isolating a muscle will increase stimulus applied to it. Bicep curls, flyees, leg extensions, tricep cable pulldowns are great exercises to help you isolate and concentrate to stimulate muscles even more.
+
+2 . QUALITY
+Gradually reducing rest periods over time. This means performing the same amount of volume in less time.
+
+3 . CHEAT
+This is for advanced practitioners. It means a subtile swing of the weight to increase the speed of repetition and add some stimulus to muscle. Be careful - cheating on lunges, deadlifts, or leg press could cause injury. But moderate swing in exercises like curls and lateral raises could benefit from cheating.
+
+4 . CONTINUOUS TENSION
+Maintain slow, continuous tension by avoiding the top part of certain movements, minimizing the use of momentum and resting at the top of the movement - practically use 80 - 90 % of movement.
+
+5 . BURNS
+At the end of every set, perform a 2-3 inch fast movemets. This will add some tension and stimulus to your muscles.
+
+6 . RETRO-GRAVITY
+This is actually performing a negative repetitions, because you can lower 30-40% more weight than you can lift. This overload will result in higher metabolic stress and more stimulus to your muscles. Note: you will need a gym buddy to help you with this type of reps.
+";
+
+"REPETITION_RANGES"="
+NOTE: To achive benefits written in the table, your final repetition must be at or near maximum effort. For instance, if you want muscle mass, you target 10 reps, with appropriate weight (that will not allow you to do more than 10 or 11 reps.)
+";
+
+
+
+
+
+
+"WHAT_IS_CARDIOVASCULAR_FITNESS"="
+Cardiovascular fitness is the ability of the heart and lungs to supply oxygen-rich blood to the working muscle tissues and the ability of the muscles to use oxygen to produce energy for movement.
+
+Aerobic fitness is one of the most important component of physical fitness. When your muscles need oxygen, your cardiovascular system must be able to efficiently deliver it to them. When your body has metabolic waste products that need to be expelled, your heart-lung system must be up to the task.
+
+Aerobic exercise has another interesting effect - it burns body fat. Engaging in aerobic exercise can burn up to 1,000 calories an hour depending on the specific type and intensity of activity. As a result, people who want to reduce their level of body fat sensibly (instead of primitive way of starving) have a positive, user-friendly option to do the fat loss job.
+At least, engaging in aerobic exercise can also increase your life span. Research indicates that for every 1 hour you invest in aerobic exercise, you get 2 extra hours of life. Great return, right?
+
+Here are some benefits from aerobic exercise:
+
+1) Aerobic exercise increases your level of available energy.
+2) Helps in relieving depression.
+3) Aids in preventing certain types of cancer.
+4) Helps you enhance self-image.
+5) Relives stress and anxiety.
+6) Slows the aging peocess.
+7) Reduces the risk of heart desease.
+8) Increases “good” HDL cholesterol.
+9) Improves quality of sleep.
+10) Improves mental sharpness.
+
+HDL?
+high-density lipoprotein - A type of lipoprotein that seems to provide protection against the buildup of atherosclerotic fat in the arteries. Exercise seems to increase the HDL fraction of total cholesterol. HDL contains high levels of protein and low levels of triglycerides and cholesterol.
+";
+
+"MYTHS_ABOUT_CARDIO"="
+Myth 1: Engaging in sports is a good way to develop aerobic fitness.
+Playing sports (e.g. volleyball, basketball, tennis) does not provide the sustained level of metabolism that you need in order to elicit the physiological responses in your body to develop aerobic fitness. Actually - you should already be aerobically prepared before you participate in sports.
+
+Myth 2: Aerobic fitness is not important for everyone.
+Everyone needs to be able to efficiently take oxygen into their lungs and blood and pump it to their working muscles where it is utilized to oxidize carbohydrates and fats to produce energy. If you are concerned about your health, particularly the risk of heart disease, you need to accept the fact that aerobic training can have a critical effect on the quantity and quality of your life.
+
+Myth 3: All time spent exercising aerobically would be better used with weight training.
+Aerobic fitness is among the most preventative medicines available. While muscular fitness is certainly important, aerobic fitness is also essential. So, you should not compromise your health. Make time for both components of fitness.
+
+Myth 4: Aerobic training improves only the heart-lung complex, not your muscles.
+Your muscles are the primary target of aerobic training. Aerobic training increases the muscles ability to use fat as a source of energy. It increases the size and number of the cellular units (mitochondria) that produce energy aerobically.
+
+Myth 5: More is better.
+Aerobic exercise program that exceeds more than 4x 45-minute sessions per week has a limited effect on improving your aerobic capacity. Although you burn up more calories when you exercise more, but you will not necessarily end up with a heightened level of aerobic fitness. In addition, if your goal is to maximize your level of muscle mass, exercising aerobically more than 1.5 hours per week may be counterproductive.
+
+Myth 6: The best aerobic exercise is running.
+Running is not your only option. The best aerobic exercise for you is the one that is safe for you, and one that you enjoy. Pick an aerobic activity that you personally like, and make it a regular part of your workout regimen.
+
+Myth 7: Exercising is expensive.
+When you train aerobically, your body (with the exception of your feet) has no concern about what you wear. Just get a quality shoes for about 50-100$ and go for it! Many aerobic activities, such as walking, running, and dancing, require little or no equipment. You may, however, want to become a member of a fitness club that has a pool or independent stair climbing machines if this kind of aerobic exercise is your preferred mode of training.
+
+
+
+Myth 8: Aerobic training is extremely time consuming.
+Most exercise scientists recommend exercising aerobically 20 to 30 minutes per workout. Some individuals exercise for longer periods of time, but such a time commitment does not appear to be necessary.
+
+Myth 9: Aerobic fitness is achieved by raising your heart rate.
+Not exactly. Aerobic fitness is attained when you elevate the metabolic rate and oxygen consumption of your muscles and you sustain the elevation sufficiently long enough to overload your aerobic enzyme systems. Heart rate is only an external indication of oxygen consumption. Sustained metabolism is the cause of aerobic fitness - elevated heart rate is only a byproduct of the process.
+
+
+
+Myth 10: The harder you exercise, the faster your level of aerobic fitness will improve.
+Improvement takes time.
+Exercise scientists say that the best way to approach your goal of conditioning yourself aerobically is to make progress slowly. Trying to do too much too soon will usually result in you either being injured or discouraged. Keep in mind that it takes time to elicit the stream of physiological adaptations. Recommended aerobical intensity is from 55-85 % of your max heart rate.
+How to calculate it? Simply. Here is the formula:
+
+220 - yourAge = yourMaxHeartRate
+
+then:
+yourMaxHeartRate * 0.55  =  55% of your maximal hear rate.
+";
+
+"PSYCHOLOGY"="
+Here are some tips to help you stay motivated:
+
+1. SET FITNESS GOALS.
+
+Start with simple goals and then progress to longer range goals. Put it on paper. Also, write your plan how to achive that goal.
+(example:
+GOAL ONE - to lose 5 pounds in 3 weeks.
+HOW - Will lower calorie intake by 400kcal/day. Will not eat bread, pizza, burgers, chips and sweets more than once a week. Will not drink industrial juices, only fresh juices.  )
+
+2. TRACK YOUR PROGRESS.
+
+Get some fitness tracking app or write your progress on paper, and do your mothly checks. Also, you can do some fitness tests to find your current fitness level.
+
+3. MAKE IT FUN.
+
+Mix your physical activities, enjoy the exercises, make new friends at gym, try othes sports…
+
+4. JOIN FORCES WITH YOUR FRIENDS.
+
+It’s great to exercise with your friends, track and compare your results and achived goals. Keep in mind that, this should be a healthy level competition, you do not want yourself and your friend injured.
+
+5. REWARD YOURSELF.
+
+Eat that pizza. Eat that burger. Eat that ice cream. Do what you find good for your motivation, as a reward for good results. You should have a good & healty lifestyle, full of healthy habits, not only short-term diets. Remember, primary goal is your health.
+
+6. GO EXERCISE, EVEN WHEN YOU DON’T FEEL LIKE IT
+
+Give it a try once. You’ll see how will you feel later. Do the light exercise when you feel ‘down’.
+
+7. BUY SOME NEW TRAINING KIT
+Get some shiny colorfull T-shirt, leggings, trainers… Old gray T-shirts are not really motivating, right?
+
+8. SCHEDULE YOUR EXERCISE LIKE A MEETING IN YOUR CALENDAR
+
+One of the biggest excuses I hear from some people about exercising is that they don’t have time - work, kids, kitchen… Get organized. Get oganized. and… Get organized! Write todos, fill in calendar, schedule important things. Health is important to you, or not?
+If you are healty, you’ll be able to work. If you are healthy, you’ll be able to help your children have a great childhood. If you are healthy, your mind will be fresh. Think about it.
+Good organization will also make more space for your family and friends.
+If you are limited with time sometimes, HIIT it! HIIT stands for High Intensity Interval Training (read more in this app: Programs > Interval training).
+
+9. VISUALIZE
+
+Yep. Visualize the best version of yourself. Work for it. Your brain will to.
+";
+
+"HYPER" = "
+Hypertension is persistent high blood pressure. Readings as low as 140/90 are considered a threshold hor high blood pressure. Often, no outward symptoms or signs exist. That is why is important to track your blood pressure.
+Blood pressure is variable force of blood against the walls of arteries and veins, created by the heart. Since high blood pressure adds to the workload of the heart and arteries, hypertension is a primary risk factor for coronary heart desease. Artery walls can be damaged, hardened and narrowed (by deposits of cholesterol), which leads to a condition known as Arterosclerosis. In turn, this condition results in a reduction of blood flow to several organs. Collectively, untreated hypertension can lead to stroke or heart desease.
+In general, in almost 90% of cases, specific cause of hypertension is unknown. There are some steps to help you prevent hypertension:
+
+- Maintain an appropriate bodyweight. Obese individuals have twice more risk to have hypertension.
+- Limit alcohol intake to no more than one glass a day. Alcohol rises blood pressure.
+- Quit smoking. Nicotine constricts small blood vessels and also rises blood pressure.
+- Moderate salt intake. Salt could increase blood pressuure in sodium-sensitive individuals. Research show that about 50% of hypertension sufferers are sodium-sensitive.
+- Minerals that have positive impact in lowering hypertension are calcium, magnesium and potassium. Consume those.
+- Exercise on regular basis. It is found to be a valuable and safe adjunct therapy for most hypertension patients.
+";
+
+"DIABETES"="
+The human body is a smoothly functioning food processor, transforming sugars, starches, and other components of your diet into energy  you need for thinking, walking, lifting, running, etc.
+
+For those who suffer from diabetes, the transformation of foodstuffs into energy does not occur in as nearly an effective manner due to problems with insulin.
+
+Insulin is a hormone, which is produced by the pancreas. Insulin plays an essential role in helping transport glucose (blood sugar) into the cells where it can be changed into energy.
+Although the exact cause of diabetes is unknown, what is known is that the body of a diabetic either does not produce enough insulin or it cannot properly use the insulin it does make. These two circumstances constitute the two major forms of diabetes:
+
+Type I (insulin-dependent) diabetes and
+Type II (non-insulin-dependent) diabetes.
+
+Type I, also referred to as juvenile diabetes, occurs most often in children and young adults.
+Type II, sometimes referred to as maturity-onset diabetes, usually occurs adults over 40 years of age who are overweight.
+
+Of the two forms of diabetes, Type II is far more common - accounting for about 90 % of all of the victims of this chronic disease. Because their bodies cannot properly handle glucose, all diabetics suffer from an elevated level of blood sugar (hyperglycemia), a condition that occurs when glucose levels in the blood build up and sugar spills over into the bloodstream and the urine. Diabetes has also been shown to increase the risk for heart disease, stroke, gangrene, kidney disease, and a serious eye disorder called retinopathy. Diabetes, for example, increases the risk of heart disease by a factor of 2 to 4, as well as the risk of suffering a stroke by a factor of 2 to 6.
+
+EXERCISE CAN HELP.
+Exercise can have a significant effect not only in helping diabetics control their disease and reducing their risk to its life-threatening complications, but also in greatly decreasing an individual's chances of developing the disease in the first place.
+
+Research shows that exercise reduces an individual's risk of developing diabetes by more than 50%, including people who either are obese or are genetically predisposed to the disease!
+
+Exercise also can help those individuals who contract diabetes. Among the beneficial aspects of exercise that are either directly or indirectly related to diabetes are: lowering excess blood sugar levels by helping transport glucose out of the bloodstream and into the cells where it can be used, strengthening the muscles and the heart, improving circulation (thereby increasing blood flow to the body's organs), and reducing stress. In addition, exercise can also help reduce the necessity for the circulatory-related amputations, which are related to the disease. Finally exercise helps individuals reduce excess weight - the reason many of them may have developed Type II diabetes in the first place.
+";
+
+
+
+
+
+
+
+
+
+
+
+
+
+"TEST_YOUR_FITNESS"="
+One way to test your fitness level is using Cooper test.
+It was designed by Kenneth H. Cooper in 1968 for US military use.
+
+The point of the test is to run as far as possible within exactly 12 minutes.
+The test is meant to measure the condition of the person taking it and therefore it is supposed to be run at a steady pace instead of changing speed of running too many times during this 12 minutes.
+The outcome is based on the distance the person ran, their age and their sex.
+
+The table above shows different levels of fitness , based on distance ran.
+";
+
+"INTERVAL_TRAINING"="
+High-intensity interval exercising is much different comparing to steady-state cardio exercising (e.g. jogging, riding a bike…)
+Izumi Tabata has conducted research for the National Institute of Fitness and Sports in Tokyo, Japan. In terms of aerobic benefits, Tabata demonstrated that a program of 20 seconds of all-out cycling followed by 10 seconds of rest cycling for 4 minutes was as beneficial as 45 minutes of long, slow cardiovascular training! Today, the Tabata training method is very popular. Some popular methods of Tabata training include jumping jacks, rope, burpees, and kettlebell swings, and many many more.
+
+Numerous studies also confirm the effectiveness of interval training.
+But, before you rush into intervals, you must know some things:
+The central nervous system (CNS) is primarily affected by high-intensity work and takes at least 48 hours to recover. So interval training requires adequate recovery periods. Interval training is, indeed, all-out, that means - performing intervals with 100 percent intensity.
+
+The more your training evolves, the more stress you impose on yourself. An intermediate trainee may be able to do 3 days a week of interval training, whereas a more advanced one may be able to do only 1 or 2 days a week or none at all.
+
+Remember, without proper planning, high-intensity workouts without enough periods to recover your body - will break you down.
+If you have any health problems, you shoult think twice before implementing any intervals, and consult your physician.
+";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"BODY_TYPES"="
+There are three main different body types.
+
+AN ECTOMORPH is a small framed person with a naturally high metabolic rate in short these are the people everyone wishes would choke on their pastries as it just doesn't show on them! But ectos being hard gainers, cannot gain muscle definition easily so you see no one has it all!
+Characteristics:
+- Thin
+- Flat chest
+- Delicate build
+- Young appearance
+- Tall
+- Stoop-shouldered
+- Has trouble gaining muscle mass
+
+A MESOMORPH is naturally very strong, of medium to large frame, has well defined musculature and though they too require regular exercise to keep in shape (who doesn't?!) they usually respond to exercise faster, than other types.
+Characteristics:
+- Hard, muscular body
+- Overly mature appearance
+- Thick skin
+- Upright posture
+- Gains or loses weight easily
+- Grows muscle quickly
+
+AN ENDOMORPH is a person with a naturally low metabolic rate is of a medium to large frame and is more prone to putting on fat weight (if you claim to just smell food and put on weight you are an endomorph) and therefore they need to watch their diets and exercise regularly to stay in shape.
+Characteristics:
+- Soft body
+- Underdeveloped muscles
+- Round shaped
+- Over-developed digestive system
+- Trouble losing weight
+- Generally gains muscle easily
+
+
+One can be a combination of body types, so, in order to make things easier, we can differ four body shape categories:
+
+HOURGLASS
+A very Indian shape to have, wherein the waist size is a lot lesser than the chest and hips, though the chest is slightly heavier than the hips. These are the people who look proportionate even if slightly overweight as their weight is, in general, equally distributed throughout the body, their upper and lower bodies have more strength than endurance, and though they do gain weight easily they also lose it as easily and proportionately.
+
+RULER
+The waist, chest and hips are in almost equal proportion and rulers gain weight more easily in the midsection, they do not bulk or add muscle mass easily however their weight loss is also almost equal throughout. They usually handle endurance exercises more easily than strength training.
+
+CONE
+As the name states, their upper body is much larger than the lower, the stomach normally protrudes and the arms and chest bulk easily though they are a lot slimmer hip downwards.
+
+SPOON
+The lower body is distinctly larger than the upper body, thick upper thighs, bulky inner thighs, outer thighs stick out (saddle bags) dense calves, thickset ankles, weak lower ab muscles and weak upper body.
+";
+
+
+"INTRO_ANATOMY"="
+If you effectively draw into the fitness lifestyle-including the ability to maintain optimal health-you will experience some muscular, cardiopulmonary, and metabolic adaptations to exercise.
+These adaptations are known as the training effect. The training effect impacts the body in several ways. The body begins to change at the cellular level, allowing more energy to be released with less oxygen.
+Heart function improves and the capillaries proliferate in order to allow a more efficient flow of oxygen and nutrients.
+The muscles, connective tissues, and bones involved with a particular physical activity strengthen to accommodate improved proficiency at performing the activity.
+Over time, the body's composition changes (e.g., fat mass may decrease while muscle mass increases) and movements become more efficient. In addition, resting heart rate and blood pressure drop. This app can give you some usefull tips for learning how to develop appropriate fitness and health plans for yourself.
+
+Our body consists of trillions of cells, which are organized into tissues, organs, and systems. The body's components work together in a highly organized manner to maintain this balance. Metabolic activities are continually occurring in the trillions of cells in your body and must be carefully regulated to maintain a constant internal environment, or steady state.
+";
+
+
+"UNDERSTANDING_METABOLISM"="
+Your body sustains itself and adapts to its environment through metabolism. In order for metabolism to occur, the body needs both energy and building blocks for growth and repair. It gets its energy from the breakdown of nutrients such as glucose, ketone bodies, lactic acid, amino acids, and fatty acids. To construct molecules for growth and repair, a delicate interplay must exist between anabolism and catabolism. The many biochemical processes that make up the body's metabolism are categorized into two general phases: anabolism and catabolism. Anabolism and catabolism occur simultaneously-and constantly. However, they differ in magnitude depending on the level of activity or rest and on when the last meal was eaten. When anabolism exceeds catabolism, net growth occurs. When catabolism exceeds anabolism, the body has a net loss of substances and body tissues and may lose weight. Anabolism includes the chemical reactions that combine different biomolecules to create larger, more complex ones. The net result of anabolism is the creation of new cellular material, such as enzymes, proteins, cell membranes, new cells, and growth/ repair of the many tissues. That energy is stored as glycogen and/or fat and in muscle tissue. Anabolism is necessary for growth, maintenance, and repair of tissues. Catabolism includes the chemical reactions that break down complex biomolecules into simpler ones for energy production, for recycling of molecular components, or for their excretion. Catabolism provides the energy needed for transmitting nerve impulses and muscle contraction.
+
+For optimal function, a healthy metabolism needs many nutrients.
+A slight deficiency in only one vitamin or mineral can slow down metabolism and cause chaos in your body - so your diet should be well optimized.
+
+";
+
+
+"ANATOMY_PHYSIOLOGY"="
+Anatomy is the science of body structure. Physiology is the science behind how our body functions.
+Biological response is the initial reaction to stress on our body.
+Training effect is our body's response to learned and expected stress.
+Net result is the ability to perform activities more easily with less noticeable biological reaction resulting in increased quality of life.
+
+The human body consists of levels. Chemicals make up cells, cells form tissues, tissues function together in body systems, and these body systems make up the human body.
+
+Cells form the fundamental units of life.
+Cellular components include the plasma membrane, nucleus, ribosomes, endoplasmic reticulum, Golgi apparatus, lysosome, and mitochondria.
+
+Tissues are the fundamental units of function and structure for the human body.
+Tissues are defined as the aggregation of cells which are bound and work together to perform a common function and are classified as epithelial tissue, connective tissue, muscle tissue, and nervous tissue.
+
+The body can be divided into 10 main body systems: integumentary system, skeletal system, muscular system, nervous system, endocrine system, circulatory system (lymphatic and cardiovascular systems are its subsystems), respiratory system, digestive system, urinary system, and reproductive system.
+
+- The respiratory system consists of the lungs and air passageways leading to and from the lungs, mouth, throat, trachea, and bronchi. The respiratory system supplies oxygen, eliminates carbon dioxide, and helps regulate the pH balance of the body.
+
+- The circulatory system serves as the transportation system of the body. The heart, arteries, and veins are part of this system. The circulatory system consists of two subsystems: the cardiovascular system and the lymphatic system.
+In the cardiovascular system, the heart pumps blood through a vast system of blood vessels. Blood has four main constituents: plasma, erythrocytes, leukocytes, and platelets.
+The heart tissue is mostly muscle. Unlike the lungs, the heart does its own work. The heart takes oxygen-laden blood from the lungs and pumps it throughout the body. Carbon dioxide-laden blood is taken back from the body and pumped into the lungs where it is exchanged for more oxygen.
+
+- The digestive system consists of the digestive tract and glands that secrete digestive juices into the digestive tract. It is responsible for the breakdown of foods and waste elimination.
+The components of the digestive system are the mouth, esophagus, stomach, small intestine, large intestine, recturn, pancreas, liver, and gallbladder.
+
+- The nervous system is the body's control center and network for internal communication. A skeletal muscle cannot contract until it is stimulated by a nerve impulse.
+
+- The endocrine system works with the nervous system to maintain the steady state of the body. Helps regulation of growth, reproduction, use of nutrients by cells, salt and fluid balance and metabolic rate. The nervous system is also important in stress regulation.
+The endocrine system consists of tissues and glands that secrete chemical messengers called hormones.
+Hormones are made up of amino acids and can be divided into several classes based on their chemical makeup. The classifications are: amino acid derivatives, peptides/protein, and steroids.
+Insulin increases cellular uptake of glucose. Glucagon performs the opposite function of insulin. Together, they stimulate blood sugar levels in the body.
+Growth hormone (HGH or hGH) is the most abundant hormone produced by the pituitary gland. HGH is the largest and most complex protein created by the pituitary gland.
+The thyroid gland, located in the neck, releases two hormones: thyroxine (T4) and triodothyronine (T3).
+";
+
+"EXERCISE_METABOLIC_RESPONSE"="
+Exercise stimulates a series of metabolic responses that affect the body's anatomy, physiology, and biochemical makeup. Endurance exercise stimulates the following changes:
+
+-Increased muscle glycogen storage capacity
+-Increased muscle mitochondrial density content in muscles
+-Increased resting creatine phosphate (CP)
+-Increased resting adenosine triphosphate (ATP)a content in muscles
+-Increased resting creatine content in muscles Increased aerobic enzymes
+-Increased percentage of slow-twitch muscle fibers
+-Decreased percentage of fast-twitch muscle fibers
+-Decreased muscle size, when compared to strength training
+-Increased cardiac output
+-Decreased resting heart rate
+-Decreased body fat
+-Increased number of capillaries
+
+
+Aerobic System Changes
+Aerobic training greatly increases the body's functional capacity to transport and use oxygen and to burn fatty acids during exercise. Researches showed that slow, long-distance training is not as efficient as interval training in facilitating this functional capacity. Some of the major changes measured as a result of aerobic exercise (especially interval training) include the following:
+
+-Increased mitochondrial density in slow-twitch muscle fiber, which results in higher energy production from fatty acids
+-Maximum oxidative capacity develops in all fiber types
+-Higher aerobic capacity
+-Increase in trained muscle capacity to utilize and mobilize fat, resulting from higher amounts of fat-metabolizing enzymes, and increased blood flow
+-Greater development of slow-twitch muscle fibers increased myoglobin content (an iron-protein compound in muscle), which acts to store and transport oxygen in the muscles
+
+
+Anaerobic System Changes
+Anaerobic training greatly increases the body's functional capacity for development of explosive strength and maximization of short-term energy systems. Some of the major changes measured as a result of anaerobic exercise include the following:
+
+-Increased size and number of fast-twitch muscle fibers
+-Increased tolerance to higher levels of blood lactate
+-Increases in enzymes involved in the anaerobic phase of glucose breakdown (glycolysis)
+-Increased muscle resting levels of ATP, CP, creatine, and glycogen content
+-Increased levels of growth hormone and testosterone after short bouts (45 to 75 min) of high-intensity weight training
+";
+
+"ENERGY_METABOLISM"="
+Energy metabolism is a series of chemical reactions that result in the breakdown of foodstuffs (carbohydrate, fat, protein) by which energy is produced, used, and given off as heat. Roughly, the body is about 20 percent efficient at trapping energy released About 80 percent is released as heat, which explains why your body heats up quickly when you exercise.
+Physical activities can be classified into these four basic groups, based on the energy systems that are used to support these activities:
+
+Strength/power: Energy coming from immediate ATP stores. Examples include shot put, powerlift, high jump, golf swing, tennis serve, and a throw. Activities last about 0 to 3 seconds of maximal effort
+
+Sustained power: Energy coming from immediate ATP and CP stores. Examples include sprints, fast breaks, football lineman. Activities last about 0 to 10 seconds of near-maximal effort.
+
+Anaerobic power/endurance: Energy coming from ATP, CP, and lactic acid. Examples include 200- to 400-meter dash and 100-yard swim. Activities lasting about 1 to 2 minutes.
+
+Aerobic endurance: Energy coming from the oxidative pathway. Activities last over 2 minutes. . In power events, which last a few seconds or less at maximal effort, the muscles depend on the immediate energy system, namely ATP and CP reserves.
+
+In speed events, the immediate and non-oxidative (glycolytic) energy sources are utilized. In endurance events, the immediate and non-oxidative energy sources are used, and the oxidative energy mechanisms become a more important source of energy. ATP and CP are replenished from energy derived from complete breakdown of glucose, fatty acids, and some proteins
+";
+
+
+"DEFINITIONS"="
+Training effect: An increase in functional capacity of muscles and other bodily tissues as a result of increased stress (overload) placed upon them.
+
+Homeostasis: The automatic tendency to maintain a relatively constant internal environment.
+
+Metabolism: The total of all the chemical and physical processes by which the body builds and maintains itself (anabolism) and by which it breaks down its substances for the production of energy (catabolism).
+
+Glucose: Principal circulating sugar in the blood and the major energy source of the body.
+
+Ketone bodies: Bodies produced as intermediate products of fat metabolism.
+
+Lactic acid: A by-product of glucose and glycogen metabolism in anaerobic muscle energetics.
+
+Amino acid: The building blocks of protein. There are 24 amino acids, which form countless number of different proteins.
+
+Fatty acids: Any of a large group of monobasic acids, especially those found in animal and vegetable fats and oils.
+
+Anabolism: The building up in the body of complex chemical compounds from simpler compounds (e.g., proteins from amino acids).
+
+Catabolism: The breaking down in the body of complex chemical compounds into simpler ones (e.g., proteins to amino acids).
+
+ATP (adenosine triphosphate): An organic compound found in muscle which, upon being broken down enzymatically, yields energy for muscle contraction.
+
+CP (creatine phosphate): A high-energy phosphate molecule that is stored in cells and can be used to immediately resynthesize ATP
+
+Type II muscle fibers (fast twitch): Muscle fiber type that contracts quickly and is used mostly in intensive, short-duration exercises.
+
+Type I muscle fibers (slow twitch): A muscle fiber characterized by its slow speed of contraction and a high capacity for aerobic glycolysis.
+";
+
+
+
+
+
+
+"STRENGTH"="
+Goal: STRENGTH
+
+Recommended principle: SPLIT WORKOUT
+Recommended method: REST-PAUSE & PYRAMID
+
+Recommended exercices: COMPOUND BARBELL EXERCISES
+Rep types: QUALITY & RETRO-GRAVITY
+Rep range: 2-5 (warm up first!)
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 2 / female 1 palms
+
+- VEGETABLES = male 2 / female 1 fists
+
+- CARB dense foods = male 3 / female 2 cupped handfuls
+
+- FAT dense foods = male 2 / female 1 thums
+";
+
+
+"HYPERTROPHY"="
+Goal: HYPERTROPHY
+
+Recommended principle: PROGRESIVE OVERLOAD & HOLISTIC
+Recommended method: SUPERSET, COMPOUND, TRI-SET & GIGA-SET
+
+Recommended exercices: COMPOUND, ISOLATION (BARBELL, DUMBBELL & MACHINES)
+Rep types: QUALITY, BURNS, ISOLATION, CHEAT, CONTINUOUS TENSION
+Rep range: 7-10 (warm up first!)
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 2 / female 1.5 palms
+
+- VEGETABLES = male 2 / female 1 fists
+
+- CARB dense foods = male 2 / female 1 cupped handfuls
+
+- FAT dense foods = male 2 / female 1.5 thums
+";
+
+
+"FATLOSS"="
+Goal: FATLOSS
+
+Recommended principle: LOW INTENSITY CARDIO (WITH LOW-CALORIE INTAKE)
+Recommended method: CARDIO, LIGHT CONDITIONIG
+
+Recommended exercices: ROPE, CYCLING, TREADMILL, ROWING, SWIMMING, BOXING
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 2 / female 1 palms
+
+- VEGETABLES = male 2 / female 1 fists
+
+- CARB dense foods = male 0.5 / female 0.5 cupped handfuls
+
+- FAT dense foods = male 1 / female 0.5 thums
+";
+
+
+"CONDITIONING"="
+Goal: CONDITIONING
+
+Recommended principle: CYCLE, INTERVAL
+Recommended method: INTERVAL, LIGHT CONDITIONIG
+
+Recommended exercices: CONDITIONING EXERCISES, HIGH-INTENSITY
+Rep types: MUSCLE CONFUSION
+Rep range: 20+
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 1 / female 1 palms
+
+- VEGETABLES = male 2 / female 1.5 fists
+
+- CARB dense foods = male 2 / female 1 cupped handfuls
+
+- FAT dense foods = male 1 / female 1 thums
+";
+
+"HOURGLASS"="
+Body shape: HOURGLASS
+
+Cardiovascular exercises recommendation:
+Low impact aerobics, cycling at low to moderate tension and higher speed, brisk walking or the treadmill at 3-4 incline but higher speed is recommended depending on your fitness level.
+
+Strength training recommendation:
+Stick to moderate to high repetitions (12-15 reps) with using rep combinations as high as 25 reps and low to moderate weights (concept will vary with time as you get fitter). A combination of both compound movements and isolations will prove effective. How much weight you lift is also dependant on how you want to look ultimately. This kind of a workout will help you get fitter, stronger and leaner.
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 1 / female 0.5 palms
+
+- VEGETABLES = male 2 / female 1.5 fists
+
+- CARB dense foods = male 0.5 / female 0.5 cupped handfuls
+
+- FAT dense foods = male 0.5 / female 0.5 thums
+";
+
+"RULER"="
+Body shape: RULER
+
+Cardiovascular exercises recommendation: Biking with high tension, walking on an incline treadmill or uphill, running, jogging, steppers or stair climbers with moderate resistance will all help in burning fat effectively.
+
+Strength training recommendation: Higher repetitions (20+ reps), with moderate to heavy weights. Choose more basic and compound movements over isolations (chose isolations only as finishing exercise).
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 2 / female 1 palms
+
+- VEGETABLES = male 2 / female 1 fists
+
+- CARB dense foods = male 3 / female 2 cupped handfuls
+
+- FAT dense foods = male 1 / female 0.5 thums
+";
+
+"CONE"="
+Body shape: CONE
+
+Cardiovascular exercise recommendation: Cycling at moderate to high tension and brisk walking or treadmill at moderate incline (3-5) and high speed, avoid jogging at high tension.
+
+Strength training recommendation: Concentrate on lightweights and higher repetitions on the upper body and moderate to heavy weight and moderate repetitions (12-15) on the lower body. Choose compound movements for both upper and lower body as well as isolations.
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 1 / female 1 palms
+
+- VEGETABLES = male 1.5 / female 1 fists
+
+- CARB dense foods = male 0.5 / female 0.5 cupped handfuls
+
+- FAT dense foods = male 0.5 / female 0.5 thums
+";
+
+"SPOON"="
+Body shape: SPOON
+
+Cardiovascular exercise recommendation: Cycle at higher speed and lesser tension, brisk walking or walking at high speed on treadmill without incline. Avoid steppers/stair climbers, high impact aerobics as they will further add bulk to lower body.
+
+Strength training recommendation: Doing compound movements with moderate to heavy weights for the upper body, and both compound movements and isolations with high repetitions for the lower body is recommended.
+
+Nutrition recommendation (per meal):
+- PROTEIN dense foods = male 1.5 / female 1 palms
+
+- VEGETABLES = male 1 / female 1 fists
+
+- CARB dense foods = male 0.5 / female 0.5 cupped handfuls
+
+- FAT dense foods = male 0.5 / female 0.5 thums
+";
+
+"BY_HYPER"="
+Exercise recommendation for hypertension sufferers:
+
+Non-weight-bearing exercises or low-impact aerobic activities - walking, cycling, swimming, etc. should be priority, since a significant potrion of hypertensives are obese or elderly - both groups often suffer from a variety of lower-extremity orthopedic problems.
+
+Exercise intensity should be kept lower, between 50 - 75% of max heart rate. Keep in mind that high intensity (80% or more) does not produce beneficial effects on blood pressure.
+
+Exercise duration should begin at 20-30mins per session and progress to 45-60mins as adaptation occurs.
+
+Exercise at least 4 times a week. Every day exercising is preferable for this condition.
+
+Warm up at least 10 minutes. This helps your cardiovascular system gets prepared for exercise.
+Also prolong cooldown to 10 minutes.
+";
+
+"BY_DIABETES"="
+Exercise recommendation for diabetic individuals:
+
+Diabetic individuals should undergo complete medical evaluations before starting any exercise program.
+
+Monitor your blood sugar levels before, during, and after exercise.
+Unless limited by complications of the disease, diabetics can engage in the same types of activities as non-diabetics.
+The intensity of exercise for diabetics should be very similar to what is prescribed for healthy adults ( 55 % to 85% of max heart rate).
+
+Diabetics should always carry a form of fast-acting carbohydrate (e.g., juice, soft drinks, glucose tablets, etc.) in case of a hypoglycemic emergency.
+Exercise with a partner who is aware of the signs, symptoms, and treatment of hypoglycemia.
+
+Regularly check your feet for swelling before and after exercise, because of  increased susceptibility to infection.
+
+Strength training at a low/moderate intensity level ta range of 12 to 20 repetitions per set) can be incorporated into the total fitness program for diabetics. Regular exercise can certainly be sound medicine for diabetic sufferers. A moderate step-by-step exercise program is recommended.
 ";
