@@ -19,6 +19,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var programsBtn: UIButton!
     @IBOutlet weak var cardioBtn: UIButton!
     @IBOutlet weak var aboutBtn: UIButton!
+    @IBOutlet weak var healthLabel: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        healthLabel.text = "Health & Exercise guide"
+    }
     
     
     
