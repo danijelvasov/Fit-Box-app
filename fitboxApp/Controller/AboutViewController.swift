@@ -15,21 +15,28 @@ class AboutViewController: UIViewController {
     
     @IBOutlet weak var developedByLbl: UILabel!
     @IBOutlet weak var danijelLbl: UILabel!
-    @IBOutlet weak var followLbl: UILabel!
-    @IBOutlet weak var devIGLbl: UILabel!
     @IBOutlet weak var recommendedLbl: UILabel!
+    
+    @IBOutlet weak var followButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        followButton.setTitle("Follow Fit on Instagram >", for: .normal)
         developedByLbl.text = dataService.developedBy
         danijelLbl.text = dataService.danijel
-        followLbl.text = dataService.followDevOnIG
-        devIGLbl.text = dataService.igDanijel
         recommendedLbl.text = dataService.recommendedApp
     }
     
 
+    @IBAction func followBtnPressed(_ sender: Any) {
+        
+        let link = dataService.link
+        guard let followURL = URL(string: link) else {return}
+        UIApplication.shared.open(followURL, options: [:], completionHandler: nil)
+        
+    }
+    
     
 
 }

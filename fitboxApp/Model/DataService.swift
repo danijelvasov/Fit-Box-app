@@ -127,8 +127,7 @@ struct Recommendations {
 struct About {
     let developedBy = "developed by:"
     let danijel = "Danijel Vasov"
-    let followDevOnIG = "developer's username on IG:"
-    let igDanijel = "_dvasov_ios_dev"
+    let link = "https://www.instagram.com/fit_by_danijel/"
     let recommendedApp = "don't forget to rate this app :]"
 }
 
